@@ -2408,10 +2408,20 @@ class StructuralLiquidityDiscoveryTreeV321:
         return b >= a
 
     def cycle_count(self, candles: List[Candle], idx: int, base_detected: bool, reset_detected: bool, trigger_idx: Optional[int]) -> str:
+        # Conservative performance patch: do not rediscover a full Base + Trigger tree
+        # for every candle in the recent tail.  The phase already computed the current
+        # base and trigger; for cycle age we only need a bounded, past-only estimate of
+        # repeated recent trigger-like candles.  This preserves the Late/Mid/Early
+        # distinction without introducing lookahead or symbol-specific thresholds.
         recent_triggers = 0
-        for j in range(max(5, idx - 40), idx + 1):
-            base = self.detect_base(candles, j) if j >= Config.BASE_LOOKBACK_MIN else (False, 0, 0, "", "")
-            if self.last_trigger(candles, j, base) == j:
+        for j in range(max(9, idx - 40), idx + 1):
+            hist = candles[:j]
+            if not hist:
+                continue
+            price_up = pct(candles[j - 1].close, candles[j].close) > 0
+            breaks_recent = candles[j].close >= max(x.high for x in candles[max(0, j - 8) : j]) * (1 - Config.ACCEPTANCE_EPS) if j > 8 else False
+            trades_active = is_active(value_label(candles[j].trades, [x.trades for x in hist]))
+            if price_up and breaks_recent and trades_active:
                 recent_triggers += 1
         if base_detected and trigger_idx is None and not reset_detected:
             return "Early Base Cycle"
@@ -2438,8 +2448,16 @@ class StructuralLiquidityDiscoveryTreeV321:
 
     def phase_tail(self, candles: List[Candle], idx: int) -> List[Dict[str, Any]]:
         out = []
+        current_base = self.detect_base(candles, idx) if idx >= Config.BASE_LOOKBACK_MIN else (False, 0, 0, "", "")
         for j in range(max(0, idx - 8), idx + 1):
-            base = self.detect_base(candles, j) if j >= Config.BASE_LOOKBACK_MIN else (False, 0, 0, "", "")
+            # Diagnostic-only tail: avoid re-running the full Base detector on every
+            # prior tail candle.  Mark the current candle's already-computed base and
+            # use a compact local-range hint for older tail rows.
+            if j == idx:
+                base_detected = current_base[0]
+            else:
+                seg = candles[max(0, j - Config.BASE_LOOKBACK_MIN) : j]
+                base_detected = bool(seg) and pct(min(x.low for x in seg), max(x.high for x in seg)) <= 4.0
             out.append(
                 {
                     "time": candles[j].time,
@@ -2447,7 +2465,7 @@ class StructuralLiquidityDiscoveryTreeV321:
                     "price_3": round(self.price_change(candles, j, 3), 4),
                     "oi_change_pct": round(candles[j].oi_change_pct, 4),
                     "trades": candles[j].trades,
-                    "base_detected": base[0],
+                    "base_detected": base_detected,
                 }
             )
         return out
