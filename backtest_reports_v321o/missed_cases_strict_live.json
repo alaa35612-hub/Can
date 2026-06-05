@@ -1,0 +1,145 @@
+[
+  {
+    "symbol": "BEATUSDT",
+    "time_range": "2026-05-19 04:30:00 UTC -> 2026-05-19 07:45:00 UTC",
+    "what_happened": "Future rise reached 9.08%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Absorption After Flush",
+    "actual_readiness": "Early-Live Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "BSBUSDT",
+    "time_range": "2026-05-17 09:15:00 UTC -> 2026-05-17 14:30:00 UTC",
+    "what_happened": "Future rise reached 29.22%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Absorption After Flush",
+    "actual_readiness": "Early-Live Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "EDENUSDT",
+    "time_range": "2026-05-17 11:10:00 UTC -> 2026-05-17 12:30:00 UTC",
+    "what_happened": "Future rise reached 11.87%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Price-led Base Ignition without Reset",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "RAVEUSDT",
+    "time_range": "2026-04-11 21:00:00 UTC -> 2026-04-12 21:00:00 UTC",
+    "what_happened": "Future rise reached 153.67%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Short Squeeze / Live Ignition",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "ALLOUSDT",
+    "time_range": "2026-04-29 00:00:00 UTC -> 2026-05-02 12:00:00 UTC",
+    "what_happened": "Future rise reached 12.88%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Price-led Base Ignition without Reset",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "CLOUSDT",
+    "time_range": "2026-05-07 07:25:00 UTC -> 2026-05-07 09:25:00 UTC",
+    "what_happened": "Future rise reached 26.28%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Absorption After Flush",
+    "actual_readiness": "Early-Live Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "JTOUSDT",
+    "time_range": "2026-05-06 12:20:00 UTC -> 2026-05-06 14:20:00 UTC",
+    "what_happened": "Future rise reached 12.27%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Price-led Base Ignition without Reset",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "NILUSDT",
+    "time_range": "2026-05-07 04:15:00 UTC -> 2026-05-07 06:15:00 UTC",
+    "what_happened": "Future rise reached 15.63%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Price-led Base Ignition without Reset",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "NOTUSDT",
+    "time_range": "2026-05-06 00:50:00 UTC -> 2026-05-06 02:50:00 UTC",
+    "what_happened": "Future rise reached 19.58%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Price-led Base Ignition without Reset",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "TSTUSDT",
+    "time_range": "2026-05-02 20:15:00 UTC -> 2026-05-03 00:00:00 UTC",
+    "what_happened": "Future rise reached 8.13%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Price-led Base Ignition without Reset",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "GUAUSDT",
+    "time_range": "2026-05-23 13:45:00 UTC -> 2026-05-23 19:00:00 UTC",
+    "what_happened": "Future rise reached 15.59%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Price-led Base Vacuum Ignition without OI Expansion",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "DOGSUSDT",
+    "time_range": "2026-05-04 18:15:00 UTC -> 2026-05-05 00:15:00 UTC",
+    "what_happened": "Future rise reached 14.71%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Fresh Long Build-up",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  },
+  {
+    "symbol": "OPNUSDT",
+    "time_range": "2026-06-02 15:30:00 UTC -> 2026-06-02 21:30:00 UTC",
+    "what_happened": "Future rise reached 15.18%",
+    "expected_pattern": "Early/Live bullish readiness before the major rise",
+    "actual_pattern": "Short Squeeze / Live Ignition",
+    "actual_readiness": "Accepted Structure",
+    "why_missed": "TRIGGER_DETECTED_TOO_LATE",
+    "suggested_fix": "Review conservative V3.2.1-O gate only; do not use future labels or symbol-specific thresholds.",
+    "patch_applied": false
+  }
+]
