@@ -1,0 +1,14 @@
+engine,mode,metric,value
+patched,early_watch,total_symbols,2
+patched,early_watch,total_events,1
+patched,early_watch,detected_rallies,0
+patched,early_watch,missed_rallies,1
+patched,early_watch,false_positives,0
+patched,early_watch,precision,
+patched,early_watch,recall,0.0
+patched,early_watch,average_max_return_after_signal,0
+patched,early_watch,median_max_return_after_signal,0
+patched,early_watch,early_success_count,0
+patched,early_watch,live_success_count,0
+patched,early_watch,late_detection_count,0
+patched,early_watch,failed_invalidated_count,0

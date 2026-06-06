@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-06-06T18:40:57.640838+00:00",
+  "cases": [
+    {
+      "file": "BSBUSDT.txt",
+      "symbol": "BSBUSDT",
+      "rows": 80
+    },
+    {
+      "file": "GUAUSDT.txt",
+      "symbol": "GUAUSDT",
+      "rows": 80
+    }
+  ],
+  "engines": {
+    "baseline_early_watch": {
+      "total_symbols": 2,
+      "total_events": 1,
+      "detected_rallies": 1,
+      "missed_rallies": 0,
+      "false_positives": 2,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "average_max_return_after_signal": 0.0,
+      "median_max_return_after_signal": 0.0,
+      "early_success_count": 1,
+      "live_success_count": 0,
+      "late_detection_count": 0,
+      "failed_invalidated_count": 0,
+      "pattern_distribution": {
+        "Fresh Long Build-up": 2
+      },
+      "top_20_signals": [
+        {
+          "engine": "baseline",
+          "mode": "early_watch",
+          "file": "BSBUSDT.txt",
+          "symbol": "BSBUSDT",
+          "idx": 79,
+          "time": "2026-05-18 12:00:00 UTC",
+          "pattern": "Fresh Long Build-up",
+          "bias": "Bullish but Event-driven",
+          "readiness": "Confirmed Trigger",
+          "confidence": "Medium",
+          "score": 100.0,
+          "rank_priority": 100.0,
+          "max_future_return": 0.0,
+          "risk": "post_peak_oi_retention; squeeze fuel unresolved"
+        },
+        {
+          "engine": "baseline",
+          "mode": "early_watch",
+          "file": "GUAUSDT.txt",
+          "symbol": "GUAUSDT",
+          "idx": 79,
+          "time": "2026-05-24 06:00:00 UTC",
+          "pattern": "Fresh Long Build-up",
+          "bias": "Bullish but Event-driven",
+          "readiness": "Confirmed Trigger",
+          "confidence": "Medium",
+          "score": 66.0,
+          "rank_priority": 96.6,
+          "max_future_return": 0.0,
+          "risk": "No major invalidation risk detected; OI Value did not confirm contracts"
+        }
+      ],
+      "missed_top_20": []
+    },
+    "patched_early_watch": {
+      "total_symbols": 2,
+      "total_events": 1,
+      "detected_rallies": 0,
+      "missed_rallies": 1,
+      "false_positives": 0,
+      "precision": null,
+      "recall": 0.0,
+      "average_max_return_after_signal": 0,
+      "median_max_return_after_signal": 0,
+      "early_success_count": 0,
+      "live_success_count": 0,
+      "late_detection_count": 0,
+      "failed_invalidated_count": 0,
+      "pattern_distribution": {},
+      "top_20_signals": [],
+      "missed_top_20": [
+        {
+          "engine": "patched",
+          "mode": "early_watch",
+          "file": "BSBUSDT.txt",
+          "symbol": "BSBUSDT",
+          "event_peak_return": 0.10205737663347596,
+          "reason": "NO_GOOD_READINESS_IN_MICRO_BACKTEST"
+        }
+      ]
+    },
+    "baseline_strict_live": {
+      "total_symbols": 2,
+      "total_events": 1,
+      "detected_rallies": 1,
+      "missed_rallies": 0,
+      "false_positives": 2,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "average_max_return_after_signal": 0.0,
+      "median_max_return_after_signal": 0.0,
+      "early_success_count": 1,
+      "live_success_count": 0,
+      "late_detection_count": 0,
+      "failed_invalidated_count": 0,
+      "pattern_distribution": {
+        "Fresh Long Build-up": 2
+      },
+      "top_20_signals": [
+        {
+          "engine": "baseline",
+          "mode": "strict_live",
+          "file": "BSBUSDT.txt",
+          "symbol": "BSBUSDT",
+          "idx": 79,
+          "time": "2026-05-18 12:00:00 UTC",
+          "pattern": "Fresh Long Build-up",
+          "bias": "Bullish but Event-driven",
+          "readiness": "Confirmed Trigger",
+          "confidence": "Medium",
+          "score": 100.0,
+          "rank_priority": 100.0,
+          "max_future_return": 0.0,
+          "risk": "post_peak_oi_retention; squeeze fuel unresolved"
+        },
+        {
+          "engine": "baseline",
+          "mode": "strict_live",
+          "file": "GUAUSDT.txt",
+          "symbol": "GUAUSDT",
+          "idx": 79,
+          "time": "2026-05-24 06:00:00 UTC",
+          "pattern": "Fresh Long Build-up",
+          "bias": "Bullish but Event-driven",
+          "readiness": "Confirmed Trigger",
+          "confidence": "Medium",
+          "score": 66.0,
+          "rank_priority": 96.6,
+          "max_future_return": 0.0,
+          "risk": "No major invalidation risk detected; OI Value did not confirm contracts"
+        }
+      ],
+      "missed_top_20": []
+    },
+    "patched_strict_live": {
+      "total_symbols": 2,
+      "total_events": 1,
+      "detected_rallies": 0,
+      "missed_rallies": 1,
+      "false_positives": 0,
+      "precision": null,
+      "recall": 0.0,
+      "average_max_return_after_signal": 0,
+      "median_max_return_after_signal": 0,
+      "early_success_count": 0,
+      "live_success_count": 0,
+      "late_detection_count": 0,
+      "failed_invalidated_count": 0,
+      "pattern_distribution": {},
+      "top_20_signals": [],
+      "missed_top_20": [
+        {
+          "engine": "patched",
+          "mode": "strict_live",
+          "file": "BSBUSDT.txt",
+          "symbol": "BSBUSDT",
+          "event_peak_return": 0.10205737663347596,
+          "reason": "NO_GOOD_READINESS_IN_MICRO_BACKTEST"
+        }
+      ]
+    }
+  },
+  "ablation": {
+    "baseline_before_A_I": {
+      "baseline_early_watch": {
+        "total_symbols": 2,
+        "total_events": 1,
+        "detected_rallies": 1,
+        "missed_rallies": 0,
+        "false_positives": 2,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "average_max_return_after_signal": 0.0,
+        "median_max_return_after_signal": 0.0,
+        "early_success_count": 1,
+        "live_success_count": 0,
+        "late_detection_count": 0,
+        "failed_invalidated_count": 0,
+        "pattern_distribution": {
+          "Fresh Long Build-up": 2
+        },
+        "top_20_signals": [
+          {
+            "engine": "baseline",
+            "mode": "early_watch",
+            "file": "BSBUSDT.txt",
+            "symbol": "BSBUSDT",
+            "idx": 79,
+            "time": "2026-05-18 12:00:00 UTC",
+            "pattern": "Fresh Long Build-up",
+            "bias": "Bullish but Event-driven",
+            "readiness": "Confirmed Trigger",
+            "confidence": "Medium",
+            "score": 100.0,
+            "rank_priority": 100.0,
+            "max_future_return": 0.0,
+            "risk": "post_peak_oi_retention; squeeze fuel unresolved"
+          },
+          {
+            "engine": "baseline",
+            "mode": "early_watch",
+            "file": "GUAUSDT.txt",
+            "symbol": "GUAUSDT",
+            "idx": 79,
+            "time": "2026-05-24 06:00:00 UTC",
+            "pattern": "Fresh Long Build-up",
+            "bias": "Bullish but Event-driven",
+            "readiness": "Confirmed Trigger",
+            "confidence": "Medium",
+            "score": 66.0,
+            "rank_priority": 96.6,
+            "max_future_return": 0.0,
+            "risk": "No major invalidation risk detected; OI Value did not confirm contracts"
+          }
+        ],
+        "missed_top_20": []
+      },
+      "baseline_strict_live": {
+        "total_symbols": 2,
+        "total_events": 1,
+        "detected_rallies": 1,
+        "missed_rallies": 0,
+        "false_positives": 2,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "average_max_return_after_signal": 0.0,
+        "median_max_return_after_signal": 0.0,
+        "early_success_count": 1,
+        "live_success_count": 0,
+        "late_detection_count": 0,
+        "failed_invalidated_count": 0,
+        "pattern_distribution": {
+          "Fresh Long Build-up": 2
+        },
+        "top_20_signals": [
+          {
+            "engine": "baseline",
+            "mode": "strict_live",
+            "file": "BSBUSDT.txt",
+            "symbol": "BSBUSDT",
+            "idx": 79,
+            "time": "2026-05-18 12:00:00 UTC",
+            "pattern": "Fresh Long Build-up",
+            "bias": "Bullish but Event-driven",
+            "readiness": "Confirmed Trigger",
+            "confidence": "Medium",
+            "score": 100.0,
+            "rank_priority": 100.0,
+            "max_future_return": 0.0,
+            "risk": "post_peak_oi_retention; squeeze fuel unresolved"
+          },
+          {
+            "engine": "baseline",
+            "mode": "strict_live",
+            "file": "GUAUSDT.txt",
+            "symbol": "GUAUSDT",
+            "idx": 79,
+            "time": "2026-05-24 06:00:00 UTC",
+            "pattern": "Fresh Long Build-up",
+            "bias": "Bullish but Event-driven",
+            "readiness": "Confirmed Trigger",
+            "confidence": "Medium",
+            "score": 66.0,
+            "rank_priority": 96.6,
+            "max_future_return": 0.0,
+            "risk": "No major invalidation risk detected; OI Value did not confirm contracts"
+          }
+        ],
+        "missed_top_20": []
+      }
+    },
+    "patched_A_I_full": {
+      "patched_early_watch": {
+        "total_symbols": 2,
+        "total_events": 1,
+        "detected_rallies": 0,
+        "missed_rallies": 1,
+        "false_positives": 0,
+        "precision": null,
+        "recall": 0.0,
+        "average_max_return_after_signal": 0,
+        "median_max_return_after_signal": 0,
+        "early_success_count": 0,
+        "live_success_count": 0,
+        "late_detection_count": 0,
+        "failed_invalidated_count": 0,
+        "pattern_distribution": {},
+        "top_20_signals": [],
+        "missed_top_20": [
+          {
+            "engine": "patched",
+            "mode": "early_watch",
+            "file": "BSBUSDT.txt",
+            "symbol": "BSBUSDT",
+            "event_peak_return": 0.10205737663347596,
+            "reason": "NO_GOOD_READINESS_IN_MICRO_BACKTEST"
+          }
+        ]
+      },
+      "patched_strict_live": {
+        "total_symbols": 2,
+        "total_events": 1,
+        "detected_rallies": 0,
+        "missed_rallies": 1,
+        "false_positives": 0,
+        "precision": null,
+        "recall": 0.0,
+        "average_max_return_after_signal": 0,
+        "median_max_return_after_signal": 0,
+        "early_success_count": 0,
+        "live_success_count": 0,
+        "late_detection_count": 0,
+        "failed_invalidated_count": 0,
+        "pattern_distribution": {},
+        "top_20_signals": [],
+        "missed_top_20": [
+          {
+            "engine": "patched",
+            "mode": "strict_live",
+            "file": "BSBUSDT.txt",
+            "symbol": "BSBUSDT",
+            "event_peak_return": 0.10205737663347596,
+            "reason": "NO_GOOD_READINESS_IN_MICRO_BACKTEST"
+          }
+        ]
+      }
+    },
+    "vacuum_fix": "Applied and included in patched engine.",
+    "post_flush_fix": "Applied and included in patched engine.",
+    "fresh_long_build_up_filter": "Applied and included in patched engine.",
+    "short_squeeze_execution_confirmation": "Applied and included in patched engine."
+  }
+}

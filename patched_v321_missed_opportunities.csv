@@ -1,0 +1,3 @@
+engine,mode,file,symbol,event_peak_return,reason
+patched,early_watch,BSBUSDT.txt,BSBUSDT,0.10205737663347596,NO_GOOD_READINESS_IN_MICRO_BACKTEST
+patched,strict_live,BSBUSDT.txt,BSBUSDT,0.10205737663347596,NO_GOOD_READINESS_IN_MICRO_BACKTEST

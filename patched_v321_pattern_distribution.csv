@@ -1,0 +1,5 @@
+engine,mode,pattern,count
+baseline,early_watch,Fresh Long Build-up,2
+patched,early_watch,<none>,0
+baseline,strict_live,Fresh Long Build-up,2
+patched,strict_live,<none>,0

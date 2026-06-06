@@ -1,0 +1,5 @@
+engine,mode,file,symbol,idx,time,pattern,bias,readiness,confidence,score,rank_priority,max_future_return,risk
+baseline,early_watch,BSBUSDT.txt,BSBUSDT,79,2026-05-18 12:00:00 UTC,Fresh Long Build-up,Bullish but Event-driven,Confirmed Trigger,Medium,100.0,100.0,0.0,post_peak_oi_retention; squeeze fuel unresolved
+baseline,early_watch,GUAUSDT.txt,GUAUSDT,79,2026-05-24 06:00:00 UTC,Fresh Long Build-up,Bullish but Event-driven,Confirmed Trigger,Medium,66.0,96.6,0.0,No major invalidation risk detected; OI Value did not confirm contracts
+baseline,strict_live,BSBUSDT.txt,BSBUSDT,79,2026-05-18 12:00:00 UTC,Fresh Long Build-up,Bullish but Event-driven,Confirmed Trigger,Medium,100.0,100.0,0.0,post_peak_oi_retention; squeeze fuel unresolved
+baseline,strict_live,GUAUSDT.txt,GUAUSDT,79,2026-05-24 06:00:00 UTC,Fresh Long Build-up,Bullish but Event-driven,Confirmed Trigger,Medium,66.0,96.6,0.0,No major invalidation risk detected; OI Value did not confirm contracts

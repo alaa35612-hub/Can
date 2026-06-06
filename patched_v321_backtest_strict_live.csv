@@ -1,0 +1,14 @@
+engine,mode,metric,value
+patched,strict_live,total_symbols,2
+patched,strict_live,total_events,1
+patched,strict_live,detected_rallies,0
+patched,strict_live,missed_rallies,1
+patched,strict_live,false_positives,0
+patched,strict_live,precision,
+patched,strict_live,recall,0.0
+patched,strict_live,average_max_return_after_signal,0
+patched,strict_live,median_max_return_after_signal,0
+patched,strict_live,early_success_count,0
+patched,strict_live,live_success_count,0
+patched,strict_live,late_detection_count,0
+patched,strict_live,failed_invalidated_count,0
