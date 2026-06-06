@@ -1,0 +1,693 @@
+{
+  "observations": [
+    {
+      "symbol": "ALLOUSDT",
+      "event_start_time": "2026-05-28 12:30:00 UTC",
+      "event_peak_return": 0.42448363,
+      "pattern_base_range_prev8": 0.033639,
+      "pattern_price_change_prev24": 0.063504,
+      "pattern_oi_change_prev24": 0.28959,
+      "pattern_oi_change_pct_last4_sum": 2.35,
+      "pattern_trades_ratio_last4": 1.597851,
+      "pattern_position_minus_account": 9.899999999999999,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "BEATUSDT",
+      "event_start_time": "2026-05-22 03:30:00 UTC",
+      "event_peak_return": 0.28575291,
+      "pattern_base_range_prev8": 0.031163,
+      "pattern_price_change_prev24": -0.03868,
+      "pattern_oi_change_prev24": -0.073549,
+      "pattern_oi_change_pct_last4_sum": -0.47,
+      "pattern_trades_ratio_last4": 0.490924,
+      "pattern_position_minus_account": 4.950000000000003,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "BSBUSDT",
+      "event_start_time": "2026-05-21 08:45:00 UTC",
+      "event_peak_return": 0.35703772,
+      "pattern_base_range_prev8": 0.043176,
+      "pattern_price_change_prev24": -0.173264,
+      "pattern_oi_change_prev24": 0.06463,
+      "pattern_oi_change_pct_last4_sum": -2.0,
+      "pattern_trades_ratio_last4": 0.894122,
+      "pattern_position_minus_account": -0.060000000000002274,
+      "pattern_reset_or_flush_last12": true
+    },
+    {
+      "symbol": "CLOUSDT",
+      "event_start_time": "2026-05-07 09:05:00 UTC",
+      "event_peak_return": 0.36202628,
+      "pattern_base_range_prev8": 0.004576,
+      "pattern_price_change_prev24": -0.000951,
+      "pattern_oi_change_prev24": 0.001735,
+      "pattern_oi_change_pct_last4_sum": 0.1,
+      "pattern_trades_ratio_last4": 0.56654,
+      "pattern_position_minus_account": -14.070000000000007,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "DOGSUSDT",
+      "event_start_time": "2026-05-06 19:15:00 UTC",
+      "event_peak_return": 0.50877193,
+      "pattern_base_range_prev8": 0.017544,
+      "pattern_price_change_prev24": 0.036364,
+      "pattern_oi_change_prev24": -0.070024,
+      "pattern_oi_change_pct_last4_sum": -2.3563,
+      "pattern_trades_ratio_last4": 0.355209,
+      "pattern_position_minus_account": -2.1600000000000037,
+      "pattern_reset_or_flush_last12": true
+    },
+    {
+      "symbol": "DYDXUSDT",
+      "event_start_time": "2026-05-07 12:15:00 UTC",
+      "event_peak_return": 0.14399024,
+      "pattern_base_range_prev8": 0.035499,
+      "pattern_price_change_prev24": 0.091573,
+      "pattern_oi_change_prev24": 0.166229,
+      "pattern_oi_change_pct_last4_sum": -0.57,
+      "pattern_trades_ratio_last4": 1.790747,
+      "pattern_position_minus_account": 4.009999999999998,
+      "pattern_reset_or_flush_last12": true
+    },
+    {
+      "symbol": "EDENUSDT",
+      "event_start_time": "2026-05-17 12:55:00 UTC",
+      "event_peak_return": 0.37257043,
+      "pattern_base_range_prev8": 0.029124,
+      "pattern_price_change_prev24": 0.077702,
+      "pattern_oi_change_prev24": 0.288232,
+      "pattern_oi_change_pct_last4_sum": 71.77,
+      "pattern_trades_ratio_last4": 4.288398,
+      "pattern_position_minus_account": -4.939999999999998,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "GUAUSDT",
+      "event_start_time": "2026-05-28 00:45:00 UTC",
+      "event_peak_return": 1.0538943,
+      "pattern_base_range_prev8": 0.137832,
+      "pattern_price_change_prev24": -0.590599,
+      "pattern_oi_change_prev24": 0.561983,
+      "pattern_oi_change_pct_last4_sum": 2.261312,
+      "pattern_trades_ratio_last4": 0.283887,
+      "pattern_position_minus_account": -1.8500000000000014,
+      "pattern_reset_or_flush_last12": true
+    },
+    {
+      "symbol": "JTOUSDT",
+      "event_start_time": "2026-05-07 15:40:00 UTC",
+      "event_peak_return": 0.28584906,
+      "pattern_base_range_prev8": 0.059529,
+      "pattern_price_change_prev24": 0.101091,
+      "pattern_oi_change_prev24": -0.026029,
+      "pattern_oi_change_pct_last4_sum": -1.25,
+      "pattern_trades_ratio_last4": 2.01002,
+      "pattern_position_minus_account": -1.9200000000000017,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "event_start_time": "2026-06-03 05:30:00 UTC",
+      "event_peak_return": 0.33779505,
+      "pattern_base_range_prev8": 0.012888,
+      "pattern_price_change_prev24": -0.000144,
+      "pattern_oi_change_prev24": 0.000993,
+      "pattern_oi_change_pct_last4_sum": -0.03,
+      "pattern_trades_ratio_last4": 0.84492,
+      "pattern_position_minus_account": -5.210000000000001,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "NILUSDT",
+      "event_start_time": "2026-05-07 16:25:00 UTC",
+      "event_peak_return": 0.16755873,
+      "pattern_base_range_prev8": 0.052458,
+      "pattern_price_change_prev24": 0.051802,
+      "pattern_oi_change_prev24": 0.200763,
+      "pattern_oi_change_pct_last4_sum": -1.2133,
+      "pattern_trades_ratio_last4": 0.936435,
+      "pattern_position_minus_account": -7.829999999999998,
+      "pattern_reset_or_flush_last12": true
+    },
+    {
+      "symbol": "NOTUSDT",
+      "event_start_time": "2026-05-07 03:50:00 UTC",
+      "event_peak_return": 0.16833333,
+      "pattern_base_range_prev8": 0.048465,
+      "pattern_price_change_prev24": 0.046233,
+      "pattern_oi_change_prev24": -0.019811,
+      "pattern_oi_change_pct_last4_sum": -2.39,
+      "pattern_trades_ratio_last4": 0.881696,
+      "pattern_position_minus_account": -6.890000000000001,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "OPNUSDT",
+      "event_start_time": "2026-06-03 12:15:00 UTC",
+      "event_peak_return": 0.67669173,
+      "pattern_base_range_prev8": 0.009186,
+      "pattern_price_change_prev24": -0.005809,
+      "pattern_oi_change_prev24": -0.013089,
+      "pattern_oi_change_pct_last4_sum": 0.11,
+      "pattern_trades_ratio_last4": 0.920091,
+      "pattern_position_minus_account": -7.82,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "event_start_time": "2026-04-12 02:00:00 UTC",
+      "event_peak_return": 1.84763563,
+      "pattern_base_range_prev8": 0.049053,
+      "pattern_price_change_prev24": -0.02486,
+      "pattern_oi_change_prev24": 0.005307,
+      "pattern_oi_change_pct_last4_sum": 0.53,
+      "pattern_trades_ratio_last4": 2.004498,
+      "pattern_position_minus_account": 28.29,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "TSTUSDT",
+      "event_start_time": "2026-05-03 07:00:00 UTC",
+      "event_peak_return": 0.54254931,
+      "pattern_base_range_prev8": 0.009548,
+      "pattern_price_change_prev24": -0.067591,
+      "pattern_oi_change_prev24": -0.050016,
+      "pattern_oi_change_pct_last4_sum": -0.236504,
+      "pattern_trades_ratio_last4": 0.653714,
+      "pattern_position_minus_account": -0.4399999999999977,
+      "pattern_reset_or_flush_last12": false
+    },
+    {
+      "symbol": "UBUSDT",
+      "event_start_time": "2026-05-22 10:15:00 UTC",
+      "event_peak_return": 0.19456633,
+      "pattern_base_range_prev8": 0.061804,
+      "pattern_price_change_prev24": 0.102841,
+      "pattern_oi_change_prev24": -0.037457,
+      "pattern_oi_change_pct_last4_sum": -0.96,
+      "pattern_trades_ratio_last4": 1.306635,
+      "pattern_position_minus_account": 18.020000000000003,
+      "pattern_reset_or_flush_last12": false
+    }
+  ],
+  "pattern_base_range_prev8": {
+    "count": 16,
+    "median": 0.034569,
+    "mean": 0.03971775,
+    "min": 0.004576,
+    "max": 0.137832
+  },
+  "pattern_price_change_prev24": {
+    "count": 16,
+    "median": 0.01811,
+    "mean": -0.020674249999999998,
+    "min": -0.590599,
+    "max": 0.102841
+  },
+  "pattern_oi_change_prev24": {
+    "count": 16,
+    "median": 0.001364,
+    "mean": 0.0805929375,
+    "min": -0.073549,
+    "max": 0.561983
+  },
+  "pattern_oi_change_pct_last4_sum": {
+    "count": 16,
+    "median": -0.353252,
+    "mean": 4.1028255,
+    "min": -2.39,
+    "max": 71.77
+  },
+  "pattern_trades_ratio_last4": {
+    "count": 16,
+    "median": 0.9071065,
+    "mean": 1.2391054375,
+    "min": 0.283887,
+    "max": 4.288398
+  },
+  "pattern_position_minus_account": {
+    "count": 16,
+    "median": -1.8850000000000016,
+    "mean": 0.7487499999999994,
+    "min": -14.070000000000007,
+    "max": 28.29
+  },
+  "events": {
+    "ALLOUSDT": [
+      {
+        "idx": 142,
+        "start_time": "2026-05-28 04:15:00 UTC",
+        "peak_time": "2026-05-28 10:15:00 UTC",
+        "peak_return": 0.08393177737881508,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 175,
+        "start_time": "2026-05-28 12:30:00 UTC",
+        "peak_time": "2026-05-28 18:30:00 UTC",
+        "peak_return": 0.4244836272040302,
+        "bars_to_peak": 24
+      }
+    ],
+    "BEATUSDT": [
+      {
+        "idx": 40,
+        "start_time": "2026-05-20 17:00:00 UTC",
+        "peak_time": "2026-05-20 20:15:00 UTC",
+        "peak_return": 0.12258835581355632,
+        "bars_to_peak": 13
+      },
+      {
+        "idx": 99,
+        "start_time": "2026-05-21 07:45:00 UTC",
+        "peak_time": "2026-05-21 13:45:00 UTC",
+        "peak_return": 0.12492437991530547,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 134,
+        "start_time": "2026-05-21 16:30:00 UTC",
+        "peak_time": "2026-05-21 22:00:00 UTC",
+        "peak_return": 0.12537764350453173,
+        "bars_to_peak": 22
+      },
+      {
+        "idx": 178,
+        "start_time": "2026-05-22 03:30:00 UTC",
+        "peak_time": "2026-05-22 09:15:00 UTC",
+        "peak_return": 0.28575290619086235,
+        "bars_to_peak": 23
+      },
+      {
+        "idx": 207,
+        "start_time": "2026-05-22 10:45:00 UTC",
+        "peak_time": "2026-05-22 13:45:00 UTC",
+        "peak_return": 0.18736692689850964,
+        "bars_to_peak": 12
+      }
+    ],
+    "BSBUSDT": [
+      {
+        "idx": 9,
+        "start_time": "2026-05-20 09:30:00 UTC",
+        "peak_time": "2026-05-20 15:30:00 UTC",
+        "peak_return": 0.13310062804947953,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 54,
+        "start_time": "2026-05-20 20:45:00 UTC",
+        "peak_time": "2026-05-21 02:45:00 UTC",
+        "peak_return": 0.2640989147838462,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 102,
+        "start_time": "2026-05-21 08:45:00 UTC",
+        "peak_time": "2026-05-21 14:00:00 UTC",
+        "peak_return": 0.35703772145642865,
+        "bars_to_peak": 21
+      },
+      {
+        "idx": 129,
+        "start_time": "2026-05-21 15:30:00 UTC",
+        "peak_time": "2026-05-21 16:45:00 UTC",
+        "peak_return": 0.10278919004128118,
+        "bars_to_peak": 5
+      },
+      {
+        "idx": 188,
+        "start_time": "2026-05-22 06:15:00 UTC",
+        "peak_time": "2026-05-22 11:30:00 UTC",
+        "peak_return": 0.13639999549351622,
+        "bars_to_peak": 21
+      }
+    ],
+    "EDENUSDT": [
+      {
+        "idx": 9,
+        "start_time": "2026-05-17 10:40:00 UTC",
+        "peak_time": "2026-05-17 12:30:00 UTC",
+        "peak_return": 0.1138637446403048,
+        "bars_to_peak": 22
+      },
+      {
+        "idx": 36,
+        "start_time": "2026-05-17 12:55:00 UTC",
+        "peak_time": "2026-05-17 14:55:00 UTC",
+        "peak_return": 0.3725704302249402,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 65,
+        "start_time": "2026-05-17 15:20:00 UTC",
+        "peak_time": "2026-05-17 16:50:00 UTC",
+        "peak_return": 0.14290429042904296,
+        "bars_to_peak": 18
+      }
+    ],
+    "RAVEUSDT": [
+      {
+        "idx": 5,
+        "start_time": "2026-04-12 02:00:00 UTC",
+        "peak_time": "2026-04-12 23:00:00 UTC",
+        "peak_return": 1.847635626564922,
+        "bars_to_peak": 21
+      },
+      {
+        "idx": 47,
+        "start_time": "2026-04-13 20:00:00 UTC",
+        "peak_time": "2026-04-14 20:00:00 UTC",
+        "peak_return": 0.8225094528436432,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 82,
+        "start_time": "2026-04-15 07:00:00 UTC",
+        "peak_time": "2026-04-15 08:00:00 UTC",
+        "peak_return": 0.1714466882067851,
+        "bars_to_peak": 1
+      }
+    ],
+    "CLOUSDT": [
+      {
+        "idx": 107,
+        "start_time": "2026-05-07 09:05:00 UTC",
+        "peak_time": "2026-05-07 09:45:00 UTC",
+        "peak_return": 0.36202628070843645,
+        "bars_to_peak": 8
+      },
+      {
+        "idx": 191,
+        "start_time": "2026-05-07 16:05:00 UTC",
+        "peak_time": "2026-05-07 17:55:00 UTC",
+        "peak_return": 0.09845937280050032,
+        "bars_to_peak": 22
+      }
+    ],
+    "JTOUSDT": [
+      {
+        "idx": 117,
+        "start_time": "2026-05-07 09:55:00 UTC",
+        "peak_time": "2026-05-07 11:55:00 UTC",
+        "peak_return": 0.17246207701283534,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 157,
+        "start_time": "2026-05-07 13:15:00 UTC",
+        "peak_time": "2026-05-07 15:10:00 UTC",
+        "peak_return": 0.12704324436168002,
+        "bars_to_peak": 23
+      },
+      {
+        "idx": 186,
+        "start_time": "2026-05-07 15:40:00 UTC",
+        "peak_time": "2026-05-07 17:40:00 UTC",
+        "peak_return": 0.28584905660377347,
+        "bars_to_peak": 24
+      }
+    ],
+    "NILUSDT": [
+      {
+        "idx": 15,
+        "start_time": "2026-05-07 01:20:00 UTC",
+        "peak_time": "2026-05-07 03:10:00 UTC",
+        "peak_return": 0.08718902580795174,
+        "bars_to_peak": 22
+      },
+      {
+        "idx": 46,
+        "start_time": "2026-05-07 03:55:00 UTC",
+        "peak_time": "2026-05-07 05:50:00 UTC",
+        "peak_return": 0.11266394323801321,
+        "bars_to_peak": 23
+      },
+      {
+        "idx": 77,
+        "start_time": "2026-05-07 06:30:00 UTC",
+        "peak_time": "2026-05-07 08:00:00 UTC",
+        "peak_return": 0.12018275725069527,
+        "bars_to_peak": 18
+      },
+      {
+        "idx": 102,
+        "start_time": "2026-05-07 08:35:00 UTC",
+        "peak_time": "2026-05-07 10:35:00 UTC",
+        "peak_return": 0.155313871398588,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 146,
+        "start_time": "2026-05-07 12:15:00 UTC",
+        "peak_time": "2026-05-07 14:10:00 UTC",
+        "peak_return": 0.15528281750266792,
+        "bars_to_peak": 23
+      },
+      {
+        "idx": 175,
+        "start_time": "2026-05-07 14:40:00 UTC",
+        "peak_time": "2026-05-07 16:00:00 UTC",
+        "peak_return": 0.10869912210694332,
+        "bars_to_peak": 16
+      },
+      {
+        "idx": 196,
+        "start_time": "2026-05-07 16:25:00 UTC",
+        "peak_time": "2026-05-07 18:20:00 UTC",
+        "peak_return": 0.16755872732679156,
+        "bars_to_peak": 23
+      }
+    ],
+    "NOTUSDT": [
+      {
+        "idx": 7,
+        "start_time": "2026-05-07 00:45:00 UTC",
+        "peak_time": "2026-05-07 02:45:00 UTC",
+        "peak_return": 0.1180811808118083,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 44,
+        "start_time": "2026-05-07 03:50:00 UTC",
+        "peak_time": "2026-05-07 05:30:00 UTC",
+        "peak_return": 0.16833333333333345,
+        "bars_to_peak": 20
+      },
+      {
+        "idx": 193,
+        "start_time": "2026-05-07 16:15:00 UTC",
+        "peak_time": "2026-05-07 18:15:00 UTC",
+        "peak_return": 0.10534846029173406,
+        "bars_to_peak": 24
+      }
+    ],
+    "TSTUSDT": [
+      {
+        "idx": 44,
+        "start_time": "2026-05-02 22:45:00 UTC",
+        "peak_time": "2026-05-03 00:00:00 UTC",
+        "peak_return": 0.08528099910793929,
+        "bars_to_peak": 5
+      },
+      {
+        "idx": 77,
+        "start_time": "2026-05-03 07:00:00 UTC",
+        "peak_time": "2026-05-03 09:15:00 UTC",
+        "peak_return": 0.5425493060628195,
+        "bars_to_peak": 9
+      },
+      {
+        "idx": 111,
+        "start_time": "2026-05-03 15:30:00 UTC",
+        "peak_time": "2026-05-03 17:30:00 UTC",
+        "peak_return": 0.09134045077105579,
+        "bars_to_peak": 8
+      },
+      {
+        "idx": 140,
+        "start_time": "2026-05-03 22:45:00 UTC",
+        "peak_time": "2026-05-04 04:00:00 UTC",
+        "peak_return": 0.28814353618531174,
+        "bars_to_peak": 21
+      },
+      {
+        "idx": 172,
+        "start_time": "2026-05-04 06:45:00 UTC",
+        "peak_time": "2026-05-04 11:45:00 UTC",
+        "peak_return": 0.4527381451951322,
+        "bars_to_peak": 20
+      },
+      {
+        "idx": 205,
+        "start_time": "2026-05-04 15:00:00 UTC",
+        "peak_time": "2026-05-04 17:15:00 UTC",
+        "peak_return": 0.21884697043932722,
+        "bars_to_peak": 9
+      }
+    ],
+    "DYDXUSDT": [
+      {
+        "idx": 40,
+        "start_time": "2026-05-07 04:15:00 UTC",
+        "peak_time": "2026-05-07 10:15:00 UTC",
+        "peak_return": 0.12286689419795227,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 72,
+        "start_time": "2026-05-07 12:15:00 UTC",
+        "peak_time": "2026-05-07 18:15:00 UTC",
+        "peak_return": 0.14399023794996957,
+        "bars_to_peak": 24
+      }
+    ],
+    "UBUSDT": [
+      {
+        "idx": 108,
+        "start_time": "2026-05-21 10:00:00 UTC",
+        "peak_time": "2026-05-21 12:45:00 UTC",
+        "peak_return": 0.1200240048009602,
+        "bars_to_peak": 11
+      },
+      {
+        "idx": 176,
+        "start_time": "2026-05-22 03:00:00 UTC",
+        "peak_time": "2026-05-22 09:00:00 UTC",
+        "peak_return": 0.09781911481719052,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 205,
+        "start_time": "2026-05-22 10:15:00 UTC",
+        "peak_time": "2026-05-22 13:45:00 UTC",
+        "peak_return": 0.19456633367566067,
+        "bars_to_peak": 14
+      }
+    ],
+    "DOGSUSDT": [
+      {
+        "idx": 14,
+        "start_time": "2026-05-05 15:45:00 UTC",
+        "peak_time": "2026-05-05 21:30:00 UTC",
+        "peak_return": 0.10344827586206895,
+        "bars_to_peak": 23
+      },
+      {
+        "idx": 48,
+        "start_time": "2026-05-06 00:15:00 UTC",
+        "peak_time": "2026-05-06 01:00:00 UTC",
+        "peak_return": 0.08333333333333326,
+        "bars_to_peak": 3
+      },
+      {
+        "idx": 80,
+        "start_time": "2026-05-06 08:15:00 UTC",
+        "peak_time": "2026-05-06 11:00:00 UTC",
+        "peak_return": 0.09615384615384626,
+        "bars_to_peak": 11
+      },
+      {
+        "idx": 99,
+        "start_time": "2026-05-06 13:00:00 UTC",
+        "peak_time": "2026-05-06 16:45:00 UTC",
+        "peak_return": 0.09090909090909083,
+        "bars_to_peak": 15
+      },
+      {
+        "idx": 124,
+        "start_time": "2026-05-06 19:15:00 UTC",
+        "peak_time": "2026-05-07 01:15:00 UTC",
+        "peak_return": 0.5087719298245614,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 158,
+        "start_time": "2026-05-07 03:45:00 UTC",
+        "peak_time": "2026-05-07 04:15:00 UTC",
+        "peak_return": 0.09999999999999987,
+        "bars_to_peak": 2
+      },
+      {
+        "idx": 203,
+        "start_time": "2026-05-07 15:00:00 UTC",
+        "peak_time": "2026-05-07 18:15:00 UTC",
+        "peak_return": 0.12658227848101267,
+        "bars_to_peak": 13
+      }
+    ],
+    "GUAUSDT": [
+      {
+        "idx": 13,
+        "start_time": "2026-05-26 11:45:00 UTC",
+        "peak_time": "2026-05-26 12:30:00 UTC",
+        "peak_return": 0.10146613916686054,
+        "bars_to_peak": 3
+      },
+      {
+        "idx": 53,
+        "start_time": "2026-05-26 21:45:00 UTC",
+        "peak_time": "2026-05-27 03:30:00 UTC",
+        "peak_return": 0.1751881650661824,
+        "bars_to_peak": 23
+      },
+      {
+        "idx": 113,
+        "start_time": "2026-05-27 12:45:00 UTC",
+        "peak_time": "2026-05-27 17:00:00 UTC",
+        "peak_return": 0.21046713687008078,
+        "bars_to_peak": 17
+      },
+      {
+        "idx": 142,
+        "start_time": "2026-05-27 20:00:00 UTC",
+        "peak_time": "2026-05-27 20:45:00 UTC",
+        "peak_return": 0.13116623895067003,
+        "bars_to_peak": 3
+      },
+      {
+        "idx": 161,
+        "start_time": "2026-05-28 00:45:00 UTC",
+        "peak_time": "2026-05-28 06:45:00 UTC",
+        "peak_return": 1.0538942976356047,
+        "bars_to_peak": 24
+      },
+      {
+        "idx": 198,
+        "start_time": "2026-05-28 10:00:00 UTC",
+        "peak_time": "2026-05-28 14:45:00 UTC",
+        "peak_return": 0.22957983193277332,
+        "bars_to_peak": 19
+      }
+    ],
+    "MAGMAUSDT": [
+      {
+        "idx": 64,
+        "start_time": "2026-06-03 05:30:00 UTC",
+        "peak_time": "2026-06-03 11:15:00 UTC",
+        "peak_return": 0.3377950489349453,
+        "bars_to_peak": 23
+      }
+    ],
+    "OPNUSDT": [
+      {
+        "idx": 4,
+        "start_time": "2026-06-02 16:30:00 UTC",
+        "peak_time": "2026-06-02 22:15:00 UTC",
+        "peak_return": 0.16114982578397208,
+        "bars_to_peak": 23
+      },
+      {
+        "idx": 83,
+        "start_time": "2026-06-03 12:15:00 UTC",
+        "peak_time": "2026-06-03 16:15:00 UTC",
+        "peak_return": 0.6766917293233081,
+        "bars_to_peak": 16
+      }
+    ]
+  },
+  "method": "Classifier used past-only rolling candles; future windows used only for evaluation labels and pattern summaries."
+}
