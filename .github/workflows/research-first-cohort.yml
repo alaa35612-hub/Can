@@ -47,9 +47,15 @@ jobs:
           rows=[]
           for symbol in symbols:
               prefix=symbol.replace('USDT','')
-              path=Path('research/case_studies')/symbol/'generated'/f'{prefix}_RUN_SUMMARY.json'
-              if path.exists():
-                  rows.append(json.loads(path.read_text()))
+              base=Path('research/case_studies')/symbol/'generated'
+              summary_path=base/f'{prefix}_RUN_SUMMARY.json'
+              if not summary_path.exists():
+                  continue
+              item=json.loads(summary_path.read_text())
+              if 'review' not in item:
+                  review_path=base/f'{prefix}_REVIEW_SUMMARY.json'
+                  item['review']=json.loads(review_path.read_text()) if review_path.exists() else {'PASS':0,'RESTRICT':0,'REJECT':0}
+              rows.append(item)
           out=Path('research/cross_coin/FIRST_COHORT_COMPARISON.md')
           out.parent.mkdir(parents=True,exist_ok=True)
           table='\n'.join(f"| {x['symbol']} | {x['sources']} | {x['causal_rows']} | {x['segments']} | {x['transitions']} | {x['review']['PASS']} | {x['review']['RESTRICT']} | {x['review']['REJECT']} | {x['source_conflicts']} |" for x in rows)
