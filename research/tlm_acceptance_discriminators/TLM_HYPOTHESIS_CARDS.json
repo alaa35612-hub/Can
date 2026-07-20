@@ -1,0 +1,61 @@
+[
+  {
+    "hypothesis_id": "TLM_POST_IGNITION_FUEL_RETENTION",
+    "causal_mechanism": "price, OI and execution persist after ignition",
+    "supporting_campaigns": [
+      3,
+      13
+    ],
+    "failed_analogues": [],
+    "partial_analogues": [
+      10
+    ],
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "invalidation": "must fail if opposing ordered evidence dominates at a later frozen cutoff"
+  },
+  {
+    "hypothesis_id": "TLM_SHORT_COVERING_ONLY",
+    "causal_mechanism": "price rises while OI contracts and execution decays",
+    "supporting_campaigns": [
+      5,
+      9
+    ],
+    "failed_analogues": [
+      12
+    ],
+    "partial_analogues": [],
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "invalidation": "must fail if opposing ordered evidence dominates at a later frozen cutoff"
+  },
+  {
+    "hypothesis_id": "TLM_TRANSIENT_EXECUTION_SPIKE",
+    "causal_mechanism": "execution spike loses price and OI support",
+    "supporting_campaigns": [],
+    "failed_analogues": [
+      8,
+      11
+    ],
+    "partial_analogues": [],
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "invalidation": "must fail if opposing ordered evidence dominates at a later frozen cutoff"
+  },
+  {
+    "hypothesis_id": "NEW_UNIDENTIFIED_STRUCTURE",
+    "causal_mechanism": "mixed ordered evidence",
+    "supporting_campaigns": [
+      3,
+      5
+    ],
+    "failed_analogues": [
+      4,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "partial_analogues": [],
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "invalidation": "must fail if opposing ordered evidence dominates at a later frozen cutoff"
+  }
+]

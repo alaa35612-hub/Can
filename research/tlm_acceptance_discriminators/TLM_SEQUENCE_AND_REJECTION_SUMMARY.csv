@@ -1,0 +1,14 @@
+acceptance_to_expansion_minutes,campaign_index,ignition_review_status,ignition_time,ignition_to_acceptance_minutes,ignition_to_failure_minutes,outcome,outcome_group,rejected_states,rejected_transition_count,rejection_reasons,valid_ignition
+,1,PASS,2026-07-04T00:15:00+00:00,,15,failed_ignition,FAILURE,,0,,True
+,2,PASS,2026-07-04T05:00:00+00:00,,15,failed_ignition,FAILURE,,0,,True
+90,3,PASS,2026-07-04T09:30:00+00:00,15,,accepted_expansion,SUCCESS,,0,,True
+,4,REJECT,2026-07-14T16:00:00+00:00,,,failed_ignition,FAILURE,ACCEPTED_IGNITION|CONFIRMED_BUILD|CONTINUATION_RELOAD|EARLY_BUILD|EXPANSION|FAILURE|IGNITION_CANDIDATE,7,acceptance conflicts with abnormal negative-price dislocation|continuation remains possible but negative response caps confidence|no adversarial rejection condition triggered|transition depends on an unvalidated predecessor; reviewed state remains RESET,False
+15,5,PASS,2026-07-15T05:45:00+00:00,15,60,accepted_expansion,SUCCESS,,0,,True
+,6,PASS,2026-07-15T11:00:00+00:00,,,failed_ignition,FAILURE,ACCEPTED_IGNITION|COOLING|FAILURE,3,acceptance conflicts with abnormal negative-price dislocation|no adversarial rejection condition triggered|transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE,True
+,7,PASS,2026-07-16T04:45:00+00:00,,,failed_ignition,FAILURE,ACCEPTED_IGNITION|CONTINUATION_RELOAD|EXPANSION|FAILURE,4,acceptance conflicts with abnormal negative-price dislocation|continuation remains possible but negative response caps confidence|no adversarial rejection condition triggered|transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE,True
+,8,PASS,2026-07-16T15:15:00+00:00,,15,failed_ignition,FAILURE,,0,,True
+15,9,PASS,2026-07-17T00:00:00+00:00,15,90,accepted_expansion,SUCCESS,,0,,True
+,10,PASS,2026-07-17T08:30:00+00:00,15,495,accepted_without_expansion,PARTIAL,,0,,True
+,11,PASS,2026-07-18T08:15:00+00:00,,,failed_ignition,FAILURE,ACCEPTED_IGNITION|COOLING|FAILURE,3,acceptance conflicts with abnormal negative-price dislocation|no adversarial rejection condition triggered|transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE,True
+,12,PASS,2026-07-18T11:00:00+00:00,,30,failed_ignition,FAILURE,,0,,True
+15,13,PASS,2026-07-18T19:30:00+00:00,15,,accepted_expansion,SUCCESS,,0,,True
