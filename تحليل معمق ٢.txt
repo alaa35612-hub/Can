@@ -1,0 +1,362 @@
+﻿ممتاز. سنبدأ الآن ببناء Scanner احترافي يلتقط نفس بصمة RAVE pattern مبكرًا، ويصنف العملات إلى مراحل واضحة بدل مجرد رؤية أرقام مبعثرة.
+سأقسمه إلى:
+• فكرة الاسكانر
+• المؤشرات الداخلة فيه
+• قواعد الاكتشاف
+• نظام Score من 100
+• تصنيف المخرجات
+• شروط الاستبعاد
+• منطق التنفيذ العملي
+• شكل الإخراج النهائي الذي سنجعله يطلع لك
+• ما الذي سنبرمجه بعد ذلك
+1) هدف الاسكانر
+نحن لا نريد Scanner يقول فقط:
+• هذه العملة صاعدة
+• هذه العملة حجمها كبير
+• هذه العملة OI فيها مرتفع
+هذا غير كافٍ.
+نحن نريد Scanner يكتشف تحديدًا:
+عملة دخلت في expansion regime، والجمهور بدأ يتمركز ضدها، والـ OI يتضخم، وبالتالي يوجد احتمال squeeze أو move غير خطي.
+يعني هدف الاسكانر:
+• التقاط المرحلة المبكرة
+• وعدم الخلط بينها وبين: 
+• pump عادي
+• short covering مؤقت
+• نهاية موجة متأخرة
+2) أعمدة البيانات التي سنعتمد عليها
+الاسكانر سيعتمد على 5 مجموعات رئيسية:
+A) السعر Price
+نحتاج منه:
+• تغير 4h
+• تغير 12h
+• تغير 24h
+• breakout من نطاق
+• قربه من high recent
+B) Open Interest
+نحتاج:
+• OI الحالي
+• OI change لكل شمعة
+• OI change % لكل شمعة
+• مجموع تغير OI خلال: 
+• 12h
+• 24h
+• 48h
+C) Account Long/Short
+نحتاج:
+• Acco L/S Ratio
+• Acco Long%
+• Acco Short%
+• سرعة تغيرها
+هذا أهم جزء لمعرفة هل الحشود تتمركز ضد الحركة.
+D) Position Long/Short
+نحتاج:
+• Position L/S Ratio
+• Position Long%
+• Position Short%
+• مقارنة سلوكها مع Account L/S
+E) Global Long/Short
+نستخدمه كفلتر داعم، وليس كمحرك رئيسي.
+3) ما الذي نريد اكتشافه بالضبط؟
+نريد اكتشاف 3 حالات:
+الحالة 1: Early Whale Setup
+بداية تشكل البصمة، قبل الانفجار الكامل
+سماتها:
+• السعر بدأ يتحرك
+• OI بدأ يرتفع
+• لا يوجد ازدحام نهائي بعد
+• Account L/S بدأ يضعف أو ينحرف
+• Position L/S ما زال متماسكًا نسبيًا
+هذه أفضل منطقة رصد.
+الحالة 2: Active Squeeze
+البصمة اشتغلت فعليًا
+سماتها:
+• السعر يرتفع بقوة
+• OI يرتفع بقوة
+• Account L/S ينهار
+• Short% ترتفع بوضوح
+• Position L/S لا ينهار بنفس السرعة
+• الحركة أصبحت self-reinforcing
+هذه منطقة “الحدث قائم”.
+الحالة 3: Late / Exhausted
+الحركة موجودة لكن صارت متأخرة وخطرة
+سماتها:
+• السعر عمودي
+• OI متضخم جدًا
+• أول OI flush بدأ
+• التموضع صار متطرفًا جدًا
+• خطر blow-off أو التفريغ صار مرتفعًا
+هذه ليست منطقة مطاردة عمياء.
+4) قواعد الاكتشاف الأساسية
+الآن نضعها كمنطق احترافي.
+القاعدة الأولى: Price Expansion
+نريد العملة ليست ميتة.
+شروط مقترحة:
+• تغير السعر خلال 24h أكبر من +8%
+• أو تغير السعر خلال 12h أكبر من +5%
+• أو السعر قريب من أعلى 20 شمعة بنسبة مثل: 
+• close >= 0.95 * highest_high_20
+لماذا؟
+لأننا لا نريد عملة فيها OI يتحرك فقط بدون أثر سعري واضح.
+القاعدة الثانية: OI Expansion
+هذه من أهم قواعدنا.
+شروط مبكرة:
+• OI 24h change > +10%
+• أو OI rising في 3 من آخر 4 شمعات
+• أو مجموع OI Chg % لآخر 6 شمعات > +8%
+شروط قوية:
+• OI 24h change > +20%
+• أو وجود شمعتين على الأقل OI Chg % > +5%
+• أو شمعة واحدة > +8% مع صعود سعري
+لماذا؟
+لأن البصمة التي نبحث عنها لا تحدث بدون دخول مراكز جديدة.
+القاعدة الثالثة: Crowd Wrong-Way Positioning
+هذه قلب الاسكانر.
+ما نبحث عنه؟
+أن السعر يرتفع، لكن الحسابات تتحول للشورت.
+شروطها:
+• Acco L/S current < Acco L/S from 24h ago
+• Acco L/S drop over 24h أكبر من 15%
+• أو Acco Short% الحالي > 55%
+• أو Acco Short% الحالي > 60% للحالة القوية
+• أو Acco L/S ratio < 1.0 للحالة المؤكدة
+• أو Acco L/S ratio < 0.8 للحالة القوية جدًا
+هذا أهم مبدأ:
+Price up while Account L/S down = strong squeeze signature
+القاعدة الرابعة: Position vs Account Divergence
+هذه تفرق بين squeeze الحقيقي وبين إجماع سوق كامل.
+ما نبحث عنه؟
+• الحسابات تميل للشورت
+• لكن المراكز الحجمية ليست منهارة بنفس الدرجة
+شروطها:
+• Acco L/S < 1.0
+• لكن Position L/S > 1.1 أو > 1.2
+• أو Acco Short% - Position Short% > فرق معتبر
+• أو Position ratio drops slower than Account ratio
+لماذا؟
+لأن هذا يوحي بأن:
+• الحسابات الكثيرة الصغيرة ضد الاتجاه
+• بينما الحجم ليس معهم بنفس القوة
+وهذه من أقوى بصمات “الحيتان ضد الجمهور”.
+القاعدة الخامسة: Global Confirmation
+فلتر داعم.
+شروطه:
+• Global L/S ينخفض
+• Global Short% > 55%
+• أو Global ratio < 1.0
+ليس شرطًا أساسيًا دائمًا، لكنه يقوي الإشارة.
+5) نظام Score من 100
+الآن سنحوّل كل ذلك إلى Score واضح.
+المحور A: Price Expansion = 20 نقطة
+التقييم:
+• +5 نقاط إذا 12h price change > +4%
+• +7 نقاط إذا 24h price change > +8%
+• +8 نقاط إذا السعر قريب من high 20 candles
+الحد الأقصى: 20
+المحور B: OI Expansion = 30 نقطة
+لأن OI هو الوقود.
+التقييم:
+• +8 نقاط إذا OI 12h change > +5%
+• +10 نقاط إذا OI 24h change > +10%
+• +6 نقاط إذا OI rising in 3/4 candles
+• +6 نقاط إذا هناك spike candle > +6% OI increase
+الحد الأقصى: 30
+المحور C: Crowd Wrong-Way = 30 نقطة
+وهو أهم جزء عمليًا.
+التقييم:
+• +8 نقاط إذا Acco L/S انخفض عن 24h ago
+• +8 نقاط إذا drop % في Acco ratio كبير
+• +6 نقاط إذا Acco Short% > 55%
+• +8 نقاط إذا Acco L/S < 1.0
+• +10 نقاط إذا Acco L/S < 0.8
+لكن نضع سقفًا: 30
+المحور D: Divergence بين Account وPosition = 10 نقاط
+التقييم:
+• +5 نقاط إذا Acco L/S < 1.0 و Position L/S > 1.1
+• +5 نقاط إذا Position ratio أكثر ثباتًا من Account ratio
+الحد الأقصى: 10
+المحور E: Global Confirmation = 10 نقاط
+التقييم:
+• +4 نقاط إذا Global ratio < 1.0
+• +3 نقاط إذا Global Short% > 55%
+• +3 نقاط إذا Global ratio drops over 24h
+الحد الأقصى: 10
+6) تفسير السكور
+0 - 39
+لا يوجد نمط whale squeeze واضح
+40 - 59
+بداية مراقبة
+قد تكون early setup لكن غير ناضجة
+60 - 74
+مرشح قوي
+هناك بصمة واضحة ويستحق الإدراج في watchlist
+75 - 89
+Active squeeze candidate
+النمط يعمل فعليًا
+90 - 100
+Extreme squeeze / crowded move
+غالبًا الحركة مشتعلة بقوة، لكن الخطر أعلى أيضًا
+7) تصنيف المراحل
+إضافة إلى السكور، نخرج Stage.
+Stage A — Early Setup
+الشروط:
+• Score >= 45
+• Price expansion موجود
+• OI expansion موجود
+• لكن Acco L/S لم ينهر بعد تحت 1
+هذه منطقة رصد مبكر.
+Stage B — Active Squeeze
+الشروط:
+• Score >= 65
+• OI قوي
+• Acco L/S <= 1.0
+• السعر يواصل الصعود
+• لا يوجد OI flush كبير بعد
+هذه أهم مرحلة تشغيلية.
+Stage C — Blow-off Risk
+الشروط:
+• Score مرتفع
+• Acco L/S متطرف جدًا
+• OI متضخم جدًا
+• ثم ظهرت شمعة OI سلبية قوية مثل: 
+• OI change % <= -8%
+• مع تذبذب سعري حاد
+هذه منطقة خطر.
+8) شروط الاستبعاد القوية
+حتى لا يملأ الاسكانر النتائج الخاطئة.
+استبعاد 1: Short covering فقط
+إذا:
+• السعر ↑
+• لكن OI ↓ خلال 12h أو 24h
+فهذه غالبًا ليست build-up صحيحة للنمط.
+استبعاد 2: Pump exhausted
+إذا:
+• السعر 24h ارتفع بقوة جدًا
+• لكن آخر شمعة أو آخر شمعتين فيها OI collapse كبير
+• مع تراجع Position ratio بشدة
+فهذه متأخرة.
+استبعاد 3: لا يوجد crowd wrong-way
+إذا:
+• السعر ↑
+• OI ↑
+• Account L/S ↑ أيضًا
+فهذه ترند momentum عادي أكثر من كونها squeeze ضد الجمهور.
+استبعاد 4: سيولة ضعيفة جدًا
+إذا كانت العملة:
+• OI منخفضًا جدًا جدًا
+• أو حجمها هزيلًا جدًا
+• أو تتحرك بشكل شاذ بسبب illiquidity خالصة
+فهنا الإشارات تصبح noisy.
+يمكن لاحقًا إضافة:
+• minimum OI value
+• minimum quote volume
+• minimum traded volume
+9) منطق RAVE لو مررناه على هذا الاسكانر
+RAVE تقريبًا كان سيظهر هكذا:
+قبل الانفجار الكامل
+حوالي 7-8 أبريل:
+• Price expansion: متوسط
+• OI expansion: جيد
+• Crowd wrong-way: بدأ يتشكل
+• Score تقديري: 50 - 65
+• Stage: Early Setup / Strong Watchlist
+أثناء 9 أبريل
+• Price expansion: قوي
+• OI expansion: عنيف
+• Crowd wrong-way: واضح جدًا
+• Divergence: واضح
+• Score تقديري: 75 - 92
+• Stage: Active Squeeze
+عند 10 أبريل آخر الحركة
+• Score قد يبقى عاليًا
+• لكن مع OI flush
+• Stage تتحول إلى: Blow-off / Exhaustion Risk
+وهذا مهم جدًا: نفس العملة قد تكون “ممتازة للرصد” ثم “خطرة للدخول” بعد 8 ساعات فقط.
+10) شكل الإخراج النهائي المثالي للاسكانر
+الاسكانر لا يجب أن يطبع فقط أرقام خام.
+يجب أن يطبع شيئًا بهذا الشكل:
+Symbol Score Stage Price24h OI24h AccoS% PositS% GlobalS% Signal RAVEUSDT 88 ACTIVE_SQUEEZE +42.3% +31.8% 67.2% 39.9% 63.1% Crowd shorting into rising price XYZUSDT 71 EARLY_SETUP +11.4% +14.2% 56.4% 41.3% 54.8% OI expansion + early wrong-way crowd ABCUSDT 93 BLOWOFF_RISK +79.1% +45.6% 74.3% 46.2% 71.9% Late-stage squeeze, watch OI flush 
+وأيضًا نريد عمودًا يشرح سبب الالتقاط باختصار.
+مثلاً:
+• OI expansion + account short crowding
+• Price breakout + ratio collapse
+• Late squeeze with OI flush risk
+11) أفضل تصميم هيكلي للكود
+سنقسم الكود لاحقًا إلى دوال واضحة:
+دالة 1
+fetch_klines(symbol, interval, limit)
+دالة 2
+fetch_open_interest_hist(symbol, period, limit)
+دالة 3
+fetch_account_ls(symbol, period, limit)
+دالة 4
+fetch_position_ls(symbol, period, limit)
+دالة 5
+fetch_global_ls(symbol, period, limit)
+دالة 6
+merge_all_metrics(...)
+دالة 7
+compute_features(df)
+وهنا سنحسب:
+• price change
+• oi change sums
+• ratio deltas
+• rolling highs/lows
+• expansion flags
+دالة 8
+score_symbol(df)
+ترجع:
+• score
+• stage
+• reasons
+• raw metrics snapshot
+دالة 9
+scan_symbols(symbols)
+تمر على قائمة العملات وتنتج DataFrame مرتب.
+12) أهم Features سنحسبها داخل الكود
+سنشتق أعمدة مثل:
+• price_chg_1
+• price_chg_3
+• price_chg_6
+• oi_chg_1
+• oi_chg_3_sum
+• oi_chg_6_sum
+• acco_ratio_now
+• acco_ratio_6ago
+• acco_ratio_drop_pct
+• acco_short_now
+• posit_ratio_now
+• posit_ratio_6ago
+• global_ratio_now
+• global_short_now
+• near_20_high
+• oi_rising_count_4
+• oi_flush_flag
+هذه تجعل التقييم صارمًا وقابلًا للتفسير.
+13) نسخة أولى من قواعد السكور بصيغة شبه برمجية
+score = 0 reasons = [] if price_chg_6 >= 8: score += 7 reasons.append("24h price expansion") if near_20_high: score += 8 reasons.append("trading near breakout high") if oi_chg_6 >= 10: score += 10 reasons.append("24h OI expansion") if oi_rising_count_4 >= 3: score += 6 reasons.append("OI rising in 3 of last 4 candles") if max_oi_spike_last6 >= 6: score += 6 reasons.append("aggressive OI spike detected") if acco_ratio_now < acco_ratio_6ago: score += 8 reasons.append("account L/S falling") if acco_short_now >= 55: score += 6 reasons.append("account shorts crowded") if acco_ratio_now < 1.0: score += 8 reasons.append("accounts net short") if acco_ratio_now < 0.8: score += 10 reasons.append("extreme short crowding") if acco_ratio_now < 1.0 and posit_ratio_now > 1.1: score += 5 reasons.append("account-position divergence") if global_ratio_now < 1.0: score += 4 reasons.append("global crowd leaning short") score = min(score, 100) 
+ثم نحدد stage من الشروط.
+14) نقطة مهمة جدًا: لا نريد Scanner أعمى
+يجب أن يكون الاسكانر Explainable، يعني كل نتيجة يطلع معها:
+• لماذا أخذت هذه الدرجة؟
+• ما الذي جعلها Early أو Active أو Late؟
+• هل الخطر أن الحركة متأخرة؟
+لأنك كمتداول لا يكفيك الرقم فقط.
+15) الخطة التالية
+الآن بعد أن ثبتنا منطق الاسكانر، الخطوة الصحيحة التالية هي:
+كتابة كود بايثون كامل — النسخة الأولى V1 — يطبق هذا النظام فعليًا على Binance Futures.
+وبما أنك تفضل دائمًا الكود كاملًا، فالخطوة القادمة سأكتب لك ملفًا كاملًا يتضمن:
+• جلب بيانات جميع رموز Binance Futures
+• دمج: 
+• السعر
+• OI
+• account L/S
+• position L/S
+• global L/S
+• حساب features
+• حساب score
+• تصنيف stage
+• طباعة أفضل العملات المرتبة
+• مع أسباب الالتقاط
+الرد القادم سيكون الكود كاملًا جاهزًا.
+اكتب فقط: اكتب الكود V1 كاملًا.
+
