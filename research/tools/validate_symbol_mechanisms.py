@@ -357,6 +357,8 @@ def discrimination_table(
         rejected_rate = positive_outlier_rate(rejected_stage)
         if not valid_complete or not rejected_complete:
             status = "NO_PAIRED_SAMPLE"
+        elif len(valid_complete) < 2 or len(rejected_complete) < 2:
+            status = "INSUFFICIENT_PAIRED_SAMPLE"
         elif (
             valid_rate is not None
             and rejected_rate is not None
@@ -368,6 +370,16 @@ def discrimination_table(
             status = "VALID_STAGE_DISCRIMINATES"
         else:
             status = "NO_CLEAR_DISCRIMINATION"
+
+        if valid_median is None or rejected_median is None:
+            directional = "UNRESOLVED"
+        elif valid_median > rejected_median:
+            directional = "VALID_DIRECTIONALLY_HIGHER"
+        elif valid_median < rejected_median:
+            directional = "REJECTED_DIRECTIONALLY_HIGHER"
+        else:
+            directional = "EQUAL_MEDIAN"
+
         output.append(
             {
                 "stage": stage,
@@ -377,6 +389,7 @@ def discrimination_table(
                 "rejected_median_terminal_return_pct": rejected_median,
                 "valid_positive_outlier_rate": valid_rate,
                 "rejected_positive_outlier_rate": rejected_rate,
+                "directional_result": directional,
                 "discrimination_status": status,
             }
         )
@@ -686,9 +699,10 @@ def render_negative_summary(summary: dict[str, Any]) -> str:
     discrimination_rows = "\n".join(
         f"| {item['stage']} | {item['valid_complete_observations']} | "
         f"{item['rejected_complete_observations']} | {item['valid_median_terminal_return_pct']} | "
-        f"{item['rejected_median_terminal_return_pct']} | {item['discrimination_status']} |"
+        f"{item['rejected_median_terminal_return_pct']} | {item['directional_result']} | "
+        f"{item['discrimination_status']} |"
         for item in summary["discrimination"]
-    ) or "| — | 0 | 0 | — | — | NO_PAIRED_SAMPLE |"
+    ) or "| — | 0 | 0 | — | — | UNRESOLVED | NO_PAIRED_SAMPLE |"
     return f"""# {summary['symbol']} Rejected-Transition Negative Controls
 
 Rejected transitions remain invalid historical decisions. Their future paths are measured only to test whether the review gate discriminated useful from misleading proposals.
@@ -703,8 +717,8 @@ Rejected transitions remain invalid historical decisions. Their future paths are
 
 ## Valid versus rejected proposals
 
-| Stage | Valid complete | Rejected complete | Valid median terminal % | Rejected median terminal % | Discrimination |
-|---|---:|---:|---:|---:|---|
+| Stage | Valid complete | Rejected complete | Valid median terminal % | Rejected median terminal % | Directional result | Discrimination |
+|---|---:|---:|---:|---:|---|---|
 {discrimination_rows}
 
 No rejected transition is retroactively promoted because its future path happened to be positive.
@@ -755,15 +769,36 @@ def lifecycle_decisions(
             "rule_id": "BANK_STRICT_ACCEPTANCE_MECHANISM",
             "current_status": "RESEARCH_HYPOTHESIS",
             "decision": "KEEP_AS_HYPOTHESIS",
-            "basis": f"Source sensitivity status: {bank_source.get('sensitivity_status', 'NOT_RUN')}; accepted sample remains small.",
-            "limitations": "Requires more accepted and rejected BANK campaigns plus source provenance resolution.",
+            "basis": f"Source sensitivity status: {bank_source.get('sensitivity_status', 'NOT_RUN')}; the reviewed path is stable across tested policies, but accepted sample remains one.",
+            "limitations": "Requires more accepted and rejected BANK campaigns. RSI provenance matters only for future RSI-dependent claims, not the current ledger path.",
         },
         {
             "rule_id": "LYN_BUILD_PERSISTENCE_MECHANISM",
             "current_status": "RESEARCH_HYPOTHESIS",
             "decision": "KEEP_AS_HYPOTHESIS",
-            "basis": f"Source sensitivity status: {lyn_source.get('sensitivity_status', 'NOT_RUN')}; build persistence remains symbol-specific.",
-            "limitations": "Requires additional campaigns and explicit negative controls.",
+            "basis": f"Source sensitivity status: {lyn_source.get('sensitivity_status', 'NOT_RUN')}; the reviewed path is stable, while valid and rejected acceptance/expansion remain poorly separated.",
+            "limitations": "Requires additional campaigns and features beyond campaign age or reset depth. RSI conflicts do not alter the current ledger path.",
+        },
+        {
+            "rule_id": "BANK_LONG_REBUILD_DEEP_RESET_CONTEXT",
+            "current_status": "RESEARCH_HYPOTHESIS",
+            "decision": "KEEP_AS_HYPOTHESIS",
+            "basis": "The single accepted BANK campaign followed a much longer build and deeper observed price/OI reset than the failed campaigns.",
+            "limitations": "Accepted sample size is one; this is directional evidence only.",
+        },
+        {
+            "rule_id": "LYN_AGE_RESET_AS_DISCRIMINATOR",
+            "current_status": "RESEARCH_HYPOTHESIS",
+            "decision": "REJECT",
+            "basis": "Accepted and failed LYN campaigns show overlapping build ages and reset depths, while rejected transitions can outperform valid counterparts.",
+            "limitations": "This rejects age/reset depth as a standalone discriminator, not the broader build-persistence hypothesis.",
+        },
+        {
+            "rule_id": "ESPORTS_DEEP_RESET_CYCLE_CONTEXT",
+            "current_status": "RESEARCH_HYPOTHESIS",
+            "decision": "KEEP_AS_HYPOTHESIS",
+            "basis": "Accepted ESPORTS campaigns show longer median build-to-ignition and materially deeper observed resets than failed campaigns.",
+            "limitations": "State labels themselves do not yet discriminate against rejected controls; the context mechanism needs direct replay tests.",
         },
         {
             "rule_id": "ESPORTS_RECURRENT_CYCLE_MECHANISM",
@@ -811,15 +846,17 @@ def render_cross_synthesis(
     negative_rows = "\n".join(
         f"| {item['symbol']} | {item['negative_anchor_count']} | "
         f"{sum(1 for row in item['discrimination'] if row['discrimination_status'] == 'VALID_STAGE_DISCRIMINATES')} | "
-        f"{sum(1 for row in item['discrimination'] if row['discrimination_status'] == 'NO_CLEAR_DISCRIMINATION')} |"
+        f"{sum(1 for row in item['discrimination'] if row['discrimination_status'] == 'NO_CLEAR_DISCRIMINATION')} | "
+        f"{sum(1 for row in item['discrimination'] if row['discrimination_status'] == 'INSUFFICIENT_PAIRED_SAMPLE')} |"
         for item in negative_summaries
     )
     source_rows = "\n".join(
         f"| {symbol} | {item['sensitivity_status']} | "
         f"{item['conflicts']['material_conflict_groups']} | "
-        f"{item['conflicts']['decision_relevant_conflict_groups']} |"
+        f"{item['conflicts']['decision_relevant_conflict_groups']} | "
+        f"{json.dumps(item['conflicts']['field_counts'], sort_keys=True)} |"
         for symbol, item in source_summaries.items()
-    ) or "| — | NOT_RUN | 0 | 0 |"
+    ) or "| — | NOT_RUN | 0 | 0 | {} |"
     return f"""# Symbol-Specific Mechanism Validation — Pass 2
 
 ## Campaign mechanisms
@@ -830,16 +867,16 @@ def render_cross_synthesis(
 
 ## Rejected transitions as negative controls
 
-| Symbol | Rejected anchors | Stages with discrimination | Stages without clear discrimination |
-|---|---:|---:|---:|
+| Symbol | Rejected anchors | Validated discrimination | No clear discrimination | Insufficient paired sample |
+|---|---:|---:|---:|---:|
 {negative_rows}
 
 A rejected cutoff is never converted into a valid historical signal because its future path was positive. The audit tests the review gate; it does not rewrite the frozen decision.
 
 ## Source-selection sensitivity
 
-| Symbol | Status | Material conflict groups | Decision-relevant conflict groups |
-|---|---|---:|---:|
+| Symbol | Status | Material conflict groups | Decision-relevant conflict groups | Conflict fields |
+|---|---|---:|---:|---|
 {source_rows}
 
 ## Research status
