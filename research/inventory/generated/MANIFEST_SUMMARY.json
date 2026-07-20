@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-20T18:48:37.550104+00:00",
-  "repository_files_audited": 606,
+  "generated_at": "2026-07-20T18:54:31.886159+00:00",
+  "repository_files_audited": 635,
   "source_class_counts": {
     "BINARY_LEGACY_DOCUMENT": 209,
-    "CONFIG_OR_STRUCTURED_DOCUMENT": 15,
-    "DOCUMENTATION": 47,
-    "GENERATED_OR_UNRECOGNIZED_TABULAR_DATA": 37,
+    "CONFIG_OR_STRUCTURED_DOCUMENT": 33,
+    "DOCUMENTATION": 52,
+    "GENERATED_OR_UNRECOGNIZED_TABULAR_DATA": 43,
     "IMPLEMENTATION": 11,
     "MIXED_SOURCE": 9,
     "OBSERVED_MARKET_DATA": 214,
