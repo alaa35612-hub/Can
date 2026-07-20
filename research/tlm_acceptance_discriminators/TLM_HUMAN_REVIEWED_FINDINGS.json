@@ -1,0 +1,76 @@
+{
+  "symbol": "TLMUSDT",
+  "campaigns_reviewed": 13,
+  "accepted_expansion": 4,
+  "accepted_without_expansion": 1,
+  "failed_ignition": 8,
+  "non_overlapping_metric_count": 0,
+  "fuel_retention_campaigns": [
+    3,
+    10,
+    13
+  ],
+  "transient_spike_campaigns": [
+    8,
+    11
+  ],
+  "rejected_acceptance_campaigns": [
+    4,
+    6,
+    7,
+    11
+  ],
+  "decisions": [
+    {
+      "rule_id": "TLM_SINGLE_FEATURE_POST_IGNITION_DISCRIMINATOR",
+      "current_status": "RESEARCH_HYPOTHESIS",
+      "decision": "REJECT",
+      "basis": "No tested price, OI, execution, or taker-flow metric produced a non-overlapping success/failure range at 15, 30, 45, or 60 minutes.",
+      "limitations": "Rejects standalone feature sufficiency; ordered multi-feature context remains testable."
+    },
+    {
+      "rule_id": "TLM_POST_IGNITION_FUEL_RETENTION",
+      "current_status": "RESEARCH_HYPOTHESIS",
+      "decision": "RESTRICT",
+      "restricted_rule_id": "TLM_EARLY_FUEL_RETENTION_ACCEPTANCE_CONTEXT",
+      "basis": "Observed in accepted-expansion campaigns [3, 13], failed analogues [], and accepted-without-expansion campaigns [10].",
+      "limitations": "The accepted-without-expansion case prevents an expansion-sufficiency claim; campaigns are from one symbol and one observed period."
+    },
+    {
+      "rule_id": "TLM_SHORT_COVERING_AS_OUTCOME_DISCRIMINATOR",
+      "current_status": "RESEARCH_HYPOTHESIS",
+      "decision": "REJECT",
+      "basis": "Accepted-expansion analogues [5, 9] and failed analogues [12] share the same short-covering context.",
+      "limitations": "Short covering may describe a mechanism, but it does not discriminate acceptance from failure in this sample."
+    },
+    {
+      "rule_id": "TLM_TRANSIENT_EXECUTION_SPIKE_FAILURE_WARNING",
+      "current_status": "RESEARCH_HYPOTHESIS",
+      "decision": "RESTRICT",
+      "restricted_rule_id": "TLM_EARLY_TRANSIENT_SPIKE_WARNING",
+      "basis": "Failed analogues [8, 11]; accepted-expansion analogues [].",
+      "limitations": "Not necessary for failure: several failed campaigns used other paths or lacked an evaluable prior baseline."
+    },
+    {
+      "rule_id": "TLM_REJECTED_ACCEPTANCE_CHAIN_FAILURE_CONTEXT",
+      "current_status": "RESEARCH_HYPOTHESIS",
+      "decision": "RESTRICT",
+      "restricted_rule_id": "TLM_NEGATIVE_DISLOCATION_ACCEPTANCE_REJECTION_WARNING",
+      "basis": "Rejected acceptance chains by outcome: {'FAILURE': 4}.",
+      "limitations": "A rejection chain is not necessary for failure; fast failures also occur without an acceptance proposal."
+    },
+    {
+      "rule_id": "TLM_ACCEPTED_IGNITION_SUFFICIENCY_FOR_EXPANSION",
+      "current_status": "RESEARCH_HYPOTHESIS",
+      "decision": "REJECT",
+      "basis": "Accepted-without-expansion campaigns: [10].",
+      "limitations": "Accepted ignition remains a state observation, not a guaranteed expansion outcome."
+    }
+  ],
+  "constraints": [
+    "campaign unit",
+    "outcome after frozen checkpoints",
+    "no standalone threshold fitted",
+    "no production promotion"
+  ]
+}
