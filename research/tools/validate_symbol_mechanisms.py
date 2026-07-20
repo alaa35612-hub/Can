@@ -534,9 +534,9 @@ def reset_depth(
             "oi_reset_depth_pct": None,
         }
     peak_close = max((row["close"] for row in prior_rows if row.get("close") is not None), default=None)
-    peak_oi = max((row.get("oi") for row in prior_rows if row.get("oi") is not None), default=None)
-    birth_close = birth.get("close")
-    birth_oi = birth.get("oi")
+    peak_oi = max((number(row.get("oi")) for row in prior_rows if number(row.get("oi")) is not None), default=None)
+    birth_close = number(birth.get("close"))
+    birth_oi = number(birth.get("oi"))
     return {
         "reset_depth_status": "MEASURED",
         "price_reset_depth_pct": (
