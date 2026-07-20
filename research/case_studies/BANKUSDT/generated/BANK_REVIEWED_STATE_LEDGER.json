@@ -2,11 +2,11 @@
   {
     "symbol": "BANKUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "BANKUSDT-15m-20260713-2045-S1",
     "timestamp": 1783975500000,
     "time": "2026-07-13T20:45:00+00:00",
     "from_state": "LATENT",
-    "to_state": "CONFIRMED_BUILD",
+    "to_state": "EARLY_BUILD",
     "facts_added": [
       "execution_expansion",
       "oi_contraction",
@@ -14,8 +14,7 @@
       "higher_timeframe_support"
     ],
     "rationale": [
-      "relative fuel/execution changed before or with price response",
-      "support persisted across successive observations"
+      "relative fuel/execution changed before or with price response"
     ],
     "supporting_score": 3,
     "opposing_score": 1,
@@ -36,12 +35,53 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.04257,
-    "contemporary_price_change_pct": 0.5432215399149509
+    "contemporary_price_change_pct": 0.5432215399149509,
+    "reviewed_from_state": "LATENT",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "BANKUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "BANKUSDT-15m-20260713-2045-S1",
+    "timestamp": 1783976400000,
+    "time": "2026-07-13T21:00:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783972800000,
+      "4h": 1783958400000,
+      "1d": 1783814400000
+    },
+    "cutoff_frozen": true,
+    "adversarial_status": "RESTRICT",
+    "adversarial_reasons": [
+      "fuel evidence exists but direction is unresolved"
+    ],
+    "contemporary_close": 0.04243,
+    "contemporary_price_change_pct": -0.32887009631193953,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
+  },
+  {
+    "symbol": "BANKUSDT",
+    "segment_id": 1,
+    "campaign_id": "BANKUSDT-15m-20260713-2045-S1",
     "timestamp": 1783983600000,
     "time": "2026-07-13T23:00:00+00:00",
     "from_state": "CONFIRMED_BUILD",
@@ -73,12 +113,14 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.04219,
-    "contemporary_price_change_pct": 0.35680304471930047
+    "contemporary_price_change_pct": 0.35680304471930047,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "BANKUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "BANKUSDT-15m-20260713-2045-S1",
     "timestamp": 1783984500000,
     "time": "2026-07-13T23:15:00+00:00",
     "from_state": "IGNITION_CANDIDATE",
@@ -109,7 +151,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.04222,
-    "contemporary_price_change_pct": 0.0711068973690443
+    "contemporary_price_change_pct": 0.0711068973690443,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "FAILURE"
   },
   {
     "symbol": "BANKUSDT",
@@ -147,7 +191,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.04231,
-    "contemporary_price_change_pct": 0.26066350710900466
+    "contemporary_price_change_pct": 0.26066350710900466,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "BANKUSDT",
@@ -163,7 +209,6 @@
       "higher_timeframe_support"
     ],
     "rationale": [
-      "support persisted across successive observations",
       "relative execution extreme aligned with positive release"
     ],
     "supporting_score": 3,
@@ -185,7 +230,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.0428,
-    "contemporary_price_change_pct": 1.158118648073736
+    "contemporary_price_change_pct": 1.158118648073736,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "BANKUSDT",
@@ -222,7 +269,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.04237,
-    "contemporary_price_change_pct": -0.32933427428840645
+    "contemporary_price_change_pct": -0.32933427428840645,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "FAILURE"
   },
   {
     "symbol": "BANKUSDT",
@@ -260,7 +309,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.0425,
-    "contemporary_price_change_pct": 1.5046572725101681
+    "contemporary_price_change_pct": 1.5046572725101681,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "BANKUSDT",
@@ -296,7 +347,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.04246,
-    "contemporary_price_change_pct": -0.09411764705883341
+    "contemporary_price_change_pct": -0.09411764705883341,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "BANKUSDT",
@@ -334,7 +387,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.04412,
-    "contemporary_price_change_pct": 1.4486088756035853
+    "contemporary_price_change_pct": 1.4486088756035853,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "BANKUSDT",
@@ -372,7 +427,9 @@
       "acceptance conflicts with abnormal negative-price dislocation"
     ],
     "contemporary_close": 0.04363,
-    "contemporary_price_change_pct": -1.110607434270161
+    "contemporary_price_change_pct": -1.110607434270161,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "BANKUSDT",
@@ -404,12 +461,15 @@
       "1d": 1783987200000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.04372,
-    "contemporary_price_change_pct": 0.20628008251202257
+    "contemporary_price_change_pct": 0.20628008251202257,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "BANKUSDT",
@@ -441,12 +501,15 @@
       "1d": 1783987200000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.0439,
-    "contemporary_price_change_pct": 0.4117108874656994
+    "contemporary_price_change_pct": 0.4117108874656994,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "BANKUSDT",
@@ -479,12 +542,15 @@
       "1d": 1784160000000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.06886,
-    "contemporary_price_change_pct": -4.507003189571468
+    "contemporary_price_change_pct": -4.507003189571468,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "BANKUSDT",
@@ -517,12 +583,15 @@
       "1d": 1784160000000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "RESTRICT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "campaign re-anchored from independent build evidence after an invalid predecessor chain"
     ],
     "contemporary_close": 0.07348,
-    "contemporary_price_change_pct": 6.709265175718837
+    "contemporary_price_change_pct": 6.709265175718837,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "BANKUSDT",
@@ -559,7 +628,9 @@
       "fuel evidence exists but direction is unresolved"
     ],
     "contemporary_close": 0.0704,
-    "contemporary_price_change_pct": -4.191616766467066
+    "contemporary_price_change_pct": -4.191616766467066,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "BANKUSDT",
@@ -597,7 +668,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.06942,
-    "contemporary_price_change_pct": 3.565567656273294
+    "contemporary_price_change_pct": 3.565567656273294,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "BANKUSDT",
@@ -635,7 +708,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.07273,
-    "contemporary_price_change_pct": 4.768078363583994
+    "contemporary_price_change_pct": 4.768078363583994,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "ACCEPTED_IGNITION"
   },
   {
     "symbol": "BANKUSDT",
@@ -673,7 +748,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.07914,
-    "contemporary_price_change_pct": 8.813419496768859
+    "contemporary_price_change_pct": 8.813419496768859,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "EXPANSION"
   },
   {
     "symbol": "BANKUSDT",
@@ -711,7 +788,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.09999,
-    "contemporary_price_change_pct": 26.34571645185746
+    "contemporary_price_change_pct": 26.34571645185746,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "CONTINUATION_RELOAD"
   },
   {
     "symbol": "BANKUSDT",
@@ -747,7 +826,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.15474,
-    "contemporary_price_change_pct": -3.6068024668286403
+    "contemporary_price_change_pct": -3.6068024668286403,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "FAILURE"
   },
   {
     "symbol": "BANKUSDT",
@@ -785,6 +866,8 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.16285,
-    "contemporary_price_change_pct": 5.241049502391104
+    "contemporary_price_change_pct": 5.241049502391104,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   }
 ]

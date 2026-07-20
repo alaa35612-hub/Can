@@ -16,7 +16,8 @@ Pattern labels remain hypotheses. Higher timeframes are visible only after close
 
 | Cutoff | Transition | Status | Adversarial reason |
 |---|---|---|---|
-| 2026-07-13T20:45:00+00:00 | LATENT → CONFIRMED_BUILD | PASS | no adversarial rejection condition triggered |
+| 2026-07-13T20:45:00+00:00 | LATENT → EARLY_BUILD | PASS | no adversarial rejection condition triggered |
+| 2026-07-13T21:00:00+00:00 | EARLY_BUILD → CONFIRMED_BUILD | RESTRICT | fuel evidence exists but direction is unresolved |
 | 2026-07-13T23:00:00+00:00 | CONFIRMED_BUILD → IGNITION_CANDIDATE | PASS | no adversarial rejection condition triggered |
 | 2026-07-13T23:15:00+00:00 | IGNITION_CANDIDATE → FAILURE | PASS | no adversarial rejection condition triggered |
 | 2026-07-13T23:45:00+00:00 | FAILURE → EARLY_BUILD | PASS | no adversarial rejection condition triggered |
@@ -26,10 +27,10 @@ Pattern labels remain hypotheses. Higher timeframes are visible only after close
 | 2026-07-14T02:45:00+00:00 | EARLY_BUILD → CONFIRMED_BUILD | PASS | no adversarial rejection condition triggered |
 | 2026-07-14T23:45:00+00:00 | CONFIRMED_BUILD → IGNITION_CANDIDATE | PASS | no adversarial rejection condition triggered |
 | 2026-07-15T00:00:00+00:00 | IGNITION_CANDIDATE → ACCEPTED_IGNITION | REJECT | acceptance conflicts with abnormal negative-price dislocation |
-| 2026-07-15T00:15:00+00:00 | ACCEPTED_IGNITION → EXPANSION | PASS | no adversarial rejection condition triggered |
-| 2026-07-15T00:30:00+00:00 | EXPANSION → CONTINUATION_RELOAD | PASS | no adversarial rejection condition triggered |
-| 2026-07-17T12:30:00+00:00 | CONTINUATION_RELOAD → FAILURE | PASS | no adversarial rejection condition triggered |
-| 2026-07-17T12:45:00+00:00 | FAILURE → EARLY_BUILD | PASS | no adversarial rejection condition triggered |
+| 2026-07-15T00:15:00+00:00 | ACCEPTED_IGNITION → EXPANSION | REJECT | no adversarial rejection condition triggered; transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE |
+| 2026-07-15T00:30:00+00:00 | EXPANSION → CONTINUATION_RELOAD | REJECT | no adversarial rejection condition triggered; transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE |
+| 2026-07-17T12:30:00+00:00 | CONTINUATION_RELOAD → FAILURE | REJECT | no adversarial rejection condition triggered; transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE |
+| 2026-07-17T12:45:00+00:00 | FAILURE → EARLY_BUILD | RESTRICT | no adversarial rejection condition triggered; campaign re-anchored from independent build evidence after an invalid predecessor chain |
 | 2026-07-17T13:00:00+00:00 | EARLY_BUILD → CONFIRMED_BUILD | RESTRICT | fuel evidence exists but direction is unresolved |
 | 2026-07-18T15:15:00+00:00 | CONFIRMED_BUILD → IGNITION_CANDIDATE | PASS | no adversarial rejection condition triggered |
 | 2026-07-18T15:30:00+00:00 | IGNITION_CANDIDATE → ACCEPTED_IGNITION | PASS | no adversarial rejection condition triggered |
@@ -43,10 +44,10 @@ Pattern labels remain hypotheses. Higher timeframes are visible only after close
 - Sources: 8
 - Causal rows: 1824
 - Segments: 1
-- Proposed transitions: 21
-- PASS: 19
-- RESTRICT: 1
-- REJECT: 1
+- Proposed transitions: 22
+- PASS: 15
+- RESTRICT: 3
+- REJECT: 4
 - Control windows: 5
 - Preserved source conflicts: 412
 - No rule is promoted to durable status from this single case.

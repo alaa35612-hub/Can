@@ -3,12 +3,12 @@
   "sources": 6,
   "causal_rows": 1804,
   "segments": 1,
-  "transitions": 47,
+  "transitions": 52,
   "controls": 5,
   "source_conflicts": 0,
   "review": {
-    "PASS": 43,
-    "RESTRICT": 0,
-    "REJECT": 4
+    "PASS": 32,
+    "RESTRICT": 5,
+    "REJECT": 15
   }
 }

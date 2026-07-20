@@ -34,7 +34,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03589,
-    "contemporary_price_change_pct": -0.5266075388026703
+    "contemporary_price_change_pct": -0.5266075388026703,
+    "reviewed_from_state": "LATENT",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -71,7 +73,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03573,
-    "contemporary_price_change_pct": 0.33698399326029804
+    "contemporary_price_change_pct": 0.33698399326029804,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -109,7 +113,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.0351,
-    "contemporary_price_change_pct": 0.22844089091946795
+    "contemporary_price_change_pct": 0.22844089091946795,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -147,7 +153,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03516,
-    "contemporary_price_change_pct": 0.17094017094017033
+    "contemporary_price_change_pct": 0.17094017094017033,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "ACCEPTED_IGNITION"
   },
   {
     "symbol": "LYNUSDT",
@@ -185,7 +193,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03523,
-    "contemporary_price_change_pct": 0.19908987485779406
+    "contemporary_price_change_pct": 0.19908987485779406,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "EXPANSION"
   },
   {
     "symbol": "LYNUSDT",
@@ -222,7 +232,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03529,
-    "contemporary_price_change_pct": 0.17030939540165768
+    "contemporary_price_change_pct": 0.17030939540165768,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "CONTINUATION_RELOAD"
   },
   {
     "symbol": "LYNUSDT",
@@ -260,7 +272,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03492,
-    "contemporary_price_change_pct": -0.20005715918833822
+    "contemporary_price_change_pct": -0.20005715918833822,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "FAILURE"
   },
   {
     "symbol": "LYNUSDT",
@@ -298,7 +312,9 @@
       "fuel evidence exists but direction is unresolved"
     ],
     "contemporary_close": 0.03505,
-    "contemporary_price_change_pct": -0.2277255906632636
+    "contemporary_price_change_pct": -0.2277255906632636,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -335,7 +351,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.0352,
-    "contemporary_price_change_pct": -0.05678591709256109
+    "contemporary_price_change_pct": -0.05678591709256109,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -373,7 +391,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03583,
-    "contemporary_price_change_pct": 0.8159819921215394
+    "contemporary_price_change_pct": 0.8159819921215394,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -409,7 +429,9 @@
       "acceptance conflicts with abnormal negative-price dislocation"
     ],
     "contemporary_close": 0.03564,
-    "contemporary_price_change_pct": -0.530281886687145
+    "contemporary_price_change_pct": -0.530281886687145,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -441,12 +463,15 @@
       "1d": null
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.03576,
-    "contemporary_price_change_pct": 0.33670033670034627
+    "contemporary_price_change_pct": 0.33670033670034627,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -477,12 +502,15 @@
       "1d": null
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.03579,
-    "contemporary_price_change_pct": 0.0838926174496768
+    "contemporary_price_change_pct": 0.0838926174496768,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -513,12 +541,15 @@
       "1d": null
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.03568,
-    "contemporary_price_change_pct": -0.30734842134674256
+    "contemporary_price_change_pct": -0.30734842134674256,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -550,12 +581,15 @@
       "1d": null
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "RESTRICT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "campaign re-anchored from independent build evidence after an invalid predecessor chain"
     ],
     "contemporary_close": 0.03567,
-    "contemporary_price_change_pct": -0.028026905829603432
+    "contemporary_price_change_pct": -0.028026905829603432,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -592,7 +626,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03574,
-    "contemporary_price_change_pct": 0.19624334174377367
+    "contemporary_price_change_pct": 0.19624334174377367,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -629,7 +665,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03589,
-    "contemporary_price_change_pct": 1.1270780501549726
+    "contemporary_price_change_pct": 1.1270780501549726,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -667,7 +705,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03581,
-    "contemporary_price_change_pct": -0.22290331568680655
+    "contemporary_price_change_pct": -0.22290331568680655,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "FAILURE"
   },
   {
     "symbol": "LYNUSDT",
@@ -705,7 +745,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03571,
-    "contemporary_price_change_pct": 0.14021312394840724
+    "contemporary_price_change_pct": 0.14021312394840724,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -743,7 +785,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03407,
-    "contemporary_price_change_pct": 0.5311301268810853
+    "contemporary_price_change_pct": 0.5311301268810853,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -781,7 +825,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03572,
-    "contemporary_price_change_pct": 0.22446689113357898
+    "contemporary_price_change_pct": 0.22446689113357898,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -818,7 +864,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03571,
-    "contemporary_price_change_pct": -0.027995520716694866
+    "contemporary_price_change_pct": -0.027995520716694866,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "ACCEPTED_IGNITION"
   },
   {
     "symbol": "LYNUSDT",
@@ -855,7 +903,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03561,
-    "contemporary_price_change_pct": 1.4240956992309872
+    "contemporary_price_change_pct": 1.4240956992309872,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "EXPANSION"
   },
   {
     "symbol": "LYNUSDT",
@@ -891,7 +941,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03596,
-    "contemporary_price_change_pct": 0.9828699803425822
+    "contemporary_price_change_pct": 0.9828699803425822,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "CONTINUATION_RELOAD"
   },
   {
     "symbol": "LYNUSDT",
@@ -929,7 +981,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03539,
-    "contemporary_price_change_pct": -0.4500703234880499
+    "contemporary_price_change_pct": -0.4500703234880499,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "FAILURE"
   },
   {
     "symbol": "LYNUSDT",
@@ -966,7 +1020,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03529,
-    "contemporary_price_change_pct": 0.1418842224744754
+    "contemporary_price_change_pct": 0.1418842224744754,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -1003,7 +1059,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03545,
-    "contemporary_price_change_pct": 0.08469791078486999
+    "contemporary_price_change_pct": 0.08469791078486999,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "LYNUSDT",
@@ -1041,7 +1099,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03638,
-    "contemporary_price_change_pct": 1.8762251470176627
+    "contemporary_price_change_pct": 1.8762251470176627,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -1078,7 +1138,9 @@
       "acceptance conflicts with abnormal negative-price dislocation"
     ],
     "contemporary_close": 0.03619,
-    "contemporary_price_change_pct": -0.16551724137929824
+    "contemporary_price_change_pct": -0.16551724137929824,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -1111,12 +1173,15 @@
       "1d": null
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.03627,
-    "contemporary_price_change_pct": 0.38748962081371907
+    "contemporary_price_change_pct": 0.38748962081371907,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "LYNUSDT",
@@ -1146,11 +1211,14 @@
       "1d": null
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.03579,
-    "contemporary_price_change_pct": 0.11188811188813652
+    "contemporary_price_change_pct": 0.11188811188813652,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   }
 ]

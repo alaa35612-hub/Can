@@ -810,19 +810,18 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784127600000,
     "time": "2026-07-15T15:00:00+00:00",
     "from_state": "FAILURE",
-    "to_state": "CONFIRMED_BUILD",
+    "to_state": "EARLY_BUILD",
     "facts_added": [
       "execution_expansion",
       "positive_price_release",
       "higher_timeframe_support"
     ],
     "rationale": [
-      "relative fuel/execution changed before or with price response",
-      "support persisted across successive observations"
+      "relative fuel/execution changed before or with price response"
     ],
     "supporting_score": 3,
     "opposing_score": 0,
@@ -842,7 +841,38 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
+    "timestamp": 1784128500000,
+    "time": "2026-07-15T15:15:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784124000000,
+      "4h": 1784102400000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784142900000,
     "time": "2026-07-15T19:15:00+00:00",
     "from_state": "CONFIRMED_BUILD",
@@ -874,7 +904,7 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784143800000,
     "time": "2026-07-15T19:30:00+00:00",
     "from_state": "IGNITION_CANDIDATE",
@@ -906,7 +936,7 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784145600000,
     "time": "2026-07-15T20:00:00+00:00",
     "from_state": "ACCEPTED_IGNITION",
@@ -937,7 +967,7 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784146500000,
     "time": "2026-07-15T20:15:00+00:00",
     "from_state": "EXPANSION",
@@ -967,7 +997,7 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784182500000,
     "time": "2026-07-16T06:15:00+00:00",
     "from_state": "CONTINUATION_RELOAD",
@@ -1218,10 +1248,42 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
     "timestamp": 1784310300000,
     "time": "2026-07-17T17:45:00+00:00",
     "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_shock",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784307600000,
+      "4h": 1784289600000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
+    "timestamp": 1784311200000,
+    "time": "2026-07-17T18:00:00+00:00",
+    "from_state": "EARLY_BUILD",
     "to_state": "IGNITION_CANDIDATE",
     "facts_added": [
       "execution_shock",
@@ -1230,7 +1292,6 @@
       "higher_timeframe_support"
     ],
     "rationale": [
-      "relative fuel/execution changed before or with price response",
       "relative execution extreme aligned with positive release"
     ],
     "supporting_score": 3,
@@ -1251,22 +1312,114 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
-    "timestamp": 1784311200000,
-    "time": "2026-07-17T18:00:00+00:00",
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
+    "timestamp": 1784312100000,
+    "time": "2026-07-17T18:15:00+00:00",
     "from_state": "IGNITION_CANDIDATE",
-    "to_state": "FAILURE",
+    "to_state": "ACCEPTED_IGNITION",
     "facts_added": [
-      "execution_shock",
-      "oi_contraction",
+      "execution_expansion",
       "positive_price_release",
       "higher_timeframe_support"
     ],
     "rationale": [
-      "opposition persisted after ignition proposal"
+      "post-release retention without immediate OI collapse"
     ],
     "supporting_score": 3,
-    "opposing_score": 1,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784307600000,
+      "4h": 1784289600000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
+    "timestamp": 1784313000000,
+    "time": "2026-07-17T18:30:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784307600000,
+      "4h": 1784289600000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
+    "timestamp": 1784315700000,
+    "time": "2026-07-17T19:15:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784311200000,
+      "4h": 1784289600000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
+    "timestamp": 1784355300000,
+    "time": "2026-07-18T06:15:00+00:00",
+    "from_state": "CONTINUATION_RELOAD",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
     "dominant_hypothesis": "Failed/exhausted campaign",
     "alternative_hypotheses": [
       "Short-covering only",
@@ -1274,22 +1427,23 @@
       "New unidentified structure"
     ],
     "higher_timeframes_visible": {
-      "1h": 1784307600000,
-      "4h": 1784289600000,
-      "1d": 1784160000000
+      "1h": 1784350800000,
+      "4h": 1784332800000,
+      "1d": 1784246400000
     },
     "cutoff_frozen": true
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
-    "timestamp": 1784312100000,
-    "time": "2026-07-17T18:15:00+00:00",
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
+    "timestamp": 1784356200000,
+    "time": "2026-07-18T06:30:00+00:00",
     "from_state": "FAILURE",
     "to_state": "EARLY_BUILD",
     "facts_added": [
       "execution_expansion",
+      "oi_contraction",
       "positive_price_release",
       "higher_timeframe_support"
     ],
@@ -1297,7 +1451,7 @@
       "relative fuel/execution changed before or with price response"
     ],
     "supporting_score": 3,
-    "opposing_score": 0,
+    "opposing_score": 1,
     "dominant_hypothesis": "Quiet build",
     "alternative_hypotheses": [
       "Short-covering only",
@@ -1305,22 +1459,22 @@
       "New unidentified structure"
     ],
     "higher_timeframes_visible": {
-      "1h": 1784307600000,
-      "4h": 1784289600000,
-      "1d": 1784160000000
+      "1h": 1784350800000,
+      "4h": 1784332800000,
+      "1d": 1784246400000
     },
     "cutoff_frozen": true
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
-    "timestamp": 1784313000000,
-    "time": "2026-07-17T18:30:00+00:00",
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
+    "timestamp": 1784377800000,
+    "time": "2026-07-18T12:30:00+00:00",
     "from_state": "EARLY_BUILD",
     "to_state": "CONFIRMED_BUILD",
     "facts_added": [
-      "execution_expansion",
+      "oi_expansion",
       "positive_price_release",
       "higher_timeframe_support"
     ],
@@ -1336,16 +1490,16 @@
       "New unidentified structure"
     ],
     "higher_timeframes_visible": {
-      "1h": 1784307600000,
-      "4h": 1784289600000,
-      "1d": 1784160000000
+      "1h": 1784372400000,
+      "4h": 1784361600000,
+      "1d": 1784246400000
     },
     "cutoff_frozen": true
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
     "timestamp": 1784392200000,
     "time": "2026-07-18T16:30:00+00:00",
     "from_state": "CONFIRMED_BUILD",
@@ -1377,7 +1531,7 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
     "timestamp": 1784393100000,
     "time": "2026-07-18T16:45:00+00:00",
     "from_state": "IGNITION_CANDIDATE",
@@ -1409,7 +1563,7 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
     "timestamp": 1784394900000,
     "time": "2026-07-18T17:15:00+00:00",
     "from_state": "ACCEPTED_IGNITION",
@@ -1440,7 +1594,7 @@
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
     "timestamp": 1784395800000,
     "time": "2026-07-18T17:30:00+00:00",
     "from_state": "EXPANSION",

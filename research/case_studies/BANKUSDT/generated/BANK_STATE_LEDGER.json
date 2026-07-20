@@ -2,11 +2,11 @@
   {
     "symbol": "BANKUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "BANKUSDT-15m-20260713-2045-S1",
     "timestamp": 1783975500000,
     "time": "2026-07-13T20:45:00+00:00",
     "from_state": "LATENT",
-    "to_state": "CONFIRMED_BUILD",
+    "to_state": "EARLY_BUILD",
     "facts_added": [
       "execution_expansion",
       "oi_contraction",
@@ -14,8 +14,7 @@
       "higher_timeframe_support"
     ],
     "rationale": [
-      "relative fuel/execution changed before or with price response",
-      "support persisted across successive observations"
+      "relative fuel/execution changed before or with price response"
     ],
     "supporting_score": 3,
     "opposing_score": 1,
@@ -35,7 +34,38 @@
   {
     "symbol": "BANKUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "BANKUSDT-15m-20260713-2045-S1",
+    "timestamp": 1783976400000,
+    "time": "2026-07-13T21:00:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783972800000,
+      "4h": 1783958400000,
+      "1d": 1783814400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "BANKUSDT",
+    "segment_id": 1,
+    "campaign_id": "BANKUSDT-15m-20260713-2045-S1",
     "timestamp": 1783983600000,
     "time": "2026-07-13T23:00:00+00:00",
     "from_state": "CONFIRMED_BUILD",
@@ -66,7 +96,7 @@
   {
     "symbol": "BANKUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "BANKUSDT-15m-20260713-2045-S1",
     "timestamp": 1783984500000,
     "time": "2026-07-13T23:15:00+00:00",
     "from_state": "IGNITION_CANDIDATE",
@@ -139,7 +169,6 @@
       "higher_timeframe_support"
     ],
     "rationale": [
-      "support persisted across successive observations",
       "relative execution extreme aligned with positive release"
     ],
     "supporting_score": 3,

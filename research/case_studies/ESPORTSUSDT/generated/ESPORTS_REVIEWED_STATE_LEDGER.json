@@ -34,7 +34,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01368,
-    "contemporary_price_change_pct": -0.2188183807439903
+    "contemporary_price_change_pct": -0.2188183807439903,
+    "reviewed_from_state": "LATENT",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -71,7 +73,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01372,
-    "contemporary_price_change_pct": 1.0309278350515427
+    "contemporary_price_change_pct": 1.0309278350515427,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -108,7 +112,9 @@
       "acceptance conflicts with abnormal negative-price dislocation"
     ],
     "contemporary_close": 0.01358,
-    "contemporary_price_change_pct": -1.0204081632653073
+    "contemporary_price_change_pct": -1.0204081632653073,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -141,12 +147,15 @@
       "1d": 1783814400000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01344,
-    "contemporary_price_change_pct": -0.591715976331364
+    "contemporary_price_change_pct": -0.591715976331364,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -179,12 +188,15 @@
       "1d": 1783900800000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01395,
-    "contemporary_price_change_pct": 1.0137581462708267
+    "contemporary_price_change_pct": 1.0137581462708267,
+    "reviewed_from_state": "COOLING",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -216,12 +228,15 @@
       "1d": 1783900800000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01417,
-    "contemporary_price_change_pct": -0.5614035087719293
+    "contemporary_price_change_pct": -0.5614035087719293,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -252,12 +267,15 @@
       "1d": 1783900800000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "RESTRICT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "campaign re-anchored from independent build evidence after an invalid predecessor chain"
     ],
     "contemporary_close": 0.01382,
-    "contemporary_price_change_pct": 0.07241129616220032
+    "contemporary_price_change_pct": 0.07241129616220032,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -294,7 +312,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01404,
-    "contemporary_price_change_pct": 0.5010737294201872
+    "contemporary_price_change_pct": 0.5010737294201872,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -332,7 +352,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01435,
-    "contemporary_price_change_pct": 1.6288951841359811
+    "contemporary_price_change_pct": 1.6288951841359811,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -370,7 +392,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.0145,
-    "contemporary_price_change_pct": 1.0452961672474004
+    "contemporary_price_change_pct": 1.0452961672474004,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "ACCEPTED_IGNITION"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -408,7 +432,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01425,
-    "contemporary_price_change_pct": 0.42283298097252064
+    "contemporary_price_change_pct": 0.42283298097252064,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "EXPANSION"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -444,7 +470,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01423,
-    "contemporary_price_change_pct": -0.1403508771929851
+    "contemporary_price_change_pct": -0.1403508771929851,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "CONTINUATION_RELOAD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -480,7 +508,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01424,
-    "contemporary_price_change_pct": 0.14064697608999754
+    "contemporary_price_change_pct": 0.14064697608999754,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "FAILURE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -516,7 +546,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01406,
-    "contemporary_price_change_pct": -0.0710732054015617
+    "contemporary_price_change_pct": -0.0710732054015617,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -553,7 +585,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01413,
-    "contemporary_price_change_pct": 1.2177650429799458
+    "contemporary_price_change_pct": 1.2177650429799458,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -591,7 +625,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01434,
-    "contemporary_price_change_pct": 1.4861995753715496
+    "contemporary_price_change_pct": 1.4861995753715496,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -629,7 +665,9 @@
       "acceptance conflicts with abnormal negative-price dislocation"
     ],
     "contemporary_close": 0.0143,
-    "contemporary_price_change_pct": -0.2789400278940035
+    "contemporary_price_change_pct": -0.2789400278940035,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -660,12 +698,15 @@
       "1d": 1783900800000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01432,
-    "contemporary_price_change_pct": 0.13986013986013734
+    "contemporary_price_change_pct": 0.13986013986013734,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -697,12 +738,15 @@
       "1d": 1783900800000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01436,
-    "contemporary_price_change_pct": 0.27932960893854997
+    "contemporary_price_change_pct": 0.27932960893854997,
+    "reviewed_from_state": "COOLING",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -733,12 +777,15 @@
       "1d": 1783900800000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "RESTRICT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "campaign re-anchored from independent build evidence after an invalid predecessor chain"
     ],
     "contemporary_close": 0.01438,
-    "contemporary_price_change_pct": 0.139275766016711
+    "contemporary_price_change_pct": 0.139275766016711,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -775,7 +822,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01442,
-    "contemporary_price_change_pct": 0.2781641168289273
+    "contemporary_price_change_pct": 0.2781641168289273,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -813,7 +862,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01446,
-    "contemporary_price_change_pct": 0.9071877180739651
+    "contemporary_price_change_pct": 0.9071877180739651,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -850,7 +901,9 @@
       "acceptance relies mainly on retention and needs independent confirmation"
     ],
     "contemporary_close": 0.01437,
-    "contemporary_price_change_pct": -0.6224066390041472
+    "contemporary_price_change_pct": -0.6224066390041472,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -883,12 +936,15 @@
       "1d": 1783987200000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01452,
-    "contemporary_price_change_pct": 1.538461538461533
+    "contemporary_price_change_pct": 1.538461538461533,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -919,12 +975,15 @@
       "1d": 1783987200000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01451,
-    "contemporary_price_change_pct": -0.06887052341597588
+    "contemporary_price_change_pct": -0.06887052341597588,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -957,29 +1016,31 @@
       "1d": 1783987200000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01472,
-    "contemporary_price_change_pct": -1.2080536912751683
+    "contemporary_price_change_pct": -1.2080536912751683,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784127600000,
     "time": "2026-07-15T15:00:00+00:00",
     "from_state": "FAILURE",
-    "to_state": "CONFIRMED_BUILD",
+    "to_state": "EARLY_BUILD",
     "facts_added": [
       "execution_expansion",
       "positive_price_release",
       "higher_timeframe_support"
     ],
     "rationale": [
-      "relative fuel/execution changed before or with price response",
-      "support persisted across successive observations"
+      "relative fuel/execution changed before or with price response"
     ],
     "supporting_score": 3,
     "opposing_score": 0,
@@ -995,17 +1056,59 @@
       "1d": 1783987200000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "RESTRICT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "campaign re-anchored from independent build evidence after an invalid predecessor chain"
     ],
     "contemporary_close": 0.01484,
-    "contemporary_price_change_pct": 1.3661202185792476
+    "contemporary_price_change_pct": 1.3661202185792476,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
+    "timestamp": 1784128500000,
+    "time": "2026-07-15T15:15:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784124000000,
+      "4h": 1784102400000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true,
+    "adversarial_status": "RESTRICT",
+    "adversarial_reasons": [
+      "fuel evidence exists but direction is unresolved"
+    ],
+    "contemporary_close": 0.0147,
+    "contemporary_price_change_pct": -0.9433962264151052,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784142900000,
     "time": "2026-07-15T19:15:00+00:00",
     "from_state": "CONFIRMED_BUILD",
@@ -1038,12 +1141,14 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01516,
-    "contemporary_price_change_pct": 4.049416609471512
+    "contemporary_price_change_pct": 4.049416609471512,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784143800000,
     "time": "2026-07-15T19:30:00+00:00",
     "from_state": "IGNITION_CANDIDATE",
@@ -1076,12 +1181,14 @@
       "acceptance conflicts with abnormal negative-price dislocation"
     ],
     "contemporary_close": 0.01493,
-    "contemporary_price_change_pct": -1.517150395778355
+    "contemporary_price_change_pct": -1.517150395778355,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784145600000,
     "time": "2026-07-15T20:00:00+00:00",
     "from_state": "ACCEPTED_IGNITION",
@@ -1108,17 +1215,20 @@
       "1d": 1783987200000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01506,
-    "contemporary_price_change_pct": 2.0325203252032464
+    "contemporary_price_change_pct": 2.0325203252032464,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784146500000,
     "time": "2026-07-15T20:15:00+00:00",
     "from_state": "EXPANSION",
@@ -1144,17 +1254,20 @@
       "1d": 1783987200000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01497,
-    "contemporary_price_change_pct": -0.5976095617529875
+    "contemporary_price_change_pct": -0.5976095617529875,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260715-1500-S1",
     "timestamp": 1784182500000,
     "time": "2026-07-16T06:15:00+00:00",
     "from_state": "CONTINUATION_RELOAD",
@@ -1181,12 +1294,15 @@
       "1d": 1784073600000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "REJECT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "transition depends on an unvalidated predecessor; reviewed state remains IGNITION_CANDIDATE"
     ],
     "contemporary_close": 0.01506,
-    "contemporary_price_change_pct": -0.7251153592616966
+    "contemporary_price_change_pct": -0.7251153592616966,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -1218,12 +1334,15 @@
       "1d": 1784073600000
     },
     "cutoff_frozen": true,
-    "adversarial_status": "PASS",
+    "adversarial_status": "RESTRICT",
     "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
+      "no adversarial rejection condition triggered",
+      "campaign re-anchored from independent build evidence after an invalid predecessor chain"
     ],
     "contemporary_close": 0.01521,
-    "contemporary_price_change_pct": 0.9960159362549792
+    "contemporary_price_change_pct": 0.9960159362549792,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -1260,7 +1379,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.01533,
-    "contemporary_price_change_pct": 0.7889546351084853
+    "contemporary_price_change_pct": 0.7889546351084853,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -1298,7 +1419,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.02031,
-    "contemporary_price_change_pct": 3.253685815963414
+    "contemporary_price_change_pct": 3.253685815963414,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -1335,7 +1458,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.02102,
-    "contemporary_price_change_pct": 3.4958148695223956
+    "contemporary_price_change_pct": 3.4958148695223956,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "ACCEPTED_IGNITION"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -1373,7 +1498,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.0217,
-    "contemporary_price_change_pct": 2.021626704278323
+    "contemporary_price_change_pct": 2.021626704278323,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "EXPANSION"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -1410,7 +1537,9 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.02201,
-    "contemporary_price_change_pct": 1.4285714285714235
+    "contemporary_price_change_pct": 1.4285714285714235,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "CONTINUATION_RELOAD"
   },
   {
     "symbol": "ESPORTSUSDT",
@@ -1448,15 +1577,57 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.0205,
-    "contemporary_price_change_pct": -6.520747834017326
+    "contemporary_price_change_pct": -6.520747834017326,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "FAILURE"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": null,
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
     "timestamp": 1784310300000,
     "time": "2026-07-17T17:45:00+00:00",
     "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_shock",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784307600000,
+      "4h": 1784289600000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true,
+    "adversarial_status": "PASS",
+    "adversarial_reasons": [
+      "no adversarial rejection condition triggered"
+    ],
+    "contemporary_close": 0.02364,
+    "contemporary_price_change_pct": 13.818006740491096,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
+    "timestamp": 1784311200000,
+    "time": "2026-07-17T18:00:00+00:00",
+    "from_state": "EARLY_BUILD",
     "to_state": "IGNITION_CANDIDATE",
     "facts_added": [
       "execution_shock",
@@ -1465,7 +1636,6 @@
       "higher_timeframe_support"
     ],
     "rationale": [
-      "relative fuel/execution changed before or with price response",
       "relative execution extreme aligned with positive release"
     ],
     "supporting_score": 3,
@@ -1486,66 +1656,30 @@
     "adversarial_reasons": [
       "no adversarial rejection condition triggered"
     ],
-    "contemporary_close": 0.02364,
-    "contemporary_price_change_pct": 13.818006740491096
-  },
-  {
-    "symbol": "ESPORTSUSDT",
-    "segment_id": 1,
-    "campaign_id": null,
-    "timestamp": 1784311200000,
-    "time": "2026-07-17T18:00:00+00:00",
-    "from_state": "IGNITION_CANDIDATE",
-    "to_state": "FAILURE",
-    "facts_added": [
-      "execution_shock",
-      "oi_contraction",
-      "positive_price_release",
-      "higher_timeframe_support"
-    ],
-    "rationale": [
-      "opposition persisted after ignition proposal"
-    ],
-    "supporting_score": 3,
-    "opposing_score": 1,
-    "dominant_hypothesis": "Failed/exhausted campaign",
-    "alternative_hypotheses": [
-      "Short-covering only",
-      "Transient event spike",
-      "New unidentified structure"
-    ],
-    "higher_timeframes_visible": {
-      "1h": 1784307600000,
-      "4h": 1784289600000,
-      "1d": 1784160000000
-    },
-    "cutoff_frozen": true,
-    "adversarial_status": "PASS",
-    "adversarial_reasons": [
-      "no adversarial rejection condition triggered"
-    ],
     "contemporary_close": 0.02422,
-    "contemporary_price_change_pct": 2.4534686971235065
+    "contemporary_price_change_pct": 2.4534686971235065,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
     "timestamp": 1784312100000,
     "time": "2026-07-17T18:15:00+00:00",
-    "from_state": "FAILURE",
-    "to_state": "EARLY_BUILD",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
     "facts_added": [
       "execution_expansion",
       "positive_price_release",
       "higher_timeframe_support"
     ],
     "rationale": [
-      "relative fuel/execution changed before or with price response"
+      "post-release retention without immediate OI collapse"
     ],
     "supporting_score": 3,
     "opposing_score": 0,
-    "dominant_hypothesis": "Quiet build",
+    "dominant_hypothesis": "Accepted expansion/continuation",
     "alternative_hypotheses": [
       "Short-covering only",
       "Transient event spike",
@@ -1562,27 +1696,29 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.02521,
-    "contemporary_price_change_pct": 4.087530966143693
+    "contemporary_price_change_pct": 4.087530966143693,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "ACCEPTED_IGNITION"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
     "timestamp": 1784313000000,
     "time": "2026-07-17T18:30:00+00:00",
-    "from_state": "EARLY_BUILD",
-    "to_state": "CONFIRMED_BUILD",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
     "facts_added": [
       "execution_expansion",
       "positive_price_release",
       "higher_timeframe_support"
     ],
     "rationale": [
-      "support persisted across successive observations"
+      "accepted structure received fresh independent support"
     ],
     "supporting_score": 3,
     "opposing_score": 0,
-    "dominant_hypothesis": "Quiet build",
+    "dominant_hypothesis": "Accepted expansion/continuation",
     "alternative_hypotheses": [
       "Short-covering only",
       "Transient event spike",
@@ -1599,12 +1735,171 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.02677,
-    "contemporary_price_change_pct": 6.188020626735424
+    "contemporary_price_change_pct": 6.188020626735424,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "EXPANSION"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
+    "timestamp": 1784315700000,
+    "time": "2026-07-17T19:15:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784311200000,
+      "4h": 1784289600000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true,
+    "adversarial_status": "PASS",
+    "adversarial_reasons": [
+      "no adversarial rejection condition triggered"
+    ],
+    "contemporary_close": 0.02762,
+    "contemporary_price_change_pct": -1.0390541024722366,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "CONTINUATION_RELOAD"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260717-1745-S1",
+    "timestamp": 1784355300000,
+    "time": "2026-07-18T06:15:00+00:00",
+    "from_state": "CONTINUATION_RELOAD",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784350800000,
+      "4h": 1784332800000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true,
+    "adversarial_status": "PASS",
+    "adversarial_reasons": [
+      "no adversarial rejection condition triggered"
+    ],
+    "contemporary_close": 0.02959,
+    "contemporary_price_change_pct": -5.372561560601207,
+    "reviewed_from_state": "CONTINUATION_RELOAD",
+    "reviewed_state_after": "FAILURE"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
+    "timestamp": 1784356200000,
+    "time": "2026-07-18T06:30:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784350800000,
+      "4h": 1784332800000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true,
+    "adversarial_status": "PASS",
+    "adversarial_reasons": [
+      "no adversarial rejection condition triggered"
+    ],
+    "contemporary_close": 0.03078,
+    "contemporary_price_change_pct": 4.021628928692111,
+    "reviewed_from_state": "FAILURE",
+    "reviewed_state_after": "EARLY_BUILD"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
+    "timestamp": 1784377800000,
+    "time": "2026-07-18T12:30:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784372400000,
+      "4h": 1784361600000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true,
+    "adversarial_status": "PASS",
+    "adversarial_reasons": [
+      "no adversarial rejection condition triggered"
+    ],
+    "contemporary_close": 0.02431,
+    "contemporary_price_change_pct": 2.4873524451939133,
+    "reviewed_from_state": "EARLY_BUILD",
+    "reviewed_state_after": "CONFIRMED_BUILD"
+  },
+  {
+    "symbol": "ESPORTSUSDT",
+    "segment_id": 1,
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
     "timestamp": 1784392200000,
     "time": "2026-07-18T16:30:00+00:00",
     "from_state": "CONFIRMED_BUILD",
@@ -1637,12 +1932,14 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.02438,
-    "contemporary_price_change_pct": 14.83749411210551
+    "contemporary_price_change_pct": 14.83749411210551,
+    "reviewed_from_state": "CONFIRMED_BUILD",
+    "reviewed_state_after": "IGNITION_CANDIDATE"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
     "timestamp": 1784393100000,
     "time": "2026-07-18T16:45:00+00:00",
     "from_state": "IGNITION_CANDIDATE",
@@ -1675,12 +1972,14 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.02706,
-    "contemporary_price_change_pct": 10.99261689909763
+    "contemporary_price_change_pct": 10.99261689909763,
+    "reviewed_from_state": "IGNITION_CANDIDATE",
+    "reviewed_state_after": "ACCEPTED_IGNITION"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
     "timestamp": 1784394900000,
     "time": "2026-07-18T17:15:00+00:00",
     "from_state": "ACCEPTED_IGNITION",
@@ -1712,12 +2011,14 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03062,
-    "contemporary_price_change_pct": 10.942028985507246
+    "contemporary_price_change_pct": 10.942028985507246,
+    "reviewed_from_state": "ACCEPTED_IGNITION",
+    "reviewed_state_after": "EXPANSION"
   },
   {
     "symbol": "ESPORTSUSDT",
     "segment_id": 1,
-    "campaign_id": "ESPORTSUSDT-15m-20260717-1815-S1",
+    "campaign_id": "ESPORTSUSDT-15m-20260718-0630-S1",
     "timestamp": 1784395800000,
     "time": "2026-07-18T17:30:00+00:00",
     "from_state": "EXPANSION",
@@ -1749,6 +2050,8 @@
       "no adversarial rejection condition triggered"
     ],
     "contemporary_close": 0.03331,
-    "contemporary_price_change_pct": 8.785107772697586
+    "contemporary_price_change_pct": 8.785107772697586,
+    "reviewed_from_state": "EXPANSION",
+    "reviewed_state_after": "CONTINUATION_RELOAD"
   }
 ]

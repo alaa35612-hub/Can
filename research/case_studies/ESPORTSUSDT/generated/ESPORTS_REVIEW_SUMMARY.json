@@ -1,5 +1,5 @@
 {
-  "PASS": 43,
-  "RESTRICT": 0,
-  "REJECT": 4
+  "PASS": 32,
+  "RESTRICT": 5,
+  "REJECT": 15
 }
