@@ -1,0 +1,69 @@
+{
+  "comparison_unit": "CAMPAIGN",
+  "records_total": 14,
+  "evaluable_campaigns": 9,
+  "abstained_campaigns": 5,
+  "effective_symbols": [
+    "TLMUSDT"
+  ],
+  "abstained_only_symbols": [
+    "MAGMAUSDT",
+    "VELVETUSDT"
+  ],
+  "full_context_success_campaigns": [],
+  "full_context_failure_campaigns": [
+    {
+      "symbol": "TLMUSDT",
+      "campaign_index": 11,
+      "path_class": "MATCHED_CONTROL_LIKE",
+      "terminal_return_pct": 2.1196063588190706,
+      "rejected_transition_count": 3
+    }
+  ],
+  "nonfull_success_campaigns": [
+    {
+      "symbol": "TLMUSDT",
+      "campaign_index": 5,
+      "assessment_status": "PARTIAL_TRANSFER_CONTEXT",
+      "path_class": "POSITIVE_PATH_OUTLIER"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "campaign_index": 9,
+      "assessment_status": "PARTIAL_TRANSFER_CONTEXT",
+      "path_class": "MATCHED_CONTROL_LIKE"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "campaign_index": 13,
+      "assessment_status": "PARTIAL_TRANSFER_CONTEXT",
+      "path_class": "POSITIVE_PATH_OUTLIER"
+    }
+  ],
+  "sufficiency_claim": {
+    "rule_id": "MATURE_DEEP_RESET_CONTEXT_CROSS_SYMBOL_SUFFICIENCY",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "REJECT",
+    "basis": "At least one evaluable external campaign satisfied the full context and still failed structural acceptance."
+  },
+  "necessity_claim": {
+    "rule_id": "MATURE_DEEP_RESET_CONTEXT_CROSS_SYMBOL_NECESSITY",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "REJECT",
+    "basis": "At least one evaluable external campaign achieved accepted expansion without the full context."
+  },
+  "association_result": "INSUFFICIENT_INDEPENDENT_SYMBOL_SAMPLE",
+  "source_rule": {
+    "rule_id": "ESPORTS_MATURE_DEEP_RESET_SUBTYPE",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_ESPORTS_SPECIFIC_HYPOTHESIS",
+    "basis": "External transfer evidence does not rewrite the original frozen ESPORTS campaigns."
+  },
+  "status_counts": {
+    "ABSTAIN_MISSING_CURRENT_CONTEXT": 3,
+    "ABSTAIN_INSUFFICIENT_PRIOR_BASELINE": 2,
+    "PARTIAL_TRANSFER_CONTEXT": 8,
+    "FULL_TRANSFER_CONTEXT": 1
+  },
+  "promotion_prohibited": true
+}
