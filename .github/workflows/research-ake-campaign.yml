@@ -6,6 +6,7 @@ on:
     paths:
       - 'research/tools/build_ake_campaign.py'
       - 'research/tools/run_ake_segmented.py'
+      - 'research/tools/review_ake_transitions.py'
       - 'research/tools/tests/test_build_ake_campaign.py'
       - '.github/workflows/research-ake-campaign.yml'
   workflow_dispatch:
@@ -37,6 +38,11 @@ jobs:
           --root .
           --output-dir research/case_studies/AKEUSDT/generated
 
+      - name: Adversarially review proposed transitions
+        run: >-
+          python research/tools/review_ake_transitions.py
+          --directory research/case_studies/AKEUSDT/generated
+
       - name: Commit generated research outputs
         shell: bash
         run: |
@@ -47,5 +53,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add research/case_studies/AKEUSDT/generated
-          git commit -m 'research: generate segmented AKE campaign pass 1 [skip ci]'
+          git commit -m 'research: generate reviewed AKE campaign pass 1 [skip ci]'
           git push origin HEAD:${{ github.head_ref || github.ref_name }}
