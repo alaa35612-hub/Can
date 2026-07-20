@@ -1,0 +1,167 @@
+{
+  "symbol": "VELVETUSDT",
+  "data_scope": {
+    "symbol": "VELVETUSDT",
+    "sources": 7,
+    "causal_rows": 518,
+    "segments": 2,
+    "transitions": 16,
+    "controls": 5,
+    "source_conflicts": 99,
+    "review": {
+      "PASS": 8,
+      "RESTRICT": 1,
+      "REJECT": 7
+    }
+  },
+  "timeframe_profiles": {
+    "1d": {
+      "rows": 30,
+      "start": "2026-05-28T00:00:00+00:00",
+      "end": "2026-06-26T00:00:00+00:00",
+      "trades_p50": 1339540.5,
+      "trades_p90": 9346072.600000005,
+      "quote_volume_p50": 62724878.035514995,
+      "quote_volume_p90": 521829082.7344332,
+      "oi_p50": 35686908.5,
+      "abs_return_p50": 10.676536752850012,
+      "abs_return_p90": 44.43471492251391
+    },
+    "4h": {
+      "rows": 99,
+      "start": "2026-06-11T04:00:00+00:00",
+      "end": "2026-06-27T12:00:00+00:00",
+      "trades_p50": 265210.0,
+      "trades_p90": 3066826.4000000004,
+      "quote_volume_p50": 17661996.10945,
+      "quote_volume_p90": 200447428.6129201,
+      "oi_p50": 28453360.0,
+      "abs_return_p50": 4.403318442884496,
+      "abs_return_p90": 17.143859779434607
+    },
+    "1h": {
+      "rows": 99,
+      "start": "2026-06-23T13:00:00+00:00",
+      "end": "2026-06-27T15:00:00+00:00",
+      "trades_p50": 19653.0,
+      "trades_p90": 323867.2000000002,
+      "quote_volume_p50": 764809.96806,
+      "quote_volume_p90": 25890163.331440017,
+      "oi_p50": 24590997.0,
+      "abs_return_p50": 1.5021805847197478,
+      "abs_return_p90": 5.939608115850515
+    },
+    "15m": {
+      "rows": 290,
+      "start": "2026-06-25T18:15:00+00:00",
+      "end": "2026-07-02T19:45:00+00:00",
+      "trades_p50": 32275.0,
+      "trades_p90": 205149.10000000006,
+      "quote_volume_p50": 1388723.588,
+      "quote_volume_p90": 12905976.229880001,
+      "oi_p50": 25640545.0,
+      "abs_return_p50": 1.2626347082868694,
+      "abs_return_p90": 5.6399913604563565
+    }
+  },
+  "source_conflicts": 99,
+  "execution_to_price_lag_minutes": {
+    "median": 30.0,
+    "p90": 84.00000000000013,
+    "observations": 125
+  },
+  "campaign_outcome_counts": {
+    "accepted_expansion": 1,
+    "failed_ignition": 1,
+    "build_without_acceptance": 1
+  },
+  "false_ignition_rate": 0.3333333333333333,
+  "reliable_timeframes": [
+    "15m"
+  ],
+  "limited_timeframes": [
+    "1h",
+    "4h",
+    "1d"
+  ],
+  "structural_notes": [
+    "Material source conflicts exist and cap confidence.",
+    "Ignition attempts can fail before acceptance; rejection chains are symbol-relevant."
+  ],
+  "unknowns": [
+    "Daily regime maturity is insufficient for durable long-horizon claims.",
+    "Observed campaign taxonomy is provisional and may miss symbol-specific unknown structures."
+  ],
+  "campaigns": [
+    {
+      "campaign_index": 1,
+      "start": "2026-06-26T01:45:00+00:00",
+      "end": "2026-06-26T12:45:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE",
+        "ACCEPTED_IGNITION",
+        "EXPANSION",
+        "CONTINUATION_RELOAD"
+      ],
+      "review_counts": {
+        "PASS": 6
+      },
+      "outcome": "accepted_expansion",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 2,
+      "start": "2026-07-01T22:00:00+00:00",
+      "end": "2026-07-02T07:45:00+00:00",
+      "states": [],
+      "review_counts": {
+        "REJECT": 7
+      },
+      "outcome": "failed_ignition",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 3,
+      "start": "2026-07-02T09:00:00+00:00",
+      "end": "2026-07-02T09:15:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD"
+      ],
+      "review_counts": {
+        "RESTRICT": 1,
+        "PASS": 1
+      },
+      "outcome": "build_without_acceptance",
+      "dominant_hypotheses": [
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    }
+  ]
+}

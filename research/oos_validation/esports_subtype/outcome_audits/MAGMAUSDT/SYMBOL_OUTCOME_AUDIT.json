@@ -1,0 +1,60 @@
+{
+  "symbol": "MAGMAUSDT",
+  "campaign_count": 2,
+  "profile_campaign_outcomes": {
+    "failed_ignition": 2
+  },
+  "adaptive_horizons_minutes": [
+    30,
+    60,
+    120,
+    240,
+    480,
+    720,
+    1440
+  ],
+  "longest_horizon_minutes": 1440,
+  "comparison_horizon_minutes": 720,
+  "outcome_rows": 14,
+  "stage_observation_counts_all_horizons": {
+    "EARLY_BUILD": 7,
+    "IGNITION_CANDIDATE": 7
+  },
+  "path_class_counts_all_horizons": {
+    "MATCHED_CONTROL_LIKE": 2,
+    "NEGATIVE_PATH_OUTLIER": 10,
+    "INCOMPLETE_FORWARD_COVERAGE": 2
+  },
+  "stage_summaries_at_longest_horizon": {
+    "EARLY_BUILD": {
+      "campaign_observations": 1,
+      "complete_observations": 1,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 29.664142884876732,
+      "median_mfe_close_pct": 30.656668608037286,
+      "median_mae_close_pct": -1.1454086585129142,
+      "path_class_counts": {
+        "NEGATIVE_PATH_OUTLIER": 1
+      }
+    },
+    "IGNITION_CANDIDATE": {
+      "campaign_observations": 1,
+      "complete_observations": 1,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 29.50533462657614,
+      "median_mfe_close_pct": 30.555286129970916,
+      "median_mae_close_pct": -1.2221144519883542,
+      "path_class_counts": {
+        "NEGATIVE_PATH_OUTLIER": 1
+      }
+    }
+  },
+  "method_constraints": [
+    "Original state decisions remain frozen; future paths are attached only after reconstruction.",
+    "Metrics use 15m close paths because reconstructed timelines do not retain intrabar highs and lows.",
+    "Controls prefer causal inactive states; quiet non-transition controls are an explicit fallback.",
+    "Path classes are descriptive relative to matched controls, not trade labels.",
+    "Incomplete forward coverage remains explicit."
+  ],
+  "control_definition": "Same-symbol context matches prefer causal LATENT/FAILURE/RESET/COOLING cutoffs; quiet non-transition cutoffs are used only as an explicit fallback."
+}

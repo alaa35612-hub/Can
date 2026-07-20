@@ -1,0 +1,369 @@
+[
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 1,
+    "campaign_id": "MAGMAUSDT-15m-20260625-1915-S1",
+    "timestamp": 1782414900000,
+    "time": "2026-06-25T19:15:00+00:00",
+    "from_state": "LATENT",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782410400000,
+      "4h": 1782388800000,
+      "1d": 1782259200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 1,
+    "campaign_id": "MAGMAUSDT-15m-20260625-1915-S1",
+    "timestamp": 1782416700000,
+    "time": "2026-06-25T19:45:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782414000000,
+      "4h": 1782403200000,
+      "1d": 1782259200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 1,
+    "campaign_id": "MAGMAUSDT-15m-20260625-1915-S1",
+    "timestamp": 1782417600000,
+    "time": "2026-06-25T20:00:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782414000000,
+      "4h": 1782403200000,
+      "1d": 1782259200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 1,
+    "campaign_id": "MAGMAUSDT-15m-20260625-1915-S1",
+    "timestamp": 1782421200000,
+    "time": "2026-06-25T21:00:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782417600000,
+      "4h": 1782403200000,
+      "1d": 1782259200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 1,
+    "campaign_id": "MAGMAUSDT-15m-20260625-1915-S1",
+    "timestamp": 1782423000000,
+    "time": "2026-06-25T21:30:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782417600000,
+      "4h": 1782403200000,
+      "1d": 1782259200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 2,
+    "campaign_id": null,
+    "timestamp": 1782933300000,
+    "time": "2026-07-01T19:15:00+00:00",
+    "from_state": "UNOBSERVED_GAP",
+    "to_state": "RESET",
+    "facts_added": [
+      "data_gap_campaign_boundary"
+    ],
+    "rationale": [
+      "continuity cannot be verified across missing primary observations"
+    ],
+    "supporting_score": 0,
+    "opposing_score": 0,
+    "dominant_hypothesis": "New campaign must be reconstructed independently",
+    "alternative_hypotheses": [
+      "Continuation remains unverified"
+    ],
+    "higher_timeframes_visible": {},
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 2,
+    "campaign_id": "MAGMAUSDT-15m-20260701-1930-S2",
+    "timestamp": 1782934200000,
+    "time": "2026-07-01T19:30:00+00:00",
+    "from_state": "LATENT",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782478800000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 2,
+    "campaign_id": "MAGMAUSDT-15m-20260701-1930-S2",
+    "timestamp": 1782937800000,
+    "time": "2026-07-01T20:30:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782478800000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 2,
+    "campaign_id": "MAGMAUSDT-15m-20260701-1930-S2",
+    "timestamp": 1782945900000,
+    "time": "2026-07-01T22:45:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782478800000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 2,
+    "campaign_id": "MAGMAUSDT-15m-20260701-1930-S2",
+    "timestamp": 1782947700000,
+    "time": "2026-07-01T23:15:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782478800000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 2,
+    "campaign_id": "MAGMAUSDT-15m-20260701-1930-S2",
+    "timestamp": 1782951300000,
+    "time": "2026-07-02T00:15:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782478800000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "MAGMAUSDT",
+    "segment_id": 2,
+    "campaign_id": "MAGMAUSDT-15m-20260701-1930-S2",
+    "timestamp": 1782954000000,
+    "time": "2026-07-02T01:00:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782478800000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  }
+]

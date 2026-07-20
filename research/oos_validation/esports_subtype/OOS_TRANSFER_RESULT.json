@@ -1,0 +1,32 @@
+{
+  "frozen_source_rule": "ESPORTS_MATURE_DEEP_RESET_SUBTYPE",
+  "tested_transfer_claim": "MATURE_DEEP_RESET_CONTEXT_TRANSFER",
+  "symbols": [
+    "MAGMAUSDT",
+    "TLMUSDT",
+    "VELVETUSDT"
+  ],
+  "evaluable_campaigns": 9,
+  "full_context_successes": 0,
+  "full_context_failures": 1,
+  "full_context_unresolved": 0,
+  "symbols_with_full_context_success": 0,
+  "full_context_positive_path_outliers": 0,
+  "full_context_negative_path_outliers": 0,
+  "full_context_matched_control_like": 1,
+  "transfer_result": "EXTERNAL_TRANSFER_CONTRADICTION",
+  "transfer_decision": "REJECT_TRANSFER_CLAIM",
+  "source_rule_lifecycle": {
+    "rule_id": "ESPORTS_MATURE_DEEP_RESET_SUBTYPE",
+    "status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_ESPORTS_SPECIFIC_HYPOTHESIS",
+    "reason": "External transfer testing does not rewrite the original ESPORTS campaign evidence."
+  },
+  "transfer_rule_lifecycle": {
+    "rule_id": "MATURE_DEEP_RESET_CONTEXT_TRANSFER",
+    "status": "RESEARCH_HYPOTHESIS",
+    "decision": "REJECT_TRANSFER_CLAIM",
+    "reason": "EXTERNAL_TRANSFER_CONTRADICTION"
+  },
+  "promotion_prohibited": true
+}

@@ -1,0 +1,14 @@
+{
+  "symbol": "TLMUSDT",
+  "sources": 8,
+  "causal_rows": 2003,
+  "segments": 2,
+  "transitions": 75,
+  "controls": 5,
+  "source_conflicts": 0,
+  "review": {
+    "PASS": 50,
+    "RESTRICT": 8,
+    "REJECT": 17
+  }
+}

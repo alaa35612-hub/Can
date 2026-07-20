@@ -1,0 +1,14 @@
+{
+  "symbol": "MAGMAUSDT",
+  "campaign_cutoffs": 1,
+  "evaluable_campaigns": 0,
+  "abstained_campaigns": 1,
+  "assessment_status_counts": {
+    "ABSTAIN_MISSING_CURRENT_CONTEXT": 1
+  },
+  "full_context_campaigns": 0,
+  "full_context_outcome_counts": {},
+  "full_context_path_class_counts": {},
+  "full_context_campaign_indices": [],
+  "symbol_transfer_result": "NO_EVALUABLE_CAMPAIGNS"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "timeframe": "15m",
+    "timestamp": 1783020600000,
+    "chosen": "MAGMAUSDT_15m_limit100_20260703_201708_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "MAGMAUSDT_15m_limit100_20260702_200404_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783021500000,
+    "chosen": "MAGMAUSDT_15m_limit100_20260703_201708_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "MAGMAUSDT_15m_limit100_20260702_200404_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  }
+]

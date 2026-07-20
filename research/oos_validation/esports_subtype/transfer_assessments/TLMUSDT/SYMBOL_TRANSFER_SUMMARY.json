@@ -1,0 +1,23 @@
+{
+  "symbol": "TLMUSDT",
+  "campaign_cutoffs": 12,
+  "evaluable_campaigns": 9,
+  "abstained_campaigns": 3,
+  "assessment_status_counts": {
+    "ABSTAIN_MISSING_CURRENT_CONTEXT": 1,
+    "ABSTAIN_INSUFFICIENT_PRIOR_BASELINE": 2,
+    "PARTIAL_TRANSFER_CONTEXT": 8,
+    "FULL_TRANSFER_CONTEXT": 1
+  },
+  "full_context_campaigns": 1,
+  "full_context_outcome_counts": {
+    "FAILURE": 1
+  },
+  "full_context_path_class_counts": {
+    "MATCHED_CONTROL_LIKE": 1
+  },
+  "full_context_campaign_indices": [
+    11
+  ],
+  "symbol_transfer_result": "FULL_CONTEXT_CONTRADICTED_WITHIN_SYMBOL"
+}
