@@ -1,0 +1,139 @@
+{
+  "symbol": "MAGMAUSDT",
+  "data_scope": {
+    "symbol": "MAGMAUSDT",
+    "sources": 6,
+    "causal_rows": 1009,
+    "segments": 2,
+    "transitions": 12,
+    "controls": 5,
+    "source_conflicts": 2,
+    "review": {
+      "PASS": 3,
+      "RESTRICT": 0,
+      "REJECT": 9
+    }
+  },
+  "timeframe_profiles": {
+    "4h": {
+      "rows": 185,
+      "start": "2026-05-26T16:00:00+00:00",
+      "end": "2026-06-26T08:00:00+00:00",
+      "trades_p50": 54704.0,
+      "trades_p90": 277441.5999999999,
+      "quote_volume_p50": 1206763.72063,
+      "quote_volume_p90": 7961556.150021994,
+      "oi_p50": 19455772.0,
+      "abs_return_p50": 1.974140649637346,
+      "abs_return_p90": 8.242020657708405
+    },
+    "1d": {
+      "rows": 30,
+      "start": "2026-05-27T00:00:00+00:00",
+      "end": "2026-06-25T00:00:00+00:00",
+      "trades_p50": 441505.0,
+      "trades_p90": 1703464.0,
+      "quote_volume_p50": 9575713.71197,
+      "quote_volume_p90": 65219991.81392708,
+      "oi_p50": 19337453.5,
+      "abs_return_p50": 5.885317812237123,
+      "abs_return_p90": 28.70396216508893
+    },
+    "1h": {
+      "rows": 499,
+      "start": "2026-06-05T19:00:00+00:00",
+      "end": "2026-06-26T13:00:00+00:00",
+      "trades_p50": 16048.0,
+      "trades_p90": 72507.59999999998,
+      "quote_volume_p50": 335596.30617,
+      "quote_volume_p90": 1866632.0060759995,
+      "oi_p50": 19776795.0,
+      "abs_return_p50": 0.9976484001995245,
+      "abs_return_p90": 3.977993975546625
+    },
+    "15m": {
+      "rows": 295,
+      "start": "2026-06-25T12:45:00+00:00",
+      "end": "2026-07-03T20:00:00+00:00",
+      "trades_p50": 10903.0,
+      "trades_p90": 69110.20000000001,
+      "quote_volume_p50": 420250.78635,
+      "quote_volume_p90": 3428990.8649400063,
+      "oi_p50": 17591214.0,
+      "abs_return_p50": 0.7343382172095181,
+      "abs_return_p90": 3.2123082503985274
+    }
+  },
+  "source_conflicts": 2,
+  "execution_to_price_lag_minutes": {
+    "median": 30.0,
+    "p90": 90.0,
+    "observations": 122
+  },
+  "campaign_outcome_counts": {
+    "failed_ignition": 2
+  },
+  "false_ignition_rate": 1.0,
+  "reliable_timeframes": [
+    "15m",
+    "1h",
+    "4h"
+  ],
+  "limited_timeframes": [
+    "1d"
+  ],
+  "structural_notes": [
+    "Material source conflicts exist and cap confidence.",
+    "Ignition attempts can fail before acceptance; rejection chains are symbol-relevant."
+  ],
+  "unknowns": [
+    "Daily regime maturity is insufficient for durable long-horizon claims.",
+    "Observed campaign taxonomy is provisional and may miss symbol-specific unknown structures."
+  ],
+  "campaigns": [
+    {
+      "campaign_index": 1,
+      "start": "2026-06-25T19:15:00+00:00",
+      "end": "2026-06-25T21:30:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "IGNITION_CANDIDATE"
+      ],
+      "review_counts": {
+        "PASS": 2,
+        "REJECT": 3
+      },
+      "outcome": "failed_ignition",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 2,
+      "start": "2026-07-01T19:30:00+00:00",
+      "end": "2026-07-02T01:00:00+00:00",
+      "states": [],
+      "review_counts": {
+        "REJECT": 6
+      },
+      "outcome": "failed_ignition",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    }
+  ]
+}

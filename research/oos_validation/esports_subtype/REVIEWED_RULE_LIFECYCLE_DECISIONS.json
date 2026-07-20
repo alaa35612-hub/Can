@@ -1,0 +1,20 @@
+[
+  {
+    "rule_id": "ESPORTS_MATURE_DEEP_RESET_SUBTYPE",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_ESPORTS_SPECIFIC_HYPOTHESIS",
+    "basis": "External transfer evidence does not rewrite the original frozen ESPORTS campaigns."
+  },
+  {
+    "rule_id": "MATURE_DEEP_RESET_CONTEXT_CROSS_SYMBOL_SUFFICIENCY",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "REJECT",
+    "basis": "At least one evaluable external campaign satisfied the full context and still failed structural acceptance."
+  },
+  {
+    "rule_id": "MATURE_DEEP_RESET_CONTEXT_CROSS_SYMBOL_NECESSITY",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "REJECT",
+    "basis": "At least one evaluable external campaign achieved accepted expansion without the full context."
+  }
+]

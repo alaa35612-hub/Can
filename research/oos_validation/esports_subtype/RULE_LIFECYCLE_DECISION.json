@@ -1,0 +1,14 @@
+[
+  {
+    "rule_id": "ESPORTS_MATURE_DEEP_RESET_SUBTYPE",
+    "status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_ESPORTS_SPECIFIC_HYPOTHESIS",
+    "reason": "External transfer testing does not rewrite the original ESPORTS campaign evidence."
+  },
+  {
+    "rule_id": "MATURE_DEEP_RESET_CONTEXT_TRANSFER",
+    "status": "RESEARCH_HYPOTHESIS",
+    "decision": "REJECT_TRANSFER_CLAIM",
+    "reason": "EXTERNAL_TRANSFER_CONTRADICTION"
+  }
+]

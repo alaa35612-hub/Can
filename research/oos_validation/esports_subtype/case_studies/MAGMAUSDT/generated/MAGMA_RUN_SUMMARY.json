@@ -1,0 +1,14 @@
+{
+  "symbol": "MAGMAUSDT",
+  "sources": 6,
+  "causal_rows": 1009,
+  "segments": 2,
+  "transitions": 12,
+  "controls": 5,
+  "source_conflicts": 2,
+  "review": {
+    "PASS": 3,
+    "RESTRICT": 0,
+    "REJECT": 9
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "selection_frozen_before_outcomes": true,
+  "eligibility_rule": {
+    "minimum_15m_files": 2,
+    "minimum_higher_timeframe_types": 2,
+    "require_all_files_high_quality": true,
+    "excluded_derivation_symbols": [
+      "AKEUSDT",
+      "BANKUSDT",
+      "ESPORTSUSDT",
+      "LYNUSDT"
+    ]
+  },
+  "symbols": [
+    "MAGMAUSDT",
+    "TLMUSDT",
+    "VELVETUSDT"
+  ]
+}

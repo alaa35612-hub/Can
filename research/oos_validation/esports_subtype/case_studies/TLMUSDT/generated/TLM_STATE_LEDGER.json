@@ -1,0 +1,2356 @@
+[
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0000-S1",
+    "timestamp": 1783123200000,
+    "time": "2026-07-04T00:00:00+00:00",
+    "from_state": "LATENT",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783119600000,
+      "4h": 1783108800000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0000-S1",
+    "timestamp": 1783124100000,
+    "time": "2026-07-04T00:15:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783119600000,
+      "4h": 1783108800000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0000-S1",
+    "timestamp": 1783125000000,
+    "time": "2026-07-04T00:30:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "oi_contraction",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition persisted after ignition proposal"
+    ],
+    "supporting_score": 0,
+    "opposing_score": 3,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783119600000,
+      "4h": 1783108800000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0145-S1",
+    "timestamp": 1783129500000,
+    "time": "2026-07-04T01:45:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783126800000,
+      "4h": 1783108800000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0145-S1",
+    "timestamp": 1783130400000,
+    "time": "2026-07-04T02:00:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783126800000,
+      "4h": 1783108800000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0145-S1",
+    "timestamp": 1783141200000,
+    "time": "2026-07-04T05:00:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783137600000,
+      "4h": 1783123200000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0145-S1",
+    "timestamp": 1783142100000,
+    "time": "2026-07-04T05:15:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "opposition persisted after ignition proposal"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783137600000,
+      "4h": 1783123200000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0730-S1",
+    "timestamp": 1783150200000,
+    "time": "2026-07-04T07:30:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783144800000,
+      "4h": 1783123200000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0730-S1",
+    "timestamp": 1783151100000,
+    "time": "2026-07-04T07:45:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783148400000,
+      "4h": 1783137600000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0730-S1",
+    "timestamp": 1783157400000,
+    "time": "2026-07-04T09:30:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783152000000,
+      "4h": 1783137600000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0730-S1",
+    "timestamp": 1783158300000,
+    "time": "2026-07-04T09:45:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783155600000,
+      "4h": 1783137600000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0730-S1",
+    "timestamp": 1783163700000,
+    "time": "2026-07-04T11:15:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783159200000,
+      "4h": 1783137600000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 1,
+    "campaign_id": "TLMUSDT-15m-20260704-0730-S1",
+    "timestamp": 1783165500000,
+    "time": "2026-07-04T11:45:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1783162800000,
+      "4h": 1783152000000,
+      "1d": 1783036800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": null,
+    "timestamp": 1784031300000,
+    "time": "2026-07-14T12:15:00+00:00",
+    "from_state": "UNOBSERVED_GAP",
+    "to_state": "RESET",
+    "facts_added": [
+      "data_gap_campaign_boundary"
+    ],
+    "rationale": [
+      "continuity cannot be verified across missing primary observations"
+    ],
+    "supporting_score": 0,
+    "opposing_score": 0,
+    "dominant_hypothesis": "New campaign must be reconstructed independently",
+    "alternative_hypotheses": [
+      "Continuation remains unverified"
+    ],
+    "higher_timeframes_visible": {},
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-1315-S2",
+    "timestamp": 1784034900000,
+    "time": "2026-07-14T13:15:00+00:00",
+    "from_state": "LATENT",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784030400000,
+      "4h": 1784016000000,
+      "1d": 1783900800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-1315-S2",
+    "timestamp": 1784043000000,
+    "time": "2026-07-14T15:30:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784037600000,
+      "4h": 1784016000000,
+      "1d": 1783900800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-1315-S2",
+    "timestamp": 1784044800000,
+    "time": "2026-07-14T16:00:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784041200000,
+      "4h": 1784030400000,
+      "1d": 1783900800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-1315-S2",
+    "timestamp": 1784045700000,
+    "time": "2026-07-14T16:15:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784041200000,
+      "4h": 1784030400000,
+      "1d": 1783900800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-1315-S2",
+    "timestamp": 1784047500000,
+    "time": "2026-07-14T16:45:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784044800000,
+      "4h": 1784030400000,
+      "1d": 1783900800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-1315-S2",
+    "timestamp": 1784048400000,
+    "time": "2026-07-14T17:00:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784044800000,
+      "4h": 1784030400000,
+      "1d": 1783900800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-1315-S2",
+    "timestamp": 1784062800000,
+    "time": "2026-07-14T21:00:00+00:00",
+    "from_state": "CONTINUATION_RELOAD",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784059200000,
+      "4h": 1784044800000,
+      "1d": 1783900800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-2130-S2",
+    "timestamp": 1784064600000,
+    "time": "2026-07-14T21:30:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "oi_expansion",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784059200000,
+      "4h": 1784044800000,
+      "1d": 1783900800000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-2130-S2",
+    "timestamp": 1784089800000,
+    "time": "2026-07-15T04:30:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784084400000,
+      "4h": 1784073600000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-2130-S2",
+    "timestamp": 1784094300000,
+    "time": "2026-07-15T05:45:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784091600000,
+      "4h": 1784073600000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-2130-S2",
+    "timestamp": 1784095200000,
+    "time": "2026-07-15T06:00:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784091600000,
+      "4h": 1784073600000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-2130-S2",
+    "timestamp": 1784096100000,
+    "time": "2026-07-15T06:15:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784091600000,
+      "4h": 1784073600000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-2130-S2",
+    "timestamp": 1784097000000,
+    "time": "2026-07-15T06:30:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784091600000,
+      "4h": 1784073600000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260714-2130-S2",
+    "timestamp": 1784097900000,
+    "time": "2026-07-15T06:45:00+00:00",
+    "from_state": "CONTINUATION_RELOAD",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784095200000,
+      "4h": 1784073600000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-0700-S2",
+    "timestamp": 1784098800000,
+    "time": "2026-07-15T07:00:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784095200000,
+      "4h": 1784073600000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-0700-S2",
+    "timestamp": 1784099700000,
+    "time": "2026-07-15T07:15:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784095200000,
+      "4h": 1784073600000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-0700-S2",
+    "timestamp": 1784113200000,
+    "time": "2026-07-15T11:00:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784109600000,
+      "4h": 1784088000000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-0700-S2",
+    "timestamp": 1784114100000,
+    "time": "2026-07-15T11:15:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784109600000,
+      "4h": 1784088000000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-0700-S2",
+    "timestamp": 1784115000000,
+    "time": "2026-07-15T11:30:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "COOLING",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition increased after acceptance"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Cooling versus distribution",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784109600000,
+      "4h": 1784088000000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-0700-S2",
+    "timestamp": 1784128500000,
+    "time": "2026-07-15T15:15:00+00:00",
+    "from_state": "COOLING",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 3,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784124000000,
+      "4h": 1784102400000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-1530-S2",
+    "timestamp": 1784129400000,
+    "time": "2026-07-15T15:30:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784124000000,
+      "4h": 1784102400000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-1530-S2",
+    "timestamp": 1784133900000,
+    "time": "2026-07-15T16:45:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784131200000,
+      "4h": 1784116800000,
+      "1d": 1783987200000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-1530-S2",
+    "timestamp": 1784177100000,
+    "time": "2026-07-16T04:45:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784174400000,
+      "4h": 1784160000000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-1530-S2",
+    "timestamp": 1784178000000,
+    "time": "2026-07-16T05:00:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784174400000,
+      "4h": 1784160000000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-1530-S2",
+    "timestamp": 1784184300000,
+    "time": "2026-07-16T06:45:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784181600000,
+      "4h": 1784160000000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-1530-S2",
+    "timestamp": 1784185200000,
+    "time": "2026-07-16T07:00:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784181600000,
+      "4h": 1784160000000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260715-1530-S2",
+    "timestamp": 1784187000000,
+    "time": "2026-07-16T07:30:00+00:00",
+    "from_state": "CONTINUATION_RELOAD",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784181600000,
+      "4h": 1784160000000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-0915-S2",
+    "timestamp": 1784193300000,
+    "time": "2026-07-16T09:15:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784188800000,
+      "4h": 1784174400000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-0915-S2",
+    "timestamp": 1784194200000,
+    "time": "2026-07-16T09:30:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784188800000,
+      "4h": 1784174400000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-0915-S2",
+    "timestamp": 1784214900000,
+    "time": "2026-07-16T15:15:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784210400000,
+      "4h": 1784188800000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-0915-S2",
+    "timestamp": 1784215800000,
+    "time": "2026-07-16T15:30:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition persisted after ignition proposal"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784210400000,
+      "4h": 1784188800000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-1645-S2",
+    "timestamp": 1784220300000,
+    "time": "2026-07-16T16:45:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784217600000,
+      "4h": 1784203200000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-1645-S2",
+    "timestamp": 1784221200000,
+    "time": "2026-07-16T17:00:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "oi_contraction",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784217600000,
+      "4h": 1784203200000,
+      "1d": 1784073600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-1645-S2",
+    "timestamp": 1784246400000,
+    "time": "2026-07-17T00:00:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784242800000,
+      "4h": 1784232000000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-1645-S2",
+    "timestamp": 1784247300000,
+    "time": "2026-07-17T00:15:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784242800000,
+      "4h": 1784232000000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-1645-S2",
+    "timestamp": 1784248200000,
+    "time": "2026-07-17T00:30:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784242800000,
+      "4h": 1784232000000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-1645-S2",
+    "timestamp": 1784249100000,
+    "time": "2026-07-17T00:45:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784246400000,
+      "4h": 1784232000000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260716-1645-S2",
+    "timestamp": 1784251800000,
+    "time": "2026-07-17T01:30:00+00:00",
+    "from_state": "CONTINUATION_RELOAD",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784246400000,
+      "4h": 1784232000000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-0200-S2",
+    "timestamp": 1784253600000,
+    "time": "2026-07-17T02:00:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784250000000,
+      "4h": 1784232000000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-0200-S2",
+    "timestamp": 1784268000000,
+    "time": "2026-07-17T06:00:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784264400000,
+      "4h": 1784246400000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-0200-S2",
+    "timestamp": 1784277000000,
+    "time": "2026-07-17T08:30:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784271600000,
+      "4h": 1784260800000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-0200-S2",
+    "timestamp": 1784277900000,
+    "time": "2026-07-17T08:45:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784275200000,
+      "4h": 1784260800000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-0200-S2",
+    "timestamp": 1784280600000,
+    "time": "2026-07-17T09:30:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "COOLING",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition increased after acceptance"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Cooling versus distribution",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784275200000,
+      "4h": 1784260800000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-0200-S2",
+    "timestamp": 1784294100000,
+    "time": "2026-07-17T13:15:00+00:00",
+    "from_state": "COOLING",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "fresh relative execution release"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784289600000,
+      "4h": 1784275200000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-0200-S2",
+    "timestamp": 1784306700000,
+    "time": "2026-07-17T16:45:00+00:00",
+    "from_state": "CONTINUATION_RELOAD",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784304000000,
+      "4h": 1784289600000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-2215-S2",
+    "timestamp": 1784326500000,
+    "time": "2026-07-17T22:15:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784322000000,
+      "4h": 1784304000000,
+      "1d": 1784160000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-2215-S2",
+    "timestamp": 1784334600000,
+    "time": "2026-07-18T00:30:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784329200000,
+      "4h": 1784318400000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-2215-S2",
+    "timestamp": 1784362500000,
+    "time": "2026-07-18T08:15:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784358000000,
+      "4h": 1784347200000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-2215-S2",
+    "timestamp": 1784363400000,
+    "time": "2026-07-18T08:30:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 1,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784358000000,
+      "4h": 1784347200000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-2215-S2",
+    "timestamp": 1784364300000,
+    "time": "2026-07-18T08:45:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "COOLING",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition increased after acceptance"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Cooling versus distribution",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784361600000,
+      "4h": 1784347200000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260717-2215-S2",
+    "timestamp": 1784365200000,
+    "time": "2026-07-18T09:00:00+00:00",
+    "from_state": "COOLING",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784361600000,
+      "4h": 1784347200000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-0915-S2",
+    "timestamp": 1784366100000,
+    "time": "2026-07-18T09:15:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784361600000,
+      "4h": 1784347200000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-0915-S2",
+    "timestamp": 1784367000000,
+    "time": "2026-07-18T09:30:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784361600000,
+      "4h": 1784347200000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-0915-S2",
+    "timestamp": 1784372400000,
+    "time": "2026-07-18T11:00:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784368800000,
+      "4h": 1784347200000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-0915-S2",
+    "timestamp": 1784374200000,
+    "time": "2026-07-18T11:30:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "opposition persisted after ignition proposal"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784368800000,
+      "4h": 1784347200000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-1200-S2",
+    "timestamp": 1784376000000,
+    "time": "2026-07-18T12:00:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784372400000,
+      "4h": 1784361600000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-1200-S2",
+    "timestamp": 1784376900000,
+    "time": "2026-07-18T12:15:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784372400000,
+      "4h": 1784361600000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-1200-S2",
+    "timestamp": 1784403000000,
+    "time": "2026-07-18T19:30:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_opposition"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784397600000,
+      "4h": 1784376000000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-1200-S2",
+    "timestamp": 1784403900000,
+    "time": "2026-07-18T19:45:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784401200000,
+      "4h": 1784390400000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-1200-S2",
+    "timestamp": 1784404800000,
+    "time": "2026-07-18T20:00:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784401200000,
+      "4h": 1784390400000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "TLMUSDT",
+    "segment_id": 2,
+    "campaign_id": "TLMUSDT-15m-20260718-1200-S2",
+    "timestamp": 1784405700000,
+    "time": "2026-07-18T20:15:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1784401200000,
+      "4h": 1784390400000,
+      "1d": 1784246400000
+    },
+    "cutoff_frozen": true
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "symbol": "VELVETUSDT",
+  "sources": 7,
+  "causal_rows": 518,
+  "segments": 2,
+  "transitions": 16,
+  "controls": 5,
+  "source_conflicts": 99,
+  "review": {
+    "PASS": 8,
+    "RESTRICT": 1,
+    "REJECT": 7
+  }
+}

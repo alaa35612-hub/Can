@@ -1,0 +1,495 @@
+[
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 1,
+    "campaign_id": "VELVETUSDT-15m-20260626-0145-S1",
+    "timestamp": 1782438300000,
+    "time": "2026-06-26T01:45:00+00:00",
+    "from_state": "LATENT",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "oi_expansion",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782435600000,
+      "4h": 1782417600000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 1,
+    "campaign_id": "VELVETUSDT-15m-20260626-0145-S1",
+    "timestamp": 1782439200000,
+    "time": "2026-06-26T02:00:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "oi_expansion",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782435600000,
+      "4h": 1782417600000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 1,
+    "campaign_id": "VELVETUSDT-15m-20260626-0145-S1",
+    "timestamp": 1782475200000,
+    "time": "2026-06-26T12:00:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782471600000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 1,
+    "campaign_id": "VELVETUSDT-15m-20260626-0145-S1",
+    "timestamp": 1782476100000,
+    "time": "2026-06-26T12:15:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782471600000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 1,
+    "campaign_id": "VELVETUSDT-15m-20260626-0145-S1",
+    "timestamp": 1782477000000,
+    "time": "2026-06-26T12:30:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782471600000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 1,
+    "campaign_id": "VELVETUSDT-15m-20260626-0145-S1",
+    "timestamp": 1782477900000,
+    "time": "2026-06-26T12:45:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_shock",
+      "oi_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 4,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782475200000,
+      "4h": 1782460800000,
+      "1d": 1782345600000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": null,
+    "timestamp": 1782933300000,
+    "time": "2026-07-01T19:15:00+00:00",
+    "from_state": "UNOBSERVED_GAP",
+    "to_state": "RESET",
+    "facts_added": [
+      "data_gap_campaign_boundary"
+    ],
+    "rationale": [
+      "continuity cannot be verified across missing primary observations"
+    ],
+    "supporting_score": 0,
+    "opposing_score": 0,
+    "dominant_hypothesis": "New campaign must be reconstructed independently",
+    "alternative_hypotheses": [
+      "Continuation remains unverified"
+    ],
+    "higher_timeframes_visible": {},
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": "VELVETUSDT-15m-20260701-2200-S2",
+    "timestamp": 1782943200000,
+    "time": "2026-07-01T22:00:00+00:00",
+    "from_state": "LATENT",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782572400000,
+      "4h": 1782561600000,
+      "1d": 1782432000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": "VELVETUSDT-15m-20260701-2200-S2",
+    "timestamp": 1782944100000,
+    "time": "2026-07-01T22:15:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782572400000,
+      "4h": 1782561600000,
+      "1d": 1782432000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": "VELVETUSDT-15m-20260701-2200-S2",
+    "timestamp": 1782945000000,
+    "time": "2026-07-01T22:30:00+00:00",
+    "from_state": "CONFIRMED_BUILD",
+    "to_state": "IGNITION_CANDIDATE",
+    "facts_added": [
+      "execution_shock",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative execution extreme aligned with positive release"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Execution-led ignition",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782572400000,
+      "4h": 1782561600000,
+      "1d": 1782432000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": "VELVETUSDT-15m-20260701-2200-S2",
+    "timestamp": 1782947700000,
+    "time": "2026-07-01T23:15:00+00:00",
+    "from_state": "IGNITION_CANDIDATE",
+    "to_state": "ACCEPTED_IGNITION",
+    "facts_added": [
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "post-release retention without immediate OI collapse"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 0,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782572400000,
+      "4h": 1782561600000,
+      "1d": 1782432000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": "VELVETUSDT-15m-20260701-2200-S2",
+    "timestamp": 1782950400000,
+    "time": "2026-07-02T00:00:00+00:00",
+    "from_state": "ACCEPTED_IGNITION",
+    "to_state": "EXPANSION",
+    "facts_added": [
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "accepted structure received fresh independent support"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782572400000,
+      "4h": 1782561600000,
+      "1d": 1782432000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": "VELVETUSDT-15m-20260701-2200-S2",
+    "timestamp": 1782959400000,
+    "time": "2026-07-02T02:30:00+00:00",
+    "from_state": "EXPANSION",
+    "to_state": "CONTINUATION_RELOAD",
+    "facts_added": [
+      "execution_expansion",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "execution persisted without fuel collapse"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Accepted expansion/continuation",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782572400000,
+      "4h": 1782561600000,
+      "1d": 1782432000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": "VELVETUSDT-15m-20260701-2200-S2",
+    "timestamp": 1782978300000,
+    "time": "2026-07-02T07:45:00+00:00",
+    "from_state": "CONTINUATION_RELOAD",
+    "to_state": "FAILURE",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "negative_price_dislocation",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "opposition exceeded campaign tolerance"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 2,
+    "dominant_hypothesis": "Failed/exhausted campaign",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782572400000,
+      "4h": 1782561600000,
+      "1d": 1782432000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": "VELVETUSDT-15m-20260702-0900-S2",
+    "timestamp": 1782982800000,
+    "time": "2026-07-02T09:00:00+00:00",
+    "from_state": "FAILURE",
+    "to_state": "EARLY_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "positive_price_release",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "relative fuel/execution changed before or with price response"
+    ],
+    "supporting_score": 3,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782572400000,
+      "4h": 1782561600000,
+      "1d": 1782432000000
+    },
+    "cutoff_frozen": true
+  },
+  {
+    "symbol": "VELVETUSDT",
+    "segment_id": 2,
+    "campaign_id": "VELVETUSDT-15m-20260702-0900-S2",
+    "timestamp": 1782983700000,
+    "time": "2026-07-02T09:15:00+00:00",
+    "from_state": "EARLY_BUILD",
+    "to_state": "CONFIRMED_BUILD",
+    "facts_added": [
+      "execution_expansion",
+      "oi_contraction",
+      "higher_timeframe_support"
+    ],
+    "rationale": [
+      "support persisted across successive observations"
+    ],
+    "supporting_score": 2,
+    "opposing_score": 1,
+    "dominant_hypothesis": "Quiet build",
+    "alternative_hypotheses": [
+      "Short-covering only",
+      "Transient event spike",
+      "New unidentified structure"
+    ],
+    "higher_timeframes_visible": {
+      "1h": 1782572400000,
+      "4h": 1782561600000,
+      "1d": 1782432000000
+    },
+    "cutoff_frozen": true
+  }
+]

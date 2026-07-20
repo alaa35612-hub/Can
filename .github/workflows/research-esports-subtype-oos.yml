@@ -1,0 +1,91 @@
+name: Research ESPORTS Subtype OOS
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'research/tools/oos_validate_esports_subtype.py'
+      - 'research/tools/review_esports_subtype_oos.py'
+      - 'research/tools/tests/test_oos_validate_esports_subtype.py'
+      - 'research/tools/tests/test_review_esports_subtype_oos.py'
+      - 'research/tools/build_symbol_campaign.py'
+      - 'research/tools/build_symbol_profiles.py'
+      - 'research/tools/run_campaign_outcome_audit.py'
+      - 'research/tools/audit_campaign_outcomes.py'
+      - 'research/inventory/generated/SYMBOL_FILE_MAP.csv'
+      - '.github/workflows/research-esports-subtype-oos.yml'
+      - '*_enriched_candles.csv'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  frozen-oos-transfer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run OOS validator tests
+        run: |
+          python -m unittest research/tools/tests/test_oos_validate_esports_subtype.py -v
+          python -m unittest research/tools/tests/test_review_esports_subtype_oos.py -v
+
+      - name: Reconstruct frozen OOS cohort campaigns
+        run: >-
+          python research/tools/build_symbol_campaign.py
+          --root .
+          --output-root research/oos_validation/esports_subtype/case_studies
+          --symbols MAGMAUSDT TLMUSDT VELVETUSDT
+
+      - name: Build symbol-specific OOS profiles
+        run: >-
+          python research/tools/build_symbol_profiles.py
+          --case-root research/oos_validation/esports_subtype/case_studies
+          --output-root research/oos_validation/esports_subtype/symbol_profiles
+          --symbols MAGMAUSDT TLMUSDT VELVETUSDT
+
+      - name: Attach frozen-cutoff forward outcomes
+        run: >-
+          python research/tools/run_campaign_outcome_audit.py
+          --case-root research/oos_validation/esports_subtype/case_studies
+          --profile-root research/oos_validation/esports_subtype/symbol_profiles
+          --output-root research/oos_validation/esports_subtype/outcome_audits
+          --symbols MAGMAUSDT TLMUSDT VELVETUSDT
+
+      - name: Validate frozen ESPORTS subtype transfer
+        run: >-
+          python research/tools/oos_validate_esports_subtype.py
+          --symbol-map research/inventory/generated/SYMBOL_FILE_MAP.csv
+          --case-root research/oos_validation/esports_subtype/case_studies
+          --profile-root research/oos_validation/esports_subtype/symbol_profiles
+          --outcome-root research/oos_validation/esports_subtype/outcome_audits
+          --output-root research/oos_validation/esports_subtype
+          --expected-symbols MAGMAUSDT TLMUSDT VELVETUSDT
+
+      - name: Adversarial campaign-unit review
+        run: >-
+          python research/tools/review_esports_subtype_oos.py
+          --output-root research/oos_validation/esports_subtype
+
+      - name: Commit generated OOS outputs
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- research/oos_validation/esports_subtype)" ]; then
+            echo 'Frozen OOS outputs are unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/oos_validation/esports_subtype
+          git commit -m 'research: generate frozen ESPORTS subtype OOS outputs [skip ci]'
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
