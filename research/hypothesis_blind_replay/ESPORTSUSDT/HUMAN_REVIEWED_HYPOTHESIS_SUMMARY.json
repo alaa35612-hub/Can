@@ -1,0 +1,48 @@
+{
+  "campaign_status_counts": {
+    "ABSTAIN_INSUFFICIENT_PRIOR_HISTORY": 3,
+    "DEEP_RESET_WITHOUT_LONG_REBUILD": 1,
+    "FULL_HYPOTHESIS_CONTEXT": 2,
+    "HYPOTHESIS_CONTEXT_NOT_SUPPORTED": 1,
+    "PARTIAL_HYPOTHESIS_CONTEXT": 1
+  },
+  "campaigns_evaluable": 5,
+  "current_status": "RESEARCH_HYPOTHESIS",
+  "decision_reason": "Two accepted campaigns satisfy the full conjunction while no assessed failure or rejected campaign does. Another accepted campaign succeeds without a long rebuild, so the context is a possible subtype and not a necessary condition.",
+  "failure_campaign_indices": [
+    4,
+    5
+  ],
+  "full_context_failure_campaign_indices": [],
+  "full_context_success_campaign_indices": [
+    6,
+    8
+  ],
+  "hypothesis_statement": "A mature ESPORTS cycle with a longer-than-prior build and jointly deeper observed price/OI reset may define a successful expansion subtype.",
+  "lifecycle_decision": "RESTRICT",
+  "method_corrections": [
+    "Campaigns, not rejected transition anchors, are the independent comparison unit.",
+    "Only FULL_HYPOTHESIS_CONTEXT satisfies the frozen joint hypothesis; partial context is recorded but not counted as fulfillment.",
+    "Multiple rejected transitions inside one campaign do not create multiple independent negative cases.",
+    "Outcome remains downstream of the frozen assessment and never rewrites historical validity."
+  ],
+  "raw_anchor_level_result": "INCONCLUSIVE_DIRECTIONAL_EVIDENCE",
+  "rejected_anchor_count": 15,
+  "rejected_evaluable_campaign_count": 2,
+  "rejected_full_context_campaign_indices": [],
+  "rejected_status_counts": {
+    "ABSTAIN_INSUFFICIENT_PRIOR_HISTORY": 2,
+    "HYPOTHESIS_CONTEXT_NOT_SUPPORTED": 1,
+    "PARTIAL_HYPOTHESIS_CONTEXT": 1
+  },
+  "restricted_rule_id": "ESPORTS_MATURE_DEEP_RESET_SUBTYPE",
+  "review_unit": "CAMPAIGN",
+  "reviewed_result": "DIRECTIONAL_FULL_CONTEXT_SUBTYPE_SUPPORT",
+  "rule_id": "ESPORTS_DEEP_RESET_CYCLE_CONTEXT",
+  "success_campaign_indices": [
+    6,
+    7,
+    8
+  ],
+  "symbol": "ESPORTSUSDT"
+}
