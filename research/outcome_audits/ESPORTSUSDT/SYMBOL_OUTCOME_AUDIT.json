@@ -25,7 +25,10 @@
     "EXPANSION": 28
   },
   "path_class_counts_all_horizons": {
-    "INSUFFICIENT_MATCHED_CONTROLS": 189,
+    "MATCHED_CONTROL_LIKE": 113,
+    "NEGATIVE_PATH_OUTLIER": 34,
+    "POSITIVE_PATH_OUTLIER": 37,
+    "TWO_SIDED_VOLATILITY_OUTLIER": 5,
     "INCOMPLETE_FORWARD_COVERAGE": 21
   },
   "stage_summaries_at_longest_horizon": {
@@ -37,7 +40,8 @@
       "median_mfe_close_pct": 4.920405209840806,
       "median_mae_close_pct": -1.3212795549374157,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 7,
+        "MATCHED_CONTROL_LIKE": 6,
+        "POSITIVE_PATH_OUTLIER": 1,
         "INCOMPLETE_FORWARD_COVERAGE": 1
       }
     },
@@ -49,7 +53,8 @@
       "median_mfe_close_pct": 5.238095238095242,
       "median_mae_close_pct": -1.5950069348127704,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 5,
+        "MATCHED_CONTROL_LIKE": 4,
+        "POSITIVE_PATH_OUTLIER": 1,
         "INCOMPLETE_FORWARD_COVERAGE": 1
       }
     },
@@ -61,7 +66,8 @@
       "median_mfe_close_pct": 4.253835425383534,
       "median_mae_close_pct": -2.0408163265306034,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 7,
+        "MATCHED_CONTROL_LIKE": 6,
+        "NEGATIVE_PATH_OUTLIER": 1,
         "INCOMPLETE_FORWARD_COVERAGE": 1
       }
     },
@@ -73,7 +79,8 @@
       "median_mfe_close_pct": 35.39486203615603,
       "median_mae_close_pct": -4.689655172413798,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 3,
+        "NEGATIVE_PATH_OUTLIER": 1,
+        "MATCHED_CONTROL_LIKE": 2,
         "INCOMPLETE_FORWARD_COVERAGE": 1
       }
     },
@@ -85,7 +92,7 @@
       "median_mfe_close_pct": 31.15207373271889,
       "median_mae_close_pct": -6.649234217407551,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 3,
+        "MATCHED_CONTROL_LIKE": 3,
         "INCOMPLETE_FORWARD_COVERAGE": 1
       }
     }
@@ -93,9 +100,9 @@
   "method_constraints": [
     "Original state decisions remain frozen; future paths are attached only after reconstruction.",
     "Metrics use 15m close paths because reconstructed timelines do not retain intrabar highs and lows.",
-    "Controls are matched within the same symbol from causal LATENT/FAILURE/RESET/COOLING cutoffs.",
+    "Controls prefer causal inactive states; quiet non-transition controls are an explicit fallback.",
     "Path classes are descriptive relative to matched controls, not trade labels.",
     "Incomplete forward coverage remains explicit."
   ],
-  "control_definition": "Same-symbol context matches selected only from causal LATENT/FAILURE/RESET/COOLING cutoffs using information available at each control cutoff."
+  "control_definition": "Same-symbol context matches prefer causal LATENT/FAILURE/RESET/COOLING cutoffs; quiet non-transition cutoffs are used only as an explicit fallback."
 }

@@ -24,7 +24,10 @@
     "EXPANSION": 12
   },
   "path_class_counts_all_horizons": {
-    "INSUFFICIENT_MATCHED_CONTROLS": 111,
+    "MATCHED_CONTROL_LIKE": 64,
+    "NEGATIVE_PATH_OUTLIER": 13,
+    "POSITIVE_PATH_OUTLIER": 32,
+    "TWO_SIDED_VOLATILITY_OUTLIER": 2,
     "INCOMPLETE_FORWARD_COVERAGE": 3
   },
   "stage_summaries_at_longest_horizon": {
@@ -36,7 +39,9 @@
       "median_mfe_close_pct": 1.8783291281188497,
       "median_mae_close_pct": -0.05606952621249883,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 5
+        "MATCHED_CONTROL_LIKE": 2,
+        "POSITIVE_PATH_OUTLIER": 2,
+        "NEGATIVE_PATH_OUTLIER": 1
       }
     },
     "CONFIRMED_BUILD": {
@@ -47,7 +52,8 @@
       "median_mfe_close_pct": 2.187500000000009,
       "median_mae_close_pct": 0.029351335485761076,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 5
+        "MATCHED_CONTROL_LIKE": 2,
+        "POSITIVE_PATH_OUTLIER": 3
       }
     },
     "IGNITION_CANDIDATE": {
@@ -58,7 +64,8 @@
       "median_mfe_close_pct": 1.3437849944009095,
       "median_mae_close_pct": -1.7077267637177984,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 5
+        "POSITIVE_PATH_OUTLIER": 1,
+        "MATCHED_CONTROL_LIKE": 4
       }
     },
     "ACCEPTED_IGNITION": {
@@ -69,7 +76,8 @@
       "median_mfe_close_pct": 1.7668559362504666,
       "median_mae_close_pct": -1.238280561813021,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 2
+        "POSITIVE_PATH_OUTLIER": 1,
+        "MATCHED_CONTROL_LIKE": 1
       }
     },
     "EXPANSION": {
@@ -80,16 +88,16 @@
       "median_mfe_close_pct": 1.8076980069910986,
       "median_mae_close_pct": -0.805637730410097,
       "path_class_counts": {
-        "INSUFFICIENT_MATCHED_CONTROLS": 2
+        "MATCHED_CONTROL_LIKE": 2
       }
     }
   },
   "method_constraints": [
     "Original state decisions remain frozen; future paths are attached only after reconstruction.",
     "Metrics use 15m close paths because reconstructed timelines do not retain intrabar highs and lows.",
-    "Controls are matched within the same symbol from causal LATENT/FAILURE/RESET/COOLING cutoffs.",
+    "Controls prefer causal inactive states; quiet non-transition controls are an explicit fallback.",
     "Path classes are descriptive relative to matched controls, not trade labels.",
     "Incomplete forward coverage remains explicit."
   ],
-  "control_definition": "Same-symbol context matches selected only from causal LATENT/FAILURE/RESET/COOLING cutoffs using information available at each control cutoff."
+  "control_definition": "Same-symbol context matches prefer causal LATENT/FAILURE/RESET/COOLING cutoffs; quiet non-transition cutoffs are used only as an explicit fallback."
 }
