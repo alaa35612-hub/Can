@@ -1,12 +1,12 @@
 # Data Quality Report
 
-Generated: 2026-07-20 19:48:12 UTC
+Generated: 2026-07-20 20:01:56 UTC
 
 ## Corpus counts
 
 | Measure | Count |
 |---|---|
-| Repository files audited | 692 |
+| Repository files audited | 695 |
 | Market files parsed | 214 |
 | Unique market symbols | 75 |
 | CSV/JSONL twin pairs | 48 |
