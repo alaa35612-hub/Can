@@ -1,0 +1,332 @@
+{
+  "symbol": "ESPORTSUSDT",
+  "data_scope": {
+    "symbol": "ESPORTSUSDT",
+    "sources": 6,
+    "causal_rows": 1804,
+    "segments": 1,
+    "transitions": 52,
+    "controls": 5,
+    "source_conflicts": 0,
+    "review": {
+      "PASS": 32,
+      "RESTRICT": 5,
+      "REJECT": 15
+    }
+  },
+  "timeframe_profiles": {
+    "4h": {
+      "rows": 179,
+      "start": "2026-06-18T20:00:00+00:00",
+      "end": "2026-07-18T12:00:00+00:00",
+      "trades_p50": 54436.0,
+      "trades_p90": 447079.6000000001,
+      "quote_volume_p50": 2863027.34294,
+      "quote_volume_p90": 29479106.78073001,
+      "oi_p50": 414921246.0,
+      "abs_return_p50": 2.1883548261039554,
+      "abs_return_p90": 10.507139550617827
+    },
+    "1d": {
+      "rows": 29,
+      "start": "2026-06-19T00:00:00+00:00",
+      "end": "2026-07-17T00:00:00+00:00",
+      "trades_p50": 327117.0,
+      "trades_p90": 2133453.3999999994,
+      "quote_volume_p50": 19052074.90695,
+      "quote_volume_p90": 133500390.53132597,
+      "oi_p50": 419656822.0,
+      "abs_return_p50": 6.653620352250488,
+      "abs_return_p90": 29.446846745117504
+    },
+    "1h": {
+      "rows": 499,
+      "start": "2026-06-27T23:00:00+00:00",
+      "end": "2026-07-18T17:00:00+00:00",
+      "trades_p50": 9175.0,
+      "trades_p90": 101097.99999999994,
+      "quote_volume_p50": 403218.81848,
+      "quote_volume_p90": 7132941.214314,
+      "oi_p50": 407378778.0,
+      "abs_return_p50": 0.9784735812133127,
+      "abs_return_p90": 4.095680007031511
+    },
+    "5m": {
+      "rows": 598,
+      "start": "2026-07-09T05:50:00+00:00",
+      "end": "2026-07-18T18:20:00+00:00",
+      "trades_p50": 9109.0,
+      "trades_p90": 22727.600000000017,
+      "quote_volume_p50": 662198.068285,
+      "quote_volume_p90": 1695679.466373,
+      "oi_p50": 445259381.5,
+      "abs_return_p50": 0.9369876363285123,
+      "abs_return_p90": 3.3483861520314733
+    },
+    "15m": {
+      "rows": 499,
+      "start": "2026-07-13T13:30:00+00:00",
+      "end": "2026-07-18T18:00:00+00:00",
+      "trades_p50": 4093.0,
+      "trades_p90": 50158.59999999999,
+      "quote_volume_p50": 225929.9526,
+      "quote_volume_p90": 4138732.5459179995,
+      "oi_p50": 442453485.0,
+      "abs_return_p50": 0.9009009009009139,
+      "abs_return_p90": 4.076963412027125
+    }
+  },
+  "source_conflicts": 0,
+  "execution_to_price_lag_minutes": {
+    "median": 30.0,
+    "p90": 90.0,
+    "observations": 161
+  },
+  "campaign_outcome_counts": {
+    "failed_ignition": 4,
+    "accepted_expansion": 4
+  },
+  "false_ignition_rate": 0.5,
+  "reliable_timeframes": [
+    "5m",
+    "15m",
+    "1h",
+    "4h"
+  ],
+  "limited_timeframes": [
+    "1d"
+  ],
+  "structural_notes": [
+    "No material overlap conflicts in the selected source set.",
+    "Ignition attempts can fail before acceptance; rejection chains are symbol-relevant.",
+    "Multiple accepted campaigns occur; do not compress history into one campaign."
+  ],
+  "unknowns": [
+    "Daily regime maturity is insufficient for durable long-horizon claims.",
+    "Observed campaign taxonomy is provisional and may miss symbol-specific unknown structures."
+  ],
+  "campaigns": [
+    {
+      "campaign_index": 1,
+      "start": "2026-07-13T19:45:00+00:00",
+      "end": "2026-07-14T05:15:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "IGNITION_CANDIDATE"
+      ],
+      "review_counts": {
+        "PASS": 2,
+        "REJECT": 4
+      },
+      "outcome": "failed_ignition",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Cooling versus distribution",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 2,
+      "start": "2026-07-14T09:00:00+00:00",
+      "end": "2026-07-14T17:15:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE",
+        "ACCEPTED_IGNITION",
+        "EXPANSION",
+        "CONTINUATION_RELOAD",
+        "FAILURE"
+      ],
+      "review_counts": {
+        "RESTRICT": 1,
+        "PASS": 6
+      },
+      "outcome": "accepted_expansion",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 3,
+      "start": "2026-07-14T19:15:00+00:00",
+      "end": "2026-07-14T22:30:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE"
+      ],
+      "review_counts": {
+        "PASS": 3,
+        "REJECT": 3
+      },
+      "outcome": "failed_ignition",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Cooling versus distribution",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 4,
+      "start": "2026-07-14T22:45:00+00:00",
+      "end": "2026-07-15T11:45:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE"
+      ],
+      "review_counts": {
+        "RESTRICT": 1,
+        "PASS": 2,
+        "REJECT": 4
+      },
+      "outcome": "failed_ignition",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 5,
+      "start": "2026-07-15T15:00:00+00:00",
+      "end": "2026-07-16T06:15:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE"
+      ],
+      "review_counts": {
+        "RESTRICT": 2,
+        "PASS": 1,
+        "REJECT": 4
+      },
+      "outcome": "failed_ignition",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 6,
+      "start": "2026-07-16T06:30:00+00:00",
+      "end": "2026-07-17T16:15:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE",
+        "ACCEPTED_IGNITION",
+        "EXPANSION",
+        "CONTINUATION_RELOAD",
+        "FAILURE"
+      ],
+      "review_counts": {
+        "RESTRICT": 1,
+        "PASS": 6
+      },
+      "outcome": "accepted_expansion",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 7,
+      "start": "2026-07-17T17:45:00+00:00",
+      "end": "2026-07-18T06:15:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "IGNITION_CANDIDATE",
+        "ACCEPTED_IGNITION",
+        "EXPANSION",
+        "CONTINUATION_RELOAD",
+        "FAILURE"
+      ],
+      "review_counts": {
+        "PASS": 6
+      },
+      "outcome": "accepted_expansion",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 8,
+      "start": "2026-07-18T06:30:00+00:00",
+      "end": "2026-07-18T17:30:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE",
+        "ACCEPTED_IGNITION",
+        "EXPANSION",
+        "CONTINUATION_RELOAD"
+      ],
+      "review_counts": {
+        "PASS": 6
+      },
+      "outcome": "accepted_expansion",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    }
+  ]
+}
