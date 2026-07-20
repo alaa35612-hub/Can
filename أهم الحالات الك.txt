@@ -1,0 +1,459 @@
+﻿ أهم الحالات الكاملة المشابهة التي تدور حول العلاقة بين:
+ 
+Price
+ 
+OI
+ 
+LSR
+ 
+Trades
+ 
+Close Location / CloseLoc
+ 
+RSI
+ 
+وسأرتبها لك كـ قاموس عملي مختصر.
+ 
+ 
+1) Active Short-Pressure Absorption / Active SPT
+ 
+Price Up
+ 
+OI Up
+ 
+LSR Cooling
+ 
+Trades Expansion
+= Active Short-Pressure Absorption / Active SPT
+ 
+المعنى: السوق يرتفع مع دخول مراكز جديدة، بينما يبرد ازدحام الـ long، ومع توسع التنفيذات يظهر أن ضغط البيع يتم امتصاصه بدلًا من أن يكسر السعر.
+ 
+القراءة:
+ 
+استمرار صاعد محتمل
+ 
+buyers أقوى من ضغط البائعين
+ 
+جيد كإشارة continuation إذا استمر CloseLoc قوي
+ 
+ 
+2) RSI/OI Pre-Trade Momentum Build
+ 
+RSI Rising
+ 
+OI starts rising before Trades expansion
+ 
+LSR Cooling
+ 
+CloseLoc Strong
+ 
+Trades come later
+= RSI/OI Pre-Trade Momentum Build
+ 
+المعنى: بناء زخم مبكر قبل أن يلاحظ السوق الحركة بشكل واضح.
+ 
+القراءة:
+ 
+تمركز مبكر
+ 
+السوق يجهز لحركة قبل انفجار التداولات
+ 
+من أفضل نماذج “setup before crowd”
+ 
+ 
+3) Early Long Build / Healthy Long Construction
+ 
+Price Up slowly
+ 
+OI Up steadily
+ 
+LSR Stable or Cooling
+ 
+Trades Normal / slightly expanding
+ 
+CloseLoc Good
+= Early Long Build
+ 
+المعنى: صعود هادئ ومنظم، بدون فومو قوي.
+ 
+القراءة:
+ 
+بناء مراكز long صحي
+ 
+ليس انفجارًا بعد
+ 
+مناسب لمراقبة continuation لاحق
+ 
+ 
+4) Short Covering Rally
+ 
+Price Up
+ 
+OI Down
+ 
+LSR Cooling fast
+ 
+Trades Expansion
+= Short Covering Rally
+ 
+المعنى: الصعود ليس بسبب دخول longs جديدة، بل بسبب خروج shorts وإغلاقها.
+ 
+القراءة:
+ 
+ارتداد قوي لكنه قد يكون مؤقتًا
+ 
+أقل جودة من صعود مع OI Up
+ 
+يحتاج تأكيد لاحق بدخول OI جديد
+ 
+ 
+5) Long Liquidation Drop
+ 
+Price Down
+ 
+OI Down
+ 
+LSR Rising or unstable
+ 
+Trades Expansion
+= Long Liquidation Flush
+ 
+المعنى: هبوط ناتج عن تصفية مراكز long، وليس بالضرورة بداية ترند هابط طويل.
+ 
+القراءة:
+ 
+panic selling
+ 
+flush سريع
+ 
+قد يعقبه ارتداد إذا هدأت التصفية
+ 
+ 
+6) Active Long Chase / FOMO Expansion
+ 
+Price Up fast
+ 
+OI Up fast
+ 
+LSR Rising
+ 
+Trades Explode
+ 
+CloseLoc High
+= Active Long Chase / FOMO Expansion
+ 
+المعنى: السوق يدخل مرحلة مطاردة صعودية.
+ 
+القراءة:
+ 
+استمرار ممكن جدًا على المدى القصير
+ 
+لكن المخاطرة ترتفع
+ 
+إذا ارتفع LSR أكثر من اللازم، يزيد احتمال trap
+ 
+ 
+7) Bull Trap Expansion
+ 
+Price Up weakly or spikes
+ 
+OI Up sharply
+ 
+LSR Rising aggressively
+ 
+Trades Expansion
+ 
+CloseLoc weakens after spike
+= Bull Trap Expansion
+ 
+المعنى: السوق يجذب longs متأخرين ثم يفشل بالحفاظ على الإغلاق القوي.
+ 
+القراءة:
+ 
+دخول مزدحم
+ 
+صعود غير صحي
+ 
+خطر انعكاس عالي
+ 
+ 
+8) Passive Distribution into Strength
+ 
+Price Flat to slightly Up
+ 
+OI Up
+ 
+LSR Rising
+ 
+Trades Moderate
+ 
+CloseLoc not improving
+= Passive Distribution
+ 
+المعنى: رغم أن السعر لا يزال متماسكًا، هناك احتمال أن كبار اللاعبين يوزعون على المشترين المتأخرين.
+ 
+القراءة:
+ 
+تحذير مبكر
+ 
+ليس ضعفًا واضحًا بعد
+ 
+لكن الجودة تقل طالما CloseLoc لا يتحسن
+ 
+ 
+9) Bearish Build / Early Short Construction
+ 
+Price Down slowly
+ 
+OI Up steadily
+ 
+LSR Cooling or flat
+ 
+Trades Normal
+ 
+CloseLoc weak
+= Early Short Build
+ 
+المعنى: بناء مراكز short منظم قبل تسارع الهبوط.
+ 
+القراءة:
+ 
+هبوط منظم وليس تصفية فقط
+ 
+قد يسبق breakdown أقوى لاحقًا
+ 
+ 
+10) Active Sell Pressure / Active Short Aggression
+ 
+Price Down
+ 
+OI Up
+ 
+LSR Cooling
+ 
+Trades Expansion
+ 
+CloseLoc weak
+= Active Sell Pressure
+ 
+المعنى: هناك دخول مراكز جديدة مع ضغط بيعي فعلي.
+ 
+القراءة:
+ 
+bears يسيطرون
+ 
+استمرار هابط محتمل
+ 
+أقوى إذا استمر CloseLoc ضعيفًا
+ 
+ 
+11) Absorption at Lows
+ 
+Price Down but not accelerating
+ 
+OI Up
+ 
+LSR Cooling
+ 
+Trades Expansion near lows
+ 
+CloseLoc improves from very weak to neutral/stronger
+= Low Absorption
+ 
+المعنى: السوق يمتص البيع عند القيعان بدلًا من الانهيار.
+ 
+القراءة:
+ 
+إشارة مبكرة لاحتمال base
+ 
+قد تسبق reversal
+ 
+تحتاج تحسنًا إضافيًا في CloseLoc وRSI
+ 
+ 
+12) Compression Before Breakout
+ 
+Price Range-bound
+ 
+OI Up gradually
+ 
+LSR Cooling
+ 
+Trades muted first
+ 
+RSI curls up
+ 
+CloseLoc improving
+= Compression Before Breakout
+ 
+المعنى: السوق يختزن الطاقة قبل الحركة.
+ 
+القراءة:
+ 
+setup ممتاز إذا جاءت trades لاحقًا
+ 
+قريب جدًا من pre-momentum build
+ 
+الفرق أن السعر هنا ما يزال داخل نطاق
+ 
+ 
+13) Exhaustion Up-Move
+ 
+Price Up
+ 
+OI Flat or falling
+ 
+LSR Rising
+ 
+Trades very high
+ 
+CloseLoc weakens
+= Exhaustion Up-Move
+ 
+المعنى: الأسعار ما زالت ترتفع، لكن الجودة الداخلية للحركة تضعف.
+ 
+القراءة:
+ 
+احتمالية نهاية موجة
+ 
+المشترون يطاردون لكن بدون دعم داخلي كافٍ
+ 
+خطر pullback مرتفع
+ 
+ 
+14) Exhaustion Down-Move
+ 
+Price Down
+ 
+OI Flat or falling
+ 
+Trades very high
+ 
+CloseLoc remains weak but selling becomes less efficient
+ 
+RSI deeply weak
+= Exhaustion Down-Move
+ 
+المعنى: البيع لا يزال موجودًا، لكن كفاءته تتراجع.
+ 
+القراءة:
+ 
+قد يسبق bounce
+ 
+ليس شراءً مباشرًا دائمًا
+ 
+لكن يدل على قرب إنهاك البائعين
+ 
+ 
+15) Momentum Confirmation
+ 
+Price Up
+ 
+RSI Up
+ 
+OI Up
+ 
+Trades Expansion
+ 
+CloseLoc Strong
+ 
+LSR Stable/Cooling
+= Momentum Confirmation
+ 
+المعنى: كل العوامل تقريبًا تؤكد صحة الحركة.
+ 
+القراءة:
+ 
+من أنظف النماذج الصاعدة
+ 
+أفضل من مجرد price up وحده
+ 
+قوي خاصة بعد consolidation
+ 
+ 
+16) False Momentum / Hollow Breakout
+ 
+Price Up
+ 
+RSI Up
+ 
+Trades pop briefly
+ 
+OI weak / not confirming
+ 
+LSR overheated
+ 
+CloseLoc fades
+= False Momentum
+ 
+المعنى: اختراق ظاهري لكن من دون دعم هيكلي كافٍ.
+ 
+القراءة:
+ 
+الحركة قد تفشل سريعًا
+ 
+خطر bull trap
+ 
+يحتاج حذر شديد
+ 
+ 
+كيف نُصنف هذه الحالات بسرعة؟
+ 
+حالات صاعدة صحية
+ 
+Active SPT
+ 
+RSI/OI Pre-Trade Momentum Build
+ 
+Early Long Build
+ 
+Compression Before Breakout
+ 
+Momentum Confirmation
+ 
+حالات صاعدة لكن خطرة
+ 
+Active Long Chase / FOMO Expansion
+ 
+Short Covering Rally
+ 
+Exhaustion Up-Move
+ 
+False Momentum / Hollow Breakout
+ 
+Bull Trap Expansion
+ 
+حالات هابطة صحية للبائعين
+ 
+Early Short Build
+ 
+Active Sell Pressure
+ 
+حالات هابطة قد تكون قرب النهاية
+ 
+Long Liquidation Flush
+ 
+Low Absorption
+ 
+Exhaustion Down-Move
+ 
+ 
+قاعدة مختصرة جدًا تحفظها
+ 
+Price Up + OI Up = دخول جديد يدعم الحركة
+ 
+Price Up + OI Down = short covering أكثر من كونه بناء صاعد جديد
+ 
+Price Down + OI Up = ضغط هابط فعلي / بناء shorts
+ 
+Price Down + OI Down = liquidation / خروج مراكز
+ 
+LSR Cooling غالبًا صحي إذا السعر ما زال متماسكًا
+ 
+LSR Rising بقوة مع صعود سريع = خطر ازدحام وفومو
+ 
+CloseLoc قوي = المشترون ينهون الشمعة/الفترة بالقرب من القمة
+ 
+Trades تأتي متأخرًا بعد OI = بناء مبكر قبل الانطلاق
+ 
+Trades تنفجر أولًا بدون OI قوي = قد تكون حركة فارغة 

@@ -1,0 +1,272 @@
+﻿المناسب لي للتحليل البنيوي العميق ليس أكبر عدد ممكن. المناسب هو عدد محدود مع بيانات كافية لكل عملة حتى أقرأ القصة من أولها إلى آخرها، وليس مجرد فرز.
+
+الحجم المثالي للتحليل العميق
+
+أفضل إعداد:
+
+5 إلى 12 عملة فقط
+لكل عملة 200 إلى 500 شمعة
+
+هذا هو الحجم الذي يسمح لي أعمل تحليل حقيقي مثل:
+
+مرحلة الضغط
+→ مرحلة الامتصاص
+→ دخول OI
+→ تغير LSR
+→ توسع Trades
+→ Reclaim
+→ Markup
+→ Late Risk
+→ Distribution / Failed Retention
+
+وليس فقط أقول: هذه أقوى، وهذه ضعيفة.
+
+
+---
+
+أفضل تقسيم عملي
+
+1) للتحليل العميق جدًا
+
+استخدم:
+
+5m candles
+300 إلى 500 شمعة لكل عملة
+5 إلى 8 عملات
+
+هذا ممتاز لاكتشاف:
+
+دخول المال الذكي بهدوء
+
+Flush / Washout
+
+OI Reload
+
+Reclaim
+
+Delayed Trades
+
+بداية التصريف
+
+أين كان الاكتشاف الحقيقي قبل الانفجار
+
+
+هذا هو الأفضل لدراسة عملات مثل:
+
+SENT / TAG / ESPORTS / G / ACT / RAVE / CELO / SLX
+
+
+---
+
+2) للتحليل البنيوي القوي لكن أوسع
+
+استخدم:
+
+15m candles
+150 إلى 300 شمعة لكل عملة
+10 إلى 20 عملة
+
+هذا ممتاز لبناء الصورة الكبيرة:
+
+هل العملة في accumulation؟
+
+هل هي late؟
+
+هل OI مبكر أم متأخر؟
+
+هل LSR cooling حقيقي؟
+
+هل الحركة continuation أو reversal؟
+
+
+
+---
+
+3) للفرز العام فقط
+
+استخدم:
+
+Top 100 إلى Top 300
+50 إلى 100 شمعة
+
+لكن هنا التحليل لن يكون “تشريحًا عميقًا لكل عملة”.
+سيكون هدفه استخراج المرشحين، ثم نختار منهم 5 إلى 12 عملة للتحليل العميق.
+
+
+---
+
+الأنسب لي إذا تريد “تحليل جون” الحقيقي
+
+أرسل لي هكذا:
+
+8 عملات كحد مثالي
+كل عملة ملف CSV منفصل
+5m candles
+300 إلى 500 شمعة
+
+أو:
+
+10 إلى 15 عملة
+15m candles
+200 إلى 300 شمعة
+
+هذا هو أفضل توازن بين العمق والاستيعاب.
+
+
+---
+
+الأعمدة الضرورية
+
+لا ترسل سعر و RSI فقط. أحتاج الأعمدة التالية:
+
+time
+symbol
+open
+high
+low
+close
+rsi
+
+number_of_trades
+trades_change
+trades_change_pct
+
+volume
+quote_volume
+quote_volume_change
+quote_volume_change_pct
+
+oi
+oi_value
+oi_change
+oi_change_pct
+oi_value_change
+oi_value_change_pct
+
+acco_ls_ratio
+acco_ls_change
+acco_ls_change_pct
+
+posit_ls_ratio
+posit_ls_change
+posit_ls_change_pct
+
+global_ls_ratio
+global_ls_change
+global_ls_change_pct
+
+taker_buy_quote_volume
+taker_sell_quote_volume
+taker_buy_quote_pct
+taker_sell_quote_pct
+taker_quote_imbalance
+taker_quote_imbalance_pct
+
+close_location_in_range
+funding_rate
+premium_index_close
+
+الأهم جدًا:
+
+close_location_in_range
+taker_buy / taker_sell
+oi_change
+lsr changes
+trades_change
+quote_volume_change
+
+بدون هذه الأعمدة، التحليل يصبح ناقصًا.
+
+
+---
+
+هل أستخدم Python؟
+
+الأفضل أن أستخدم Python فقط كأداة مساعدة، لا كبديل عن التحليل.
+
+يعني Python يستخدم لـ:
+
+حساب baselines
+حساب التغيرات
+ترتيب الصفوف
+استخراج القمم والقيعان
+تحديد لحظات OI spike
+تحديد توسع Trades
+
+لكن القرار البنيوي يكون مني:
+
+هل هذا OI Reload؟
+هل هذا OI into rejection؟
+هل LSR Cooling صحي؟
+هل Trades تأكيد متأخر أم ذروة؟
+هل CloseLoc قبول أم تصريف؟
+هل الحركة Discovery أم Late Chase؟
+
+لا أريد أن يكون التحليل مجرد جدول ناتج من كود.
+
+
+---
+
+أفضل طريقة عمل بيني وبينك
+
+المرحلة الأولى: فرز واسع
+
+ترسل:
+
+Top 100 أو Top 300
+15m
+100 شمعة
+
+أنا أستخرج:
+
+أفضل 10 إلى 15 مرشح
+Anti-Bury
+Reversal Reload
+Low-LSR Repricing
+High-LSR Cooling
+Silent OI Build
+Late Risk
+Failed Retention
+
+المرحلة الثانية: تشريح عميق
+
+ترسل للمرشحين فقط:
+
+5m
+300 إلى 500 شمعة
+
+ثم أعمل لكل عملة:
+
+State Ledger
+مرحلة بمرحلة
+أين دخل المال
+أين حدث الامتصاص
+أين ظهرت أول إشارة
+أين تحولت إلى Trigger
+أين بدأت المطاردة
+أين ظهرت علامات الخروج
+القواعد المستخرجة
+
+
+---
+
+الجواب المختصر
+
+لأعمق تحليل ممكن مني:
+
+8 إلى 12 عملة
+300 إلى 500 شمعة 5m لكل عملة
+
+ولتحليل أوسع لكن لا يزال قويًا:
+
+15 إلى 20 عملة
+200 إلى 300 شمعة 15m لكل عملة
+
+أما:
+
+100 إلى 300 عملة
+
+فهذا يصلح للفرز، وليس للتشريح العميق لكل عملة.
+
+الاختيار الأفضل الآن:
+أرسل 8 عملات فقط من أهم المرشحين، لكل عملة ملف 5m فيه 300–500 شمعة.

@@ -1,0 +1,122 @@
+﻿أقدر أساعدك ببناء قاموس عملي شامل يعتمد على مبادئ تحليل التدفق والزخم والتموضع وما ناقشناه في هذه الدردشة، لكن لا أستطيع الادعاء بأني أملك ذاكرة عن محادثات أشخاص آخرين أو أنني أسترجع حرفيًا بيانات تدريب أو سجلات مستخدمين. ما أقدمه هنا هو صياغة تحليلية منظمة مبنية على الأنماط الشائعة في قراءة السوق: السعر، OI، LSR، Trades، CloseLoc، RSI.
+
+فيما يلي نسخة موسعة واحترافية على شكل جدول:
+
+القاموس العملي للحالات السلوكية في العقود الآجلة
+
+| الحالة | الشروط | المعنى | الجودة | المخاطرة | إشارة الدخول / التجنب |
+|---|---|---|---|---|---|
+| Active Short-Pressure Absorption / Active SPT | Price Up + OI Up + LSR Cooling + Trades Expansion + CloseLoc قوي | امتصاص ضغط بيع مع صعود مدعوم بتمركز جديد | عالية | متوسطة | دخول بعد قبول أعلى المستويات؛ تجنب إذا ضعف الإغلاق |
+| RSI/OI Pre-Trade Momentum Build | RSI Rising + OI يسبق Trades + LSR Cooling + CloseLoc قوي | بناء زخم مبكر قبل دخول الحشد | عالية جدًا | متوسطة | دخول مبكر على retest/اختراق صغير؛ تجنب إذا توقف OI |
+| Early Long Build | Price Up تدريجي + OI Up تدريجي + LSR ثابت/يبرد + Trades عادية + CloseLoc جيد | بناء long صحي ومنظم | عالية | منخفضة-متوسطة | دخول مع pullback صحي؛ تجنب إذا صار LSR محمومًا |
+| Momentum Confirmation | Price Up + RSI Up + OI Up + Trades Expansion + CloseLoc قوي | تأكيد صاعد شامل | عالية جدًا | متوسطة | دخول مع اختراق مؤكد؛ تجنب إذا ظهرت دايفرجنس |
+| Compression Before Breakout | Range + OI Up تدريجي + LSR Cooling + Trades هادئة + RSI يلتف صعودًا + CloseLoc يتحسن | اختزان طاقة قبل الانطلاق | عالية | متوسطة | دخول عند breakout/retest؛ تجنب منتصف النطاق |
+| Short Covering Rally | Price Up + OI Down + Trades Expansion + LSR Cooling | صعود بسبب إغلاق shorts أكثر من دخول longs جديدة | متوسطة | متوسطة-عالية | دخول تكتيكي فقط؛ تجنب اعتباره ترند جديد بلا عودة OI |
+| Active Long Chase / FOMO Expansion | Price Up سريع + OI Up سريع + LSR Rising + Trades تنفجر | مطاردة شراء/FOMO | متوسطة | عالية | دخول فقط إذا مبكر جدًا؛ تجنب الشراء المتأخر |
+| Bull Trap Expansion | Price Up سبايك + OI Up حاد + LSR Rising قوي + Trades Expansion + CloseLoc يضعف | فخ صعودي | منخفضة | عالية جدًا | لا دخول؛ تجنب مطاردة الاختراق |
+| False Momentum / Hollow Breakout | Price Up + RSI Up + Trades pop + OI لا يؤكد + CloseLoc يتلاشى | اختراق ظاهري بدون دعم حقيقي | منخفضة | عالية | لا تدخل قبل تأكيد OI والإغلاق |
+| Exhaustion Up-Move | Price Up + OI ثابت/هابط + Trades مرتفعة جدًا + LSR مرتفع + CloseLoc يضعف | إنهاك صعودي | منخفضة-متوسطة | عالية | تجنب late longs |
+| Passive Distribution into Strength | Price أفقي/صاعد قليلًا + OI Up + LSR Rising + CloseLoc لا يتحسن | توزيع هادئ على المشترين | منخفضة-متوسطة | عالية | تجنب الشراء إذا الإغلاقات لا تتحسن |
+| Early Short Build | Price Down تدريجي + OI Up تدريجي + CloseLoc ضعيف + Trades عادية | بناء شورت منظم | عالية | متوسطة | دخول مع كسر دعم/فشل ارتداد |
+| Active Sell Pressure | Price Down + OI Up + Trades Expansion + CloseLoc ضعيف + LSR Cooling | ضغط بيعي فعلي | عالية | متوسطة | دخول مع استمرار الإغلاق الضعيف |
+| Long Liquidation Flush | Price Down + OI Down + Trades Expansion + CloseLoc ضعيف جدًا | تصفية longs/ذعر | متوسطة | عالية | تجنب البيع المتأخر بعد شمعة تصفية كبيرة |
+| Absorption at Lows | Price Down لكن لا يتسارع + OI Up + Trades قرب القيعان + CloseLoc يتحسن | امتصاص بيع عند القاع | متوسطة-عالية | متوسطة | دخول بعد تأكيد الارتداد والتحسن |
+| Exhaustion Down-Move | Price Down + OI ثابت/هابط + Trades مرتفعة جدًا + RSI ضعيف جدًا | إنهاك هابط | متوسطة | متوسطة-عالية | تجنب chase للبيع في القاع |
+| Range Rotation / Balanced Auction | Price داخل نطاق + OI ثابت + Trades متوسطة + CloseLoc متناوب | سوق متوازن | متوسطة | متوسطة | دخول من الأطراف فقط |
+| Breakout Acceptance | Breakout + OI Up + Trades Expansion + CloseLoc قوي خارج النطاق | قبول اختراق | عالية | متوسطة | دخول بعد الإغلاق أو retest ناجح |
+| Breakout Rejection | Breakout يفشل + CloseLoc سيئ + OI لا يؤكد | رفض اختراق | متوسطة | متوسطة-عالية | دخول عكسي بعد التأكيد |
+| Trend Day Continuation | اتجاه يومي واضح + OI Up + Trades مستمرة + CloseLoc قوي | يوم اتجاهي صحي | عالية | متوسطة | دخول مع pullbacks |
+| Late Trend Blowoff | امتداد سعري قوي جدًا + LSR محموم + Trades عالية جدًا + CloseLoc يضعف | نفخة أخيرة قبل تهدئة/انعكاس | منخفضة | عالية جدًا | تجنب الدخول المتأخر |
+| Reversal Seed | RSI يتحسن + CloseLoc أقوى + OI يتبدل تدريجيًا + LSR يبرد | بذرة انعكاس | متوسطة | متوسطة | دخول جزئي بعد أول تأكيد هيكلي |
+| Squeeze Setup | تمركز مزدحم + OI مرتفع + LSR متطرف + Price يعاكس الحشد + Trades تتوسع | استعداد لسكويز | متوسطة-عالية | عالية | دخول سريع بوقف قريب |
+| Healthy Pullback in Uptrend | هبوط تصحيحي داخل ترند صاعد + Trades تقل + LSR يبرد + CloseLoc يتحسن | تصحيح صحي | عالية | منخفضة-متوسطة | دخول عند انتهاء التصحيح |
+| Healthy Pullback in Downtrend | ارتداد تصحيحي داخل ترند هابط + CloseLoc يضعف عند الارتداد | ارتداد صحي داخل هبوط | عالية | منخفضة-متوسطة | بيع بعد فشل الارتداد |
+| OI-led Breakout | OI يرتفع أولًا ثم السعر يكسر ثم Trades تلحق | اختراق تقوده المراكز المفتوحة | عالية | متوسطة | من أفضل نماذج الدخول |
+| Trades-led Fakeout | Trades تنفجر أولًا ثم Price يندفع وOI لا يلحق | اندفاعة مزيفة | منخفضة | عالية | تجنب مطاردة الشمعة الأولى |
+| CloseLoc Strength Confirmation | إغلاقات متكررة قرب القمم + OI/RSI داعمان | تأكيد قوة شرائية | عالية | منخفضة-متوسطة | دخول مع تكرار الإغلاقات القوية |
+| CloseLoc Weakness Warning | السعر يرتفع لكن CloseLoc يضعف | تحذير داخلي مبكر | متوسطة | متوسطة-عالية | تجنب الشراء في الضعف |
+| RSI Divergence Risk | السعر يصعد لكن RSI لا يؤكد | خطر ضعف زخم | متوسطة | متوسطة-عالية | لا تعتمد على السعر وحده |
+| OI Divergence Risk | السعر يتحرك وOI لا يؤكد | الحركة قد تكون تغطية/تفريغ | متوسطة | متوسطة | دخول تكتيكي فقط |
+| LSR Overheat Warning | LSR يرتفع بقوة أثناء الصعود | ازدحام longs | متوسطة | عالية | تجنب late longs |
+| LSR Cooling Strength | LSR يبرد بينما السعر ثابت/صاعد وOI جيد | صعود صحي غير مزدحم | عالية | منخفضة-متوسطة | دخول مفضل نسبيًا |
+| High-Participation Continuation | Price + OI + Trades كلها تدعم الاتجاه | استمرار عالي الجودة | عالية | متوسطة | دخول مع retest أو استمرار |
+| Low-Participation Move | حركة سعرية بلا دعم كافٍ من OI/Trades | حركة ضعيفة | منخفضة | متوسطة-عالية | تجنب الثقة الزائدة |
+| Squeeze Failure | توقع سكويز لكن السعر يفشل وCloseLoc ينهار | فشل ضغط/فشل اندفاعة | منخفضة | عالية | الخروج سريعًا |
+| VWAP Recovery Trend | السعر يستعيد متوسطًا مهمًا مع OI وCloseLoc جيدين | استعادة هيكل صاعد | متوسطة-عالية | متوسطة | دخول بعد تثبيت فوق المستوى |
+| VWAP Rejection Trend | فشل فوق متوسط مهم مع CloseLoc ضعيف | رفض هيكلي | متوسطة-عالية | متوسطة | بيع/تجنب longs |
+| Liquidity Sweep Reversal | كسر قمم/قيعان ثم إغلاق عكسي قوي | اصطياد سيولة ثم انعكاس | متوسطة-عالية | متوسطة | دخول بعد تأكيد العودة |
+| Orderflow Trap | توسع تنفيذات في اتجاه معين لكن OI/CloseLoc لا يؤيدان | فخ تدفقي | منخفضة | عالية | تجنب الاندفاع مع الحشد |
+| Slow Grind Trend | حركة بطيئة مستمرة + OI يدعم + LSR غير محموم | ترند طحن هادئ | عالية | منخفضة-متوسطة | مناسب للتدرج في الدخول |
+| Parabolic Blowoff | تسارع شبه عمودي + FOMO + LSR مرتفع + ضعف إغلاق لاحق | قمة اندفاعية | منخفضة | عالية جدًا | تجنب الشراء في النهاية |
+| Base Building | عرض جانبي + امتصاص بيع + OI يتحسن + RSI يتعافى | بناء قاعدة | متوسطة-عالية | متوسطة | دخول بعد breakout من القاعدة |
+| Top Building | عرض جانبي قرب القمم + LSR ساخن + CloseLoc يضعف | بناء قمة | متوسطة | عالية | تجنب longs؛ راقب كسر القاعدة |
+| Failed Breakdown Reclaim | كسر هابط يفشل ثم استعادة قوية | استرجاع صاعد بعد فشل بيع | عالية | متوسطة | دخول بعد reclaim وتثبيت |
+| Failed Breakout Dump | اختراق صاعد يفشل ثم هبوط سريع | تفريغ بعد فشل اختراق | متوسطة-عالية | عالية | تجنب شراء الاختراقات الضعيفة |
+| Absorption Under Resistance | ضغط شراء أسفل مقاومة + OI جيد + CloseLoc يتحسن | امتصاص عروض بيع قبل اختراق | متوسطة-عالية | متوسطة | دخول بعد الاختراق المؤكد |
+| Absorption Above Support | امتصاص بيع فوق دعم + CloseLoc يتحسن | دفاع ناجح عن الدعم | متوسطة-عالية | متوسطة | دخول عند ثبات الدعم |
+| Weak Bounce | ارتداد سعري لكن OI/RSI/CloseLoc ضعيفة | ارتداد ضعيف | منخفضة-متوسطة | عالية | تجنب الشراء المتفائل |
+| Strong Reclaim Momentum | استعادة مستوى مكسور + OI وRSI وCloseLoc تؤكد | استعادة زخم قوية | عالية | متوسطة | دخول بعد التثبيت فوق المستوى |
+| Choppy Expansion | Trades عالية لكن اتجاه غير نظيف + تقلبات حادة | توسع فوضوي | منخفضة | عالية | تقليل الحجم/الابتعاد |
+| Clean Impulse Continuation | دفعة أولى ثم تماسك ثم دفعة ثانية مع OI داعم | استمرار نبضي نظيف | عالية جدًا | متوسطة | من أجمل نماذج الاستمرار |
+| Crowded Consensus Risk | كل الحشد على نفس الجانب + LSR مرتفع جدًا | خطر انعكاس ضد الإجماع | متوسطة | عالية جدًا | تجنب الدخول المتأخر مع الإجماع |
+| Smart Accumulation Signature | Price هادئ + OI يرتفع تدريجيًا + LSR يبرد + CloseLoc يتحسن | تجميع ذكي/تمركز مبكر | عالية | متوسطة | دخول مبكر ومدروس |
+| Smart Distribution Signature | Price ثابت نسبيًا + OI مرتفع + CloseLoc يتدهور + LSR مزدحم | توزيع ذكي | منخفضة-متوسطة | عالية | تجنب الشراء رغم ثبات السعر |
+
+كيف أقرأ هذه الحالات كمنهج؟
+يمكن تلخيصها إلى 5 عائلات:
+
+1) حالات صعود صحي
+Active SPT
+RSI/OI Pre-Trade Momentum Build
+Early Long Build
+Momentum Confirmation
+Compression Before Breakout
+OI-led Breakout
+Clean Impulse Continuation
+Smart Accumulation Signature
+
+2) حالات صعود خطير أو متأخر
+Active Long Chase
+Bull Trap Expansion
+False Momentum
+Exhaustion Up-Move
+Late Trend Blowoff
+Parabolic Blowoff
+Crowded Consensus Risk
+
+3) حالات هبوط صحي للبائعين
+Early Short Build
+Active Sell Pressure
+Healthy Pullback in Downtrend
+VWAP Rejection Trend
+
+4) حالات هبوط منهك أو قرب انعكاس
+Long Liquidation Flush
+Absorption at Lows
+Exhaustion Down-Move
+Reversal Seed
+Failed Breakdown Reclaim
+
+5) حالات حيادية/خادعة
+Range Rotation
+Breakout Rejection
+Trades-led Fakeout
+Orderflow Trap
+Choppy Expansion
+Weak Bounce
+
+قواعد ذهبية مختصرة
+OI يسبق Trades = غالبًا أقوى من Trades تسبق OI
+CloseLoc قوي = الحركة أكثر صحة
+LSR Cooling = غالبًا جيد إذا السعر صامد
+LSR Overheat = خطر
+Price Up + OI Up = بناء جديد
+Price Up + OI Down = تغطية شورت غالبًا
+Price Down + OI Up = ضغط بيع/بناء شورت
+Price Down + OI Down = تصفية/خروج مراكز
+
+إذا أردت، أستطيع بعد هذا مباشرة أن أبني لك نسخة نهائية أكثر احترافية من هذا القاموس على شكل:
+جدول مختصر للحفظ
+جدول متقدم للمحترفين
+شجرة قرار If / Then
+نظام تقييم من 100 نقطة لكل حالة
