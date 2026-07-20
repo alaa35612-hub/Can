@@ -75,7 +75,7 @@ class CausalControlTests(unittest.TestCase):
         rows = make_rows()
         reviewed = [
             {
-                "timestamp": 20 * 900_000,
+                "timestamp": 0,
                 "to_state": "CONTINUATION_RELOAD",
                 "effective_status": "PASS",
             }
