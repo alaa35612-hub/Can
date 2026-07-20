@@ -230,12 +230,14 @@ def build_segment_ledger(symbol, all_rows, primary_rows, segment_id):
         ):
             candidate = "EARLY_BUILD"
             rationale.append("relative fuel/execution changed before or with price response")
-
-        if candidate == "EARLY_BUILD" and persistence >= 2:
-            candidate = "CONFIRMED_BUILD"
-            rationale.append("support persisted across successive observations")
-
-        if candidate in {"EARLY_BUILD", "CONFIRMED_BUILD"} and execution_shock and positive_release:
+        elif state == "EARLY_BUILD":
+            if execution_shock and positive_release:
+                candidate = "IGNITION_CANDIDATE"
+                rationale.append("relative execution extreme aligned with positive release")
+            elif persistence >= 2:
+                candidate = "CONFIRMED_BUILD"
+                rationale.append("support persisted across successive observations")
+        elif state == "CONFIRMED_BUILD" and execution_shock and positive_release:
             candidate = "IGNITION_CANDIDATE"
             rationale.append("relative execution extreme aligned with positive release")
 
@@ -432,7 +434,38 @@ def write_outputs(output_dir, symbol, sources, rows, conflicts, ledger, controls
         writer.writerows(rows)
 
     timeline = {row["timestamp"]: row for row in rows if row["timeframe"] == "15m"}
-    reviewed = [adversarial_review(item, timeline.get(item["timestamp"])) for item in ledger]
+    reviewed = []
+    valid_state = ledger[0]["from_state"] if ledger else "LATENT"
+    for item in ledger:
+        candidate = adversarial_review(item, timeline.get(item["timestamp"]))
+        from_state = item.get("from_state")
+        to_state = item.get("to_state")
+        boundary = to_state == "RESET" and "data_gap_campaign_boundary" in set(item.get("facts_added") or [])
+        independent_reanchor = (
+            to_state == "EARLY_BUILD"
+            and from_state in {"FAILURE", "RESET"}
+            and item.get("supporting_score", 0) >= 1
+        )
+        if boundary:
+            valid_state = "RESET"
+        elif from_state != valid_state:
+            if independent_reanchor:
+                if candidate["adversarial_status"] == "PASS":
+                    candidate["adversarial_status"] = "RESTRICT"
+                candidate["adversarial_reasons"].append(
+                    "campaign re-anchored from independent build evidence after an invalid predecessor chain"
+                )
+                valid_state = to_state
+            else:
+                candidate["adversarial_status"] = "REJECT"
+                candidate["adversarial_reasons"].append(
+                    f"transition depends on an unvalidated predecessor; reviewed state remains {valid_state}"
+                )
+        elif candidate["adversarial_status"] != "REJECT":
+            valid_state = to_state
+        candidate["reviewed_from_state"] = from_state
+        candidate["reviewed_state_after"] = valid_state
+        reviewed.append(candidate)
     counts = {status: sum(item["adversarial_status"] == status for item in reviewed) for status in ("PASS", "RESTRICT", "REJECT")}
 
     (output_dir / f"{prefix}_STATE_LEDGER.json").write_text(json.dumps(ledger, indent=2), encoding="utf-8")
