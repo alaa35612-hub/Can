@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-20T20:12:59.560309+00:00",
-  "repository_files_audited": 730,
+  "generated_at": "2026-07-20T20:14:50.150997+00:00",
+  "repository_files_audited": 731,
   "source_class_counts": {
     "BINARY_LEGACY_DOCUMENT": 209,
     "CONFIG_OR_STRUCTURED_DOCUMENT": 55,
-    "DOCUMENTATION": 97,
+    "DOCUMENTATION": 98,
     "GENERATED_OR_UNRECOGNIZED_TABULAR_DATA": 63,
     "IMPLEMENTATION": 19,
     "MIXED_SOURCE": 9,
