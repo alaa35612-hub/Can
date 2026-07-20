@@ -1,58 +1,72 @@
-# Black John Research Corpus
+# Black John Research Layer
 
-## Goal
+## Purpose
 
-Turn the repository's raw Binance market files, prior analyses and Black John background knowledge into an auditable research corpus for discovering causal campaign structures and identifying symbols preparing for upward expansion.
+This directory is the stable entrypoint for agents working with the repository's Binance Futures research corpus and Black John skills.
 
-## Source classes
+The layer does **not** replace raw data, rewrite legacy notes, or modify production scanner behavior. It organizes how an agent should discover, load, audit, and use the existing corpus.
 
-1. **Observed market data** — CSV and JSONL enriched candle files. Highest evidentiary value after quality checks.
-2. **Prior narrative analyses** — TXT and DOC files. Audit targets, not labels.
-3. **Black John skills and prompts** — candidate mechanisms, questions and terminology. Hypothesis support only.
-4. **Research outputs** — State Ledgers, campaign records, hypothesis cards, replay traces, rule registry and cross-coin synthesis.
-5. **Production code** — outside this research phase unless explicitly requested.
+## Authority order
 
-## Repository policy for this phase
+1. Research protocol and governance.
+2. Raw chronological market data.
+3. Persistent State Ledger.
+4. Validated or conditional research rules.
+5. Background skills and historical analyses.
 
-The uploaded root files remain untouched. The `research/` directory provides indexing, schemas and research outputs that reference original source paths. Moving or renaming evidence is deferred until a complete manifest and integrity review exist.
+Skills propose hypotheses. Raw data and blind replay decide whether those hypotheses survive.
 
-## Research directories
+## Mandatory skill entrypoint
+
+Read the root registry first:
+
+- [`BLACK_JOHN_RESEARCH_SKILLS.md`](../BLACK_JOHN_RESEARCH_SKILLS.md)
+
+Then load the skills in its stated order, beginning with:
+
+- `.claude/skills/black-john-research-governance/SKILL.md`
+- `.claude/skills/black-john-fact-reconstruction/SKILL.md`
+- `.claude/skills/black-john-research-state-ledger/SKILL.md`
+- `.claude/skills/black-john-hypothesis-engine/SKILL.md`
+
+## Corpus entrypoint
+
+Use [`CORPUS_INDEX.md`](CORPUS_INDEX.md) to locate the major source classes:
+
+- enriched Binance Futures candle datasets;
+- multi-timeframe symbol studies;
+- historical analyst notes and prior conclusions;
+- failure and missed-move studies;
+- structural-pattern research material;
+- agent skills and research governance.
+
+## Required workflow
 
 ```text
-research/
-├── README.md
-├── methodology/
-├── schemas/
-├── registry/
-├── inventory/
-├── case_studies/
-├── state_ledgers/
-├── blind_replay/
-├── previous_analysis_audits/
-├── cross_coin/
-└── synthesis/
+Inventory and data-quality audit
+→ chronological fact reconstruction
+→ multi-timeframe alignment
+→ campaign segmentation
+→ State Ledger update
+→ competing hypotheses
+→ supporting/opposing/missing evidence
+→ positive/failed/control comparison
+→ blind replay without lookahead
+→ rule-status decision
+→ current scan only after research validation
 ```
 
-## Mandatory sequence
+## Non-negotiable constraints
 
-1. Inventory every source and classify its role.
-2. Validate chronology, closure, duplicates, gaps, coverage and field semantics.
-3. Merge all observations for one symbol chronologically while retaining provenance.
-4. Segment campaigns without using future outcome in contemporary judgments.
-5. Reconstruct facts before applying pattern names.
-6. Maintain competing hypotheses and an unidentified-structure option.
-7. Freeze each State Ledger update before revealing later observations.
-8. Compare successful, failed and ordinary control windows.
-9. Audit previous conclusions and preserve their original timestamp and evidence.
-10. Promote, restrict, reject or deprecate rules through the registry.
-11. Apply only validated or explicitly conditional knowledge to current scans.
+- Never analyze only the final candle when earlier rows are available.
+- Never use universal fixed analytical thresholds.
+- Never treat RSI as an automatic blocker or directional decision.
+- Never use future outcome while reconstructing a historical decision.
+- Never convert missing data into neutral evidence.
+- Never promote a narrative rule without failed cases, controls, and blind replay.
+- Never let an old analysis override raw data.
+- Preserve symbol-specific, timeframe-specific, liquidity-specific, and regime-specific context.
 
-## Non-negotiable safeguards
+## Repository mutation policy
 
-- Closed candles and causal cutoffs only.
-- Symbol/context-adaptive evidence; no universal structural thresholds.
-- One opposing candle cannot terminate a campaign.
-- Missing data is recorded, never silently converted to neutral evidence.
-- Absence from a ranked file means `NOT_OBSERVED_IN_CURRENT_SAMPLE`.
-- Outcome success does not prove prior reasoning was correct.
-- A long report is not evidence of a deep analysis; traceable comparisons and falsification are required.
+This layer is documentation and indexing only. Raw files remain in their original paths. Production code, scanners, backtests, and decision logic are outside the scope of this branch unless a later task explicitly authorizes changes.
