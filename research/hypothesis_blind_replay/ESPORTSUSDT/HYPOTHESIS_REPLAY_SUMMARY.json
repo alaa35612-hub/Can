@@ -1,0 +1,42 @@
+{
+  "assessed_failures": 2,
+  "assessed_successes": 3,
+  "blind_replay_result": "INCONCLUSIVE_DIRECTIONAL_EVIDENCE",
+  "campaign_assessments": 8,
+  "campaign_assessments_abstained": 3,
+  "campaign_assessments_evaluable": 5,
+  "campaign_context_status_counts": {
+    "ABSTAIN_INSUFFICIENT_PRIOR_HISTORY": 3,
+    "DEEP_RESET_WITHOUT_LONG_REBUILD": 1,
+    "FULL_HYPOTHESIS_CONTEXT": 2,
+    "HYPOTHESIS_CONTEXT_NOT_SUPPORTED": 1,
+    "PARTIAL_HYPOTHESIS_CONTEXT": 1
+  },
+  "campaigns_total": 8,
+  "constraints": [
+    "Each assessment uses only campaigns completed before the active cutoff.",
+    "Outcome is attached only after the context assessment is frozen.",
+    "The baseline is symbol-local and expanding; no universal numerical threshold is used.",
+    "Observation-gap or missing-reset cases abstain rather than infer continuity.",
+    "Rejected controls remain historically rejected even when their later path is positive.",
+    "No result qualifies as a durable rule in this pass."
+  ],
+  "full_context_failures": 0,
+  "full_context_successes": 2,
+  "hypothesis_statement": "A mature ESPORTS cycle with a longer-than-prior build and jointly deeper observed price/OI reset may define a successful expansion subtype.",
+  "lifecycle_decision": "KEEP_AS_HYPOTHESIS",
+  "lifecycle_reason": "Expanding-window replay does not establish reliable discrimination from failures and rejected controls.",
+  "positive_context_failures": 1,
+  "positive_context_successes": 2,
+  "rejected_context_status_counts": {
+    "ABSTAIN_INSUFFICIENT_PRIOR_HISTORY": 7,
+    "HYPOTHESIS_CONTEXT_NOT_SUPPORTED": 4,
+    "PARTIAL_HYPOTHESIS_CONTEXT": 4
+  },
+  "rejected_controls_evaluable": 8,
+  "rejected_controls_positive_context": 4,
+  "rejected_controls_total": 15,
+  "rule_id": "ESPORTS_DEEP_RESET_CYCLE_CONTEXT",
+  "rule_status": "RESEARCH_HYPOTHESIS",
+  "symbol": "ESPORTSUSDT"
+}

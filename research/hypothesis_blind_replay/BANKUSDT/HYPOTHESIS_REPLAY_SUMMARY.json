@@ -1,0 +1,37 @@
+{
+  "assessed_failures": 0,
+  "assessed_successes": 1,
+  "blind_replay_result": "INSUFFICIENT_OUTCOME_SAMPLE",
+  "campaign_assessments": 4,
+  "campaign_assessments_abstained": 3,
+  "campaign_assessments_evaluable": 1,
+  "campaign_context_status_counts": {
+    "ABSTAIN_INSUFFICIENT_PRIOR_HISTORY": 3,
+    "FULL_HYPOTHESIS_CONTEXT": 1
+  },
+  "campaigns_total": 5,
+  "constraints": [
+    "Each assessment uses only campaigns completed before the active cutoff.",
+    "Outcome is attached only after the context assessment is frozen.",
+    "The baseline is symbol-local and expanding; no universal numerical threshold is used.",
+    "Observation-gap or missing-reset cases abstain rather than infer continuity.",
+    "Rejected controls remain historically rejected even when their later path is positive.",
+    "No result qualifies as a durable rule in this pass."
+  ],
+  "full_context_failures": 0,
+  "full_context_successes": 1,
+  "hypothesis_statement": "A BANK campaign with a longer-than-prior rebuild and jointly deeper observed price/OI reset may be more likely to survive ignition than ordinary BANK attempts.",
+  "lifecycle_decision": "KEEP_AS_HYPOTHESIS",
+  "lifecycle_reason": "The sole assessable accepted campaign may satisfy the full context, but the replay lacks the minimum paired success/failure sample required for promotion.",
+  "positive_context_failures": 0,
+  "positive_context_successes": 1,
+  "rejected_context_status_counts": {
+    "ABSTAIN_INSUFFICIENT_PRIOR_HISTORY": 4
+  },
+  "rejected_controls_evaluable": 0,
+  "rejected_controls_positive_context": 0,
+  "rejected_controls_total": 4,
+  "rule_id": "BANK_LONG_REBUILD_DEEP_RESET_CONTEXT",
+  "rule_status": "RESEARCH_HYPOTHESIS",
+  "symbol": "BANKUSDT"
+}
