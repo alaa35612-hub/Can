@@ -1,0 +1,57 @@
+name: AKE Campaign Reconstruction
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'research/tools/build_ake_campaign.py'
+      - 'research/tools/run_ake_segmented.py'
+      - 'research/tools/review_ake_transitions.py'
+      - 'research/tools/tests/test_build_ake_campaign.py'
+      - '.github/workflows/research-ake-campaign.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run tests
+        run: python -m unittest research/tools/tests/test_build_ake_campaign.py -v
+
+      - name: Build segmented AKE causal campaign outputs
+        run: >-
+          python research/tools/run_ake_segmented.py
+          --root .
+          --output-dir research/case_studies/AKEUSDT/generated
+
+      - name: Adversarially review proposed transitions
+        run: >-
+          python research/tools/review_ake_transitions.py
+          --directory research/case_studies/AKEUSDT/generated
+
+      - name: Commit generated research outputs
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- research/case_studies/AKEUSDT/generated)" ]; then
+            echo 'AKE outputs are unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/case_studies/AKEUSDT/generated
+          git commit -m 'research: generate reviewed AKE campaign pass 1 [skip ci]'
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}

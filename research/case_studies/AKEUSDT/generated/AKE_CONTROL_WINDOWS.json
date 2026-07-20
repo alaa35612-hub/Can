@@ -1,0 +1,32 @@
+[
+  {
+    "center_timestamp": 1783007100000,
+    "center_time": "2026-07-02T15:45:00+00:00",
+    "window_candles": 9,
+    "selection_reason": "ordinary causal window"
+  },
+  {
+    "center_timestamp": 1783008000000,
+    "center_time": "2026-07-02T16:00:00+00:00",
+    "window_candles": 9,
+    "selection_reason": "ordinary causal window"
+  },
+  {
+    "center_timestamp": 1783008900000,
+    "center_time": "2026-07-02T16:15:00+00:00",
+    "window_candles": 9,
+    "selection_reason": "ordinary causal window"
+  },
+  {
+    "center_timestamp": 1783009800000,
+    "center_time": "2026-07-02T16:30:00+00:00",
+    "window_candles": 9,
+    "selection_reason": "ordinary causal window"
+  },
+  {
+    "center_timestamp": 1783010700000,
+    "center_time": "2026-07-02T16:45:00+00:00",
+    "window_candles": 9,
+    "selection_reason": "ordinary causal window"
+  }
+]
