@@ -28,6 +28,22 @@ def load_csv(path):
 def load_json(path,default):
     return json.loads(path.read_text(encoding='utf-8')) if path.exists() else default
 
+def effective_review(reviewed):
+    out=[]; state=None
+    for raw in reviewed:
+        x=dict(raw); status=x.get('adversarial_status','PASS')
+        frm=x.get('from_state'); to=x.get('to_state')
+        if to=='RESET' or frm=='UNOBSERVED_GAP':
+            x['effective_status']=status; state='RESET'; out.append(x); continue
+        if status=='REJECT':
+            x['effective_status']='REJECT'; out.append(x); continue
+        if state is None or frm==state:
+            x['effective_status']=status; state=to; out.append(x); continue
+        if to in {'EARLY_BUILD','CONFIRMED_BUILD','IGNITION_CANDIDATE'} and frm in {'LATENT','FAILURE','RESET'}:
+            x['effective_status']='RESTRICT' if status=='PASS' else status; state=to; out.append(x); continue
+        x['effective_status']='REJECT_DEPENDENCY'; out.append(x)
+    return out
+
 def campaign_groups(reviewed):
     groups=[]; current=[]
     for x in reviewed:
@@ -46,7 +62,7 @@ def profile(symbol,base):
     prefix=symbol.replace('USDT','')
     g=base/symbol/'generated'
     timeline=load_csv(g/f'{prefix}_CAUSAL_TIMELINE.csv')
-    reviewed=load_json(g/f'{prefix}_REVIEWED_STATE_LEDGER.json',[])
+    reviewed=effective_review(load_json(g/f'{prefix}_REVIEWED_STATE_LEDGER.json',[]))
     summary=load_json(g/f'{prefix}_RUN_SUMMARY.json',{})
     conflicts=load_json(g/f'{prefix}_SOURCE_CONFLICTS.json',[])
     tf=defaultdict(list)
@@ -63,9 +79,12 @@ def profile(symbol,base):
     primary=sorted(tf.get('15m',[]),key=lambda r:int(float(r['timestamp'])))
     lags=[]
     for i,r in enumerate(primary):
-        ex=max(f(r.get('number_of_trades_rank')) or 0,f(r.get('quote_volume_rank')) or 0)
-        oi_rank=f(r.get('oi_rank')) or 0
-        if ex>=.9 or oi_rank>=.9:
+        rank_values=[f(r.get('number_of_trades_rank')),f(r.get('quote_volume_rank'))]
+        rz_values=[f(r.get('number_of_trades_rz')),f(r.get('quote_volume_rz'))]
+        ex_rank=max([x for x in rank_values if x is not None],default=0)
+        ex_rz=max([x for x in rz_values if x is not None],default=0)
+        oi_rank=f(r.get('oi_rank')) or 0; oi_rz=f(r.get('oi_rz')) or 0
+        if ex_rank>=.9 or oi_rank>=.9 or ex_rz>=2.5 or oi_rz>=2.5:
             base_close=f(r.get('close'))
             threshold=q([abs(f(x.get('price_change_pct')) or 0) for x in primary[:i+1]],.9) or 0
             for j in range(i+1,min(i+17,len(primary))):
@@ -75,11 +94,12 @@ def profile(symbol,base):
     groups=campaign_groups(reviewed)
     outcomes=[]
     for n,grp in enumerate(groups,1):
-        states=[x.get('to_state') for x in grp if x.get('adversarial_status')!='REJECT']
-        statuses=Counter(x.get('adversarial_status') for x in grp)
-        if 'CONTINUATION_RELOAD' in states or 'EXPANSION' in states: outcome='accepted_expansion'
+        states=[x.get('to_state') for x in grp if x.get('effective_status') in {'PASS','RESTRICT'}]
+        statuses=Counter(x.get('effective_status') for x in grp)
+        rejected_acceptance=any(x.get('to_state')=='ACCEPTED_IGNITION' and str(x.get('effective_status','')).startswith('REJECT') for x in grp)
+        if 'EXPANSION' in states: outcome='accepted_expansion'
         elif 'ACCEPTED_IGNITION' in states: outcome='accepted_without_expansion'
-        elif 'IGNITION_CANDIDATE' in states and 'FAILURE' in states: outcome='failed_ignition'
+        elif ('IGNITION_CANDIDATE' in states and 'FAILURE' in states) or rejected_acceptance: outcome='failed_ignition'
         elif 'CONFIRMED_BUILD' in states: outcome='build_without_acceptance'
         else: outcome='unresolved'
         outcomes.append({'campaign_index':n,'start':grp[0].get('time'),'end':grp[-1].get('time'),'states':states,'review_counts':dict(statuses),'outcome':outcome,
