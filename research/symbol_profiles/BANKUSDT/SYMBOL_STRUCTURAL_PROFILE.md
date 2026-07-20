@@ -9,7 +9,7 @@ This profile is symbol-specific. Shared state names are indexing vocabulary, not
 - Limited timeframes: 1d
 - Median execution/OI anomaly to material price-response lag: 30.0 minutes
 - Lag observations: 301
-- Provisional false-ignition rate: 0.4
+- Provisional false-ignition rate: 0.6
 
 ## Timeframe-local baselines
 
@@ -27,7 +27,7 @@ This profile is symbol-specific. Shared state names are indexing vocabulary, not
 |---:|---|---|---|---|
 | 1 | 2026-07-13T20:45:00+00:00 | 2026-07-13T23:15:00+00:00 | failed_ignition | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, FAILURE |
 | 2 | 2026-07-13T23:45:00+00:00 | 2026-07-14T01:30:00+00:00 | failed_ignition | EARLY_BUILD, IGNITION_CANDIDATE, FAILURE |
-| 3 | 2026-07-14T02:30:00+00:00 | 2026-07-17T12:30:00+00:00 | build_without_acceptance | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
+| 3 | 2026-07-14T02:30:00+00:00 | 2026-07-17T12:30:00+00:00 | failed_ignition | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
 | 4 | 2026-07-17T12:45:00+00:00 | 2026-07-19T16:00:00+00:00 | accepted_expansion | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, ACCEPTED_IGNITION, EXPANSION, CONTINUATION_RELOAD, FAILURE |
 | 5 | 2026-07-19T16:15:00+00:00 | 2026-07-19T16:15:00+00:00 | unresolved | EARLY_BUILD |
 

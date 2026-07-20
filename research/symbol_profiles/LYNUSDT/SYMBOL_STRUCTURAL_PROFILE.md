@@ -9,7 +9,7 @@ This profile is symbol-specific. Shared state names are indexing vocabulary, not
 - Limited timeframes: none
 - Median execution/OI anomaly to material price-response lag: 90.0 minutes
 - Lag observations: 94
-- Provisional false-ignition rate: 0.2
+- Provisional false-ignition rate: 0.6
 
 ## Timeframe-local baselines
 
@@ -25,10 +25,10 @@ This profile is symbol-specific. Shared state names are indexing vocabulary, not
 | Campaign | Start | End | Outcome | Reviewed states |
 |---:|---|---|---|---|
 | 1 | 2026-07-13T20:15:00+00:00 | 2026-07-14T06:45:00+00:00 | accepted_expansion | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, ACCEPTED_IGNITION, EXPANSION, CONTINUATION_RELOAD, FAILURE |
-| 2 | 2026-07-14T07:30:00+00:00 | 2026-07-15T07:30:00+00:00 | build_without_acceptance | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
+| 2 | 2026-07-14T07:30:00+00:00 | 2026-07-15T07:30:00+00:00 | failed_ignition | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
 | 3 | 2026-07-15T07:45:00+00:00 | 2026-07-16T01:30:00+00:00 | failed_ignition | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, FAILURE |
 | 4 | 2026-07-16T03:15:00+00:00 | 2026-07-17T17:00:00+00:00 | accepted_expansion | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, ACCEPTED_IGNITION, EXPANSION, CONTINUATION_RELOAD, FAILURE |
-| 5 | 2026-07-17T22:00:00+00:00 | 2026-07-18T07:00:00+00:00 | build_without_acceptance | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
+| 5 | 2026-07-17T22:00:00+00:00 | 2026-07-18T07:00:00+00:00 | failed_ignition | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
 
 ## Symbol-specific deductions
 

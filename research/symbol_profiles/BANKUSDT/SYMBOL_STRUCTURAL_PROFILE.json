@@ -83,12 +83,11 @@
     "observations": 301
   },
   "campaign_outcome_counts": {
-    "failed_ignition": 2,
-    "build_without_acceptance": 1,
+    "failed_ignition": 3,
     "accepted_expansion": 1,
     "unresolved": 1
   },
-  "false_ignition_rate": 0.4,
+  "false_ignition_rate": 0.6,
   "reliable_timeframes": [
     "5m",
     "15m",
@@ -170,7 +169,7 @@
         "PASS": 3,
         "REJECT": 4
       },
-      "outcome": "build_without_acceptance",
+      "outcome": "failed_ignition",
       "dominant_hypotheses": [
         "Accepted expansion/continuation",
         "Execution-led ignition",

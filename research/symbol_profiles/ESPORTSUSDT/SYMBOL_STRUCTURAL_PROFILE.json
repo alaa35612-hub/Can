@@ -83,11 +83,10 @@
     "observations": 161
   },
   "campaign_outcome_counts": {
-    "unresolved": 1,
-    "accepted_expansion": 4,
-    "build_without_acceptance": 3
+    "failed_ignition": 4,
+    "accepted_expansion": 4
   },
-  "false_ignition_rate": 0.0,
+  "false_ignition_rate": 0.5,
   "reliable_timeframes": [
     "5m",
     "15m",
@@ -99,6 +98,7 @@
   ],
   "structural_notes": [
     "No material overlap conflicts in the selected source set.",
+    "Ignition attempts can fail before acceptance; rejection chains are symbol-relevant.",
     "Multiple accepted campaigns occur; do not compress history into one campaign."
   ],
   "unknowns": [
@@ -118,7 +118,7 @@
         "PASS": 2,
         "REJECT": 4
       },
-      "outcome": "unresolved",
+      "outcome": "failed_ignition",
       "dominant_hypotheses": [
         "Accepted expansion/continuation",
         "Cooling versus distribution",
@@ -175,7 +175,7 @@
         "PASS": 3,
         "REJECT": 3
       },
-      "outcome": "build_without_acceptance",
+      "outcome": "failed_ignition",
       "dominant_hypotheses": [
         "Accepted expansion/continuation",
         "Cooling versus distribution",
@@ -203,7 +203,7 @@
         "PASS": 2,
         "REJECT": 4
       },
-      "outcome": "build_without_acceptance",
+      "outcome": "failed_ignition",
       "dominant_hypotheses": [
         "Accepted expansion/continuation",
         "Execution-led ignition",
@@ -230,7 +230,7 @@
         "PASS": 1,
         "REJECT": 4
       },
-      "outcome": "build_without_acceptance",
+      "outcome": "failed_ignition",
       "dominant_hypotheses": [
         "Accepted expansion/continuation",
         "Execution-led ignition",

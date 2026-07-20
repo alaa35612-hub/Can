@@ -2,9 +2,9 @@
 
 - Start: 2026-07-12T16:30:00+00:00
 - End: 2026-07-14T16:15:00+00:00
-- Outcome: accepted_expansion
-- Reviewed states: EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, ACCEPTED_IGNITION, CONTINUATION_RELOAD
-- Review counts: {"PASS": 4, "REJECT": 1, "RESTRICT": 1}
+- Outcome: accepted_without_expansion
+- Reviewed states: EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, ACCEPTED_IGNITION
+- Review counts: {"PASS": 3, "REJECT": 1, "REJECT_DEPENDENCY": 1, "RESTRICT": 1}
 
 ## Dominant hypotheses
 - Accepted expansion/continuation

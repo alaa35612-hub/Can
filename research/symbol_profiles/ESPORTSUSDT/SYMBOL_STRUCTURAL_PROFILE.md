@@ -9,7 +9,7 @@ This profile is symbol-specific. Shared state names are indexing vocabulary, not
 - Limited timeframes: 1d
 - Median execution/OI anomaly to material price-response lag: 30.0 minutes
 - Lag observations: 161
-- Provisional false-ignition rate: 0.0
+- Provisional false-ignition rate: 0.5
 
 ## Timeframe-local baselines
 
@@ -25,11 +25,11 @@ This profile is symbol-specific. Shared state names are indexing vocabulary, not
 
 | Campaign | Start | End | Outcome | Reviewed states |
 |---:|---|---|---|---|
-| 1 | 2026-07-13T19:45:00+00:00 | 2026-07-14T05:15:00+00:00 | unresolved | EARLY_BUILD, IGNITION_CANDIDATE |
+| 1 | 2026-07-13T19:45:00+00:00 | 2026-07-14T05:15:00+00:00 | failed_ignition | EARLY_BUILD, IGNITION_CANDIDATE |
 | 2 | 2026-07-14T09:00:00+00:00 | 2026-07-14T17:15:00+00:00 | accepted_expansion | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, ACCEPTED_IGNITION, EXPANSION, CONTINUATION_RELOAD, FAILURE |
-| 3 | 2026-07-14T19:15:00+00:00 | 2026-07-14T22:30:00+00:00 | build_without_acceptance | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
-| 4 | 2026-07-14T22:45:00+00:00 | 2026-07-15T11:45:00+00:00 | build_without_acceptance | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
-| 5 | 2026-07-15T15:00:00+00:00 | 2026-07-16T06:15:00+00:00 | build_without_acceptance | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
+| 3 | 2026-07-14T19:15:00+00:00 | 2026-07-14T22:30:00+00:00 | failed_ignition | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
+| 4 | 2026-07-14T22:45:00+00:00 | 2026-07-15T11:45:00+00:00 | failed_ignition | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
+| 5 | 2026-07-15T15:00:00+00:00 | 2026-07-16T06:15:00+00:00 | failed_ignition | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE |
 | 6 | 2026-07-16T06:30:00+00:00 | 2026-07-17T16:15:00+00:00 | accepted_expansion | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, ACCEPTED_IGNITION, EXPANSION, CONTINUATION_RELOAD, FAILURE |
 | 7 | 2026-07-17T17:45:00+00:00 | 2026-07-18T06:15:00+00:00 | accepted_expansion | EARLY_BUILD, IGNITION_CANDIDATE, ACCEPTED_IGNITION, EXPANSION, CONTINUATION_RELOAD, FAILURE |
 | 8 | 2026-07-18T06:30:00+00:00 | 2026-07-18T17:30:00+00:00 | accepted_expansion | EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE, ACCEPTED_IGNITION, EXPANSION, CONTINUATION_RELOAD |
@@ -37,6 +37,7 @@ This profile is symbol-specific. Shared state names are indexing vocabulary, not
 ## Symbol-specific deductions
 
 - No material overlap conflicts in the selected source set.
+- Ignition attempts can fail before acceptance; rejection chains are symbol-relevant.
 - Multiple accepted campaigns occur; do not compress history into one campaign.
 
 ## Unknowns and confidence limits

@@ -2,7 +2,7 @@
 
 - Start: 2026-07-15T15:00:00+00:00
 - End: 2026-07-16T06:15:00+00:00
-- Outcome: build_without_acceptance
+- Outcome: failed_ignition
 - Reviewed states: EARLY_BUILD, CONFIRMED_BUILD, IGNITION_CANDIDATE
 - Review counts: {"PASS": 1, "REJECT": 4, "RESTRICT": 2}
 

@@ -72,10 +72,9 @@
   },
   "campaign_outcome_counts": {
     "accepted_expansion": 2,
-    "build_without_acceptance": 2,
-    "failed_ignition": 1
+    "failed_ignition": 3
   },
-  "false_ignition_rate": 0.2,
+  "false_ignition_rate": 0.6,
   "reliable_timeframes": [
     "5m",
     "15m",
@@ -136,7 +135,7 @@
         "PASS": 2,
         "REJECT": 4
       },
-      "outcome": "build_without_acceptance",
+      "outcome": "failed_ignition",
       "dominant_hypotheses": [
         "Accepted expansion/continuation",
         "Execution-led ignition",
@@ -217,7 +216,7 @@
         "PASS": 3,
         "REJECT": 3
       },
-      "outcome": "build_without_acceptance",
+      "outcome": "failed_ignition",
       "dominant_hypotheses": [
         "Accepted expansion/continuation",
         "Execution-led ignition",

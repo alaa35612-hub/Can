@@ -72,14 +72,16 @@
   },
   "source_conflicts": 99,
   "execution_to_price_lag_minutes": {
-    "median": null,
-    "p90": null,
-    "observations": 0
+    "median": 45.0,
+    "p90": 150.0,
+    "observations": 528
   },
   "campaign_outcome_counts": {
-    "accepted_expansion": 4
+    "accepted_expansion": 2,
+    "failed_ignition": 1,
+    "accepted_without_expansion": 1
   },
-  "false_ignition_rate": 0.0,
+  "false_ignition_rate": 0.25,
   "reliable_timeframes": [
     "5m",
     "15m",
@@ -91,6 +93,7 @@
   ],
   "structural_notes": [
     "Material source conflicts exist and cap confidence.",
+    "Ignition attempts can fail before acceptance; rejection chains are symbol-relevant.",
     "Multiple accepted campaigns occur; do not compress history into one campaign."
   ],
   "unknowns": [
@@ -161,15 +164,15 @@
       "states": [
         "EARLY_BUILD",
         "CONFIRMED_BUILD",
-        "IGNITION_CANDIDATE",
-        "EXPANSION",
-        "CONTINUATION_RELOAD"
+        "IGNITION_CANDIDATE"
       ],
       "review_counts": {
-        "PASS": 5,
-        "REJECT": 1
+        "RESTRICT": 1,
+        "PASS": 2,
+        "REJECT": 1,
+        "REJECT_DEPENDENCY": 2
       },
-      "outcome": "accepted_expansion",
+      "outcome": "failed_ignition",
       "dominant_hypotheses": [
         "Accepted expansion/continuation",
         "Execution-led ignition",
@@ -189,15 +192,15 @@
         "EARLY_BUILD",
         "CONFIRMED_BUILD",
         "IGNITION_CANDIDATE",
-        "ACCEPTED_IGNITION",
-        "CONTINUATION_RELOAD"
+        "ACCEPTED_IGNITION"
       ],
       "review_counts": {
-        "PASS": 4,
+        "RESTRICT": 1,
+        "PASS": 3,
         "REJECT": 1,
-        "RESTRICT": 1
+        "REJECT_DEPENDENCY": 1
       },
-      "outcome": "accepted_expansion",
+      "outcome": "accepted_without_expansion",
       "dominant_hypotheses": [
         "Accepted expansion/continuation",
         "Execution-led ignition",
