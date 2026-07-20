@@ -1,0 +1,105 @@
+{
+  "symbol": "BANKUSDT",
+  "campaign_count": 5,
+  "profile_campaign_outcomes": {
+    "failed_ignition": 3,
+    "accepted_expansion": 1,
+    "unresolved": 1
+  },
+  "adaptive_horizons_minutes": [
+    30,
+    60,
+    120,
+    240,
+    480,
+    720,
+    1440
+  ],
+  "longest_horizon_minutes": 1440,
+  "comparison_horizon_minutes": 720,
+  "outcome_rows": 98,
+  "stage_observation_counts_all_horizons": {
+    "EARLY_BUILD": 35,
+    "CONFIRMED_BUILD": 21,
+    "IGNITION_CANDIDATE": 28,
+    "ACCEPTED_IGNITION": 7,
+    "EXPANSION": 7
+  },
+  "path_class_counts_all_horizons": {
+    "MATCHED_CONTROL_LIKE": 40,
+    "NEGATIVE_PATH_OUTLIER": 23,
+    "POSITIVE_PATH_OUTLIER": 26,
+    "TWO_SIDED_VOLATILITY_OUTLIER": 3,
+    "INCOMPLETE_FORWARD_COVERAGE": 6
+  },
+  "stage_summaries_at_longest_horizon": {
+    "EARLY_BUILD": {
+      "campaign_observations": 5,
+      "complete_observations": 4,
+      "incomplete_observations": 1,
+      "median_terminal_return_pct": 1.1173972909795271,
+      "median_mfe_close_pct": 2.9952618627219207,
+      "median_mae_close_pct": -1.3421468786905588,
+      "path_class_counts": {
+        "NEGATIVE_PATH_OUTLIER": 2,
+        "MATCHED_CONTROL_LIKE": 2,
+        "INCOMPLETE_FORWARD_COVERAGE": 1
+      }
+    },
+    "CONFIRMED_BUILD": {
+      "campaign_observations": 3,
+      "complete_observations": 3,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 1.6721620348563393,
+      "median_mfe_close_pct": 2.9439472444653836,
+      "median_mae_close_pct": -1.3198208814518164,
+      "path_class_counts": {
+        "MATCHED_CONTROL_LIKE": 2,
+        "NEGATIVE_PATH_OUTLIER": 1
+      }
+    },
+    "IGNITION_CANDIDATE": {
+      "campaign_observations": 4,
+      "complete_observations": 4,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 2.0546681345847695,
+      "median_mfe_close_pct": 2.616767050702984,
+      "median_mae_close_pct": -1.4656853840990802,
+      "path_class_counts": {
+        "MATCHED_CONTROL_LIKE": 1,
+        "NEGATIVE_PATH_OUTLIER": 2,
+        "POSITIVE_PATH_OUTLIER": 1
+      }
+    },
+    "ACCEPTED_IGNITION": {
+      "campaign_observations": 1,
+      "complete_observations": 1,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 52.60552729272652,
+      "median_mfe_close_pct": 58.71029836381136,
+      "median_mae_close_pct": 8.813419496768859,
+      "path_class_counts": {
+        "POSITIVE_PATH_OUTLIER": 1
+      }
+    },
+    "EXPANSION": {
+      "campaign_observations": 1,
+      "complete_observations": 1,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 43.012383118524134,
+      "median_mfe_close_pct": 45.85544604498357,
+      "median_mae_close_pct": 25.322213798332083,
+      "path_class_counts": {
+        "POSITIVE_PATH_OUTLIER": 1
+      }
+    }
+  },
+  "method_constraints": [
+    "Original state decisions remain frozen; future paths are attached only after reconstruction.",
+    "Metrics use 15m close paths because reconstructed timelines do not retain intrabar highs and lows.",
+    "Controls prefer causal inactive states; quiet non-transition controls are an explicit fallback.",
+    "Path classes are descriptive relative to matched controls, not trade labels.",
+    "Incomplete forward coverage remains explicit."
+  ],
+  "control_definition": "Same-symbol context matches prefer causal LATENT/FAILURE/RESET/COOLING cutoffs; quiet non-transition cutoffs are used only as an explicit fallback."
+}
