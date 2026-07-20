@@ -11,21 +11,21 @@
 
 ## Rejected transitions as negative controls
 
-| Symbol | Rejected anchors | Stages with discrimination | Stages without clear discrimination |
-|---|---:|---:|---:|
-| AKEUSDT | 5 | 1 | 1 |
-| BANKUSDT | 4 | 2 | 0 |
-| ESPORTSUSDT | 15 | 0 | 2 |
-| LYNUSDT | 7 | 0 | 2 |
+| Symbol | Rejected anchors | Validated discrimination | No clear discrimination | Insufficient paired sample |
+|---|---:|---:|---:|---:|
+| AKEUSDT | 5 | 0 | 0 | 2 |
+| BANKUSDT | 4 | 0 | 0 | 2 |
+| ESPORTSUSDT | 15 | 0 | 2 | 0 |
+| LYNUSDT | 7 | 0 | 2 | 0 |
 
 A rejected cutoff is never converted into a valid historical signal because its future path was positive. The audit tests the review gate; it does not rewrite the frozen decision.
 
 ## Source-selection sensitivity
 
-| Symbol | Status | Material conflict groups | Decision-relevant conflict groups |
-|---|---|---:|---:|
-| BANKUSDT | STABLE_VALID_PATH | 412 | 0 |
-| LYNUSDT | STABLE_VALID_PATH | 214 | 0 |
+| Symbol | Status | Material conflict groups | Decision-relevant conflict groups | Conflict fields |
+|---|---|---:|---:|---|
+| BANKUSDT | STABLE_VALID_PATH | 412 | 0 | {"rsi": 412} |
+| LYNUSDT | STABLE_VALID_PATH | 214 | 0 | {"rsi": 214} |
 
 ## Research status
 

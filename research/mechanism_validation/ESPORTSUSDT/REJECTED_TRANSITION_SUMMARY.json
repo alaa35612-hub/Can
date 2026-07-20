@@ -73,6 +73,7 @@
       "rejected_median_terminal_return_pct": 2.142940990207609,
       "valid_positive_outlier_rate": 0.0,
       "rejected_positive_outlier_rate": 0.25,
+      "directional_result": "VALID_DIRECTIONALLY_HIGHER",
       "discrimination_status": "NO_CLEAR_DISCRIMINATION"
     },
     {
@@ -83,6 +84,7 @@
       "rejected_median_terminal_return_pct": null,
       "valid_positive_outlier_rate": 0.2,
       "rejected_positive_outlier_rate": null,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     },
     {
@@ -93,6 +95,7 @@
       "rejected_median_terminal_return_pct": 3.7904893177119314,
       "valid_positive_outlier_rate": null,
       "rejected_positive_outlier_rate": 0.3333333333333333,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     },
     {
@@ -103,6 +106,7 @@
       "rejected_median_terminal_return_pct": 3.5360967012503353,
       "valid_positive_outlier_rate": null,
       "rejected_positive_outlier_rate": 0.0,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     },
     {
@@ -113,6 +117,7 @@
       "rejected_median_terminal_return_pct": null,
       "valid_positive_outlier_rate": 0.14285714285714285,
       "rejected_positive_outlier_rate": null,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     },
     {
@@ -123,6 +128,7 @@
       "rejected_median_terminal_return_pct": 1.7560611548297134,
       "valid_positive_outlier_rate": 0.0,
       "rejected_positive_outlier_rate": 0.5,
+      "directional_result": "VALID_DIRECTIONALLY_HIGHER",
       "discrimination_status": "NO_CLEAR_DISCRIMINATION"
     },
     {
@@ -133,6 +139,7 @@
       "rejected_median_terminal_return_pct": 2.576507054620325,
       "valid_positive_outlier_rate": null,
       "rejected_positive_outlier_rate": 0.25,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     },
     {
@@ -143,6 +150,7 @@
       "rejected_median_terminal_return_pct": null,
       "valid_positive_outlier_rate": 0.0,
       "rejected_positive_outlier_rate": null,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     }
   ]

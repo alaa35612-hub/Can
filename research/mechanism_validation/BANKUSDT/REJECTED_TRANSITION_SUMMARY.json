@@ -58,7 +58,8 @@
       "rejected_median_terminal_return_pct": 0.8480403392161273,
       "valid_positive_outlier_rate": 1.0,
       "rejected_positive_outlier_rate": 0.0,
-      "discrimination_status": "VALID_STAGE_DISCRIMINATES"
+      "directional_result": "VALID_DIRECTIONALLY_HIGHER",
+      "discrimination_status": "INSUFFICIENT_PAIRED_SAMPLE"
     },
     {
       "stage": "CONFIRMED_BUILD",
@@ -68,6 +69,7 @@
       "rejected_median_terminal_return_pct": null,
       "valid_positive_outlier_rate": 0.0,
       "rejected_positive_outlier_rate": null,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     },
     {
@@ -78,6 +80,7 @@
       "rejected_median_terminal_return_pct": 0.2733485193621821,
       "valid_positive_outlier_rate": null,
       "rejected_positive_outlier_rate": 0.0,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     },
     {
@@ -88,6 +91,7 @@
       "rejected_median_terminal_return_pct": null,
       "valid_positive_outlier_rate": 0.0,
       "rejected_positive_outlier_rate": null,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     },
     {
@@ -98,7 +102,8 @@
       "rejected_median_terminal_return_pct": 0.7776761207685334,
       "valid_positive_outlier_rate": 1.0,
       "rejected_positive_outlier_rate": 0.0,
-      "discrimination_status": "VALID_STAGE_DISCRIMINATES"
+      "directional_result": "VALID_DIRECTIONALLY_HIGHER",
+      "discrimination_status": "INSUFFICIENT_PAIRED_SAMPLE"
     },
     {
       "stage": "FAILURE",
@@ -108,6 +113,7 @@
       "rejected_median_terminal_return_pct": 9.584664536741204,
       "valid_positive_outlier_rate": null,
       "rejected_positive_outlier_rate": 0.0,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     },
     {
@@ -118,6 +124,7 @@
       "rejected_median_terminal_return_pct": null,
       "valid_positive_outlier_rate": 0.25,
       "rejected_positive_outlier_rate": null,
+      "directional_result": "UNRESOLVED",
       "discrimination_status": "NO_PAIRED_SAMPLE"
     }
   ]

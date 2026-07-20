@@ -14,13 +14,13 @@ Rejected transitions remain invalid historical decisions. Their future paths are
 
 ## Valid versus rejected proposals
 
-| Stage | Valid complete | Rejected complete | Valid median terminal % | Rejected median terminal % | Discrimination |
-|---|---:|---:|---:|---:|---|
-| ACCEPTED_IGNITION | 2 | 1 | 3.4184994165767986 | 4.3636363636363695 | NO_CLEAR_DISCRIMINATION |
-| CONFIRMED_BUILD | 2 | 0 | 1.085328333259128 | None | NO_PAIRED_SAMPLE |
-| CONTINUATION_RELOAD | 0 | 1 | None | -0.9518773135906877 | NO_PAIRED_SAMPLE |
-| EARLY_BUILD | 3 | 0 | 0.8397135095085329 | None | NO_PAIRED_SAMPLE |
-| EXPANSION | 1 | 2 | 20.74416342412451 | 1.6225385852547514 | VALID_STAGE_DISCRIMINATES |
-| IGNITION_CANDIDATE | 3 | 0 | 1.5136226034308864 | None | NO_PAIRED_SAMPLE |
+| Stage | Valid complete | Rejected complete | Valid median terminal % | Rejected median terminal % | Directional result | Discrimination |
+|---|---:|---:|---:|---:|---|---|
+| ACCEPTED_IGNITION | 2 | 1 | 3.4184994165767986 | 4.3636363636363695 | REJECTED_DIRECTIONALLY_HIGHER | INSUFFICIENT_PAIRED_SAMPLE |
+| CONFIRMED_BUILD | 2 | 0 | 1.085328333259128 | None | UNRESOLVED | NO_PAIRED_SAMPLE |
+| CONTINUATION_RELOAD | 0 | 1 | None | -0.9518773135906877 | UNRESOLVED | NO_PAIRED_SAMPLE |
+| EARLY_BUILD | 3 | 0 | 0.8397135095085329 | None | UNRESOLVED | NO_PAIRED_SAMPLE |
+| EXPANSION | 1 | 2 | 20.74416342412451 | 1.6225385852547514 | VALID_DIRECTIONALLY_HIGHER | INSUFFICIENT_PAIRED_SAMPLE |
+| IGNITION_CANDIDATE | 3 | 0 | 1.5136226034308864 | None | UNRESOLVED | NO_PAIRED_SAMPLE |
 
 No rejected transition is retroactively promoted because its future path happened to be positive.
