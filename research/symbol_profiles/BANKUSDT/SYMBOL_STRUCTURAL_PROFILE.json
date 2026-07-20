@@ -1,0 +1,237 @@
+{
+  "symbol": "BANKUSDT",
+  "data_scope": {
+    "symbol": "BANKUSDT",
+    "sources": 8,
+    "causal_rows": 1824,
+    "segments": 1,
+    "transitions": 22,
+    "controls": 5,
+    "source_conflicts": 412,
+    "review": {
+      "PASS": 15,
+      "RESTRICT": 3,
+      "REJECT": 4
+    }
+  },
+  "timeframe_profiles": {
+    "1d": {
+      "rows": 30,
+      "start": "2026-06-19T00:00:00+00:00",
+      "end": "2026-07-18T00:00:00+00:00",
+      "trades_p50": 77731.5,
+      "trades_p90": 826010.1000000018,
+      "quote_volume_p50": 2022639.75198,
+      "quote_volume_p90": 48024607.231202155,
+      "oi_p50": 125484508.0,
+      "abs_return_p50": 2.494626421322743,
+      "abs_return_p90": 15.214441299611657
+    },
+    "4h": {
+      "rows": 179,
+      "start": "2026-06-19T20:00:00+00:00",
+      "end": "2026-07-19T12:00:00+00:00",
+      "trades_p50": 11797.0,
+      "trades_p90": 259932.8000000002,
+      "quote_volume_p50": 294152.00801,
+      "quote_volume_p90": 15637065.445386022,
+      "oi_p50": 125426289.0,
+      "abs_return_p50": 1.0149422046800138,
+      "abs_return_p90": 5.01698398513692
+    },
+    "1h": {
+      "rows": 523,
+      "start": "2026-06-27T22:00:00+00:00",
+      "end": "2026-07-19T16:00:00+00:00",
+      "trades_p50": 3344.0,
+      "trades_p90": 138426.0000000001,
+      "quote_volume_p50": 85733.71514,
+      "quote_volume_p90": 7637151.661398002,
+      "oi_p50": 125754399.0,
+      "abs_return_p50": 0.60658578856152,
+      "abs_return_p90": 3.137325047809596
+    },
+    "15m": {
+      "rows": 593,
+      "start": "2026-07-13T12:45:00+00:00",
+      "end": "2026-07-19T16:45:00+00:00",
+      "trades_p50": 15458.0,
+      "trades_p90": 164183.20000000004,
+      "quote_volume_p50": 959412.18463,
+      "quote_volume_p90": 10704678.272062032,
+      "oi_p50": 197031574.0,
+      "abs_return_p50": 0.6368359309535832,
+      "abs_return_p90": 3.5949172442482658
+    },
+    "5m": {
+      "rows": 499,
+      "start": "2026-07-17T23:30:00+00:00",
+      "end": "2026-07-19T17:00:00+00:00",
+      "trades_p50": 26581.0,
+      "trades_p90": 116412.19999999998,
+      "quote_volume_p50": 1468755.92337,
+      "quote_volume_p90": 8591108.846283998,
+      "oi_p50": 225676173.0,
+      "abs_return_p50": 0.8977149075081625,
+      "abs_return_p90": 2.9291164752035344
+    }
+  },
+  "source_conflicts": 412,
+  "execution_to_price_lag_minutes": {
+    "median": 30.0,
+    "p90": 105.0,
+    "observations": 301
+  },
+  "campaign_outcome_counts": {
+    "failed_ignition": 2,
+    "build_without_acceptance": 1,
+    "accepted_expansion": 1,
+    "unresolved": 1
+  },
+  "false_ignition_rate": 0.4,
+  "reliable_timeframes": [
+    "5m",
+    "15m",
+    "1h",
+    "4h"
+  ],
+  "limited_timeframes": [
+    "1d"
+  ],
+  "structural_notes": [
+    "High source-conflict burden; source-selection sensitivity is mandatory.",
+    "Ignition attempts can fail before acceptance; rejection chains are symbol-relevant."
+  ],
+  "unknowns": [
+    "Daily regime maturity is insufficient for durable long-horizon claims.",
+    "Observed campaign taxonomy is provisional and may miss symbol-specific unknown structures."
+  ],
+  "campaigns": [
+    {
+      "campaign_index": 1,
+      "start": "2026-07-13T20:45:00+00:00",
+      "end": "2026-07-13T23:15:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE",
+        "FAILURE"
+      ],
+      "review_counts": {
+        "PASS": 3,
+        "RESTRICT": 1
+      },
+      "outcome": "failed_ignition",
+      "dominant_hypotheses": [
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 2,
+      "start": "2026-07-13T23:45:00+00:00",
+      "end": "2026-07-14T01:30:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "IGNITION_CANDIDATE",
+        "FAILURE"
+      ],
+      "review_counts": {
+        "PASS": 3
+      },
+      "outcome": "failed_ignition",
+      "dominant_hypotheses": [
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 3,
+      "start": "2026-07-14T02:30:00+00:00",
+      "end": "2026-07-17T12:30:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE"
+      ],
+      "review_counts": {
+        "PASS": 3,
+        "REJECT": 4
+      },
+      "outcome": "build_without_acceptance",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 4,
+      "start": "2026-07-17T12:45:00+00:00",
+      "end": "2026-07-19T16:00:00+00:00",
+      "states": [
+        "EARLY_BUILD",
+        "CONFIRMED_BUILD",
+        "IGNITION_CANDIDATE",
+        "ACCEPTED_IGNITION",
+        "EXPANSION",
+        "CONTINUATION_RELOAD",
+        "FAILURE"
+      ],
+      "review_counts": {
+        "RESTRICT": 2,
+        "PASS": 5
+      },
+      "outcome": "accepted_expansion",
+      "dominant_hypotheses": [
+        "Accepted expansion/continuation",
+        "Execution-led ignition",
+        "Failed/exhausted campaign",
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    },
+    {
+      "campaign_index": 5,
+      "start": "2026-07-19T16:15:00+00:00",
+      "end": "2026-07-19T16:15:00+00:00",
+      "states": [
+        "EARLY_BUILD"
+      ],
+      "review_counts": {
+        "PASS": 1
+      },
+      "outcome": "unresolved",
+      "dominant_hypotheses": [
+        "Quiet build"
+      ],
+      "alternative_hypotheses": [
+        "New unidentified structure",
+        "Short-covering only",
+        "Transient event spike"
+      ]
+    }
+  ]
+}
