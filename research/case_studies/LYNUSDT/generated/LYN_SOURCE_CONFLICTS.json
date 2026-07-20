@@ -1,0 +1,2784 @@
+[
+  {
+    "timeframe": "15m",
+    "timestamp": 1783952100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783953000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783953900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783954800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783955700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783956600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783957500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783958400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783959300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783960200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783961100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783962000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783962900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783963800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783964700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783965600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783966500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783967400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783968300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783969200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783970100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783971000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783971900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783972800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783973700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783974600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783975500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783976400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783977300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783978200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783979100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783980000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783980900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783981800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783982700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783983600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783984500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783985400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783986300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783987200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783988100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783989000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783989900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783990800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783991700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783992600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783993500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783994400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783995300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783996200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783997100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783998000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783998900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1783999800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784000700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784001600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784002500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784003400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784004300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784005200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784006100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784007000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784007900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784008800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784009700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784010600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784011500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784012400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784013300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784014200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784015100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784016000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784016900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784017800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784018700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784019600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784020500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784021400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784022300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784023200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784024100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784025000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784025900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784026800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784027700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784028600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784029500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784030400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784031300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784032200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784033100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784034000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784034900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784035800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784036700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784037600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784038500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784039400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784040300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784041200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784042100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784043000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784043900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784044800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784045700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784046600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784047500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784048400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784049300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784050200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784051100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784052000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784052900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784053800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784054700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784055600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784056500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784057400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784058300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784059200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784060100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784061000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784061900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784062800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784063700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784064600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784065500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784066400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784067300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784068200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784069100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784070000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784070900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784071800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784072700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784073600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784074500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784075400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784076300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784077200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784078100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784079000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784079900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784080800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784081700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784082600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784083500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784084400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784085300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784086200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784087100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784088000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784088900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784089800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784090700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784091600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784092500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784093400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784094300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784095200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784096100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784097000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784097900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784098800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784099700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784100600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784101500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784102400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784103300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784104200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784105100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784106000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784106900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784107800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784108700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784109600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784110500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784111400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784112300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784113200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784114100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784115000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784115900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784116800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784117700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784118600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784119500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784120400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784121300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784122200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784123100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784124000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784124900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784125800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784126700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784127600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784128500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784129400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784130300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784131200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784132100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784133000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784133900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784134800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784135700000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784136600000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784137500000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784138400000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784139300000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784140200000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784141100000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784142000000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784142900000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784143800000,
+    "chosen": "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  }
+]

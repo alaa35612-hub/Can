@@ -1,0 +1,14 @@
+{
+  "symbol": "ESPORTSUSDT",
+  "sources": 6,
+  "causal_rows": 1804,
+  "segments": 1,
+  "transitions": 52,
+  "controls": 5,
+  "source_conflicts": 0,
+  "review": {
+    "PASS": 32,
+    "RESTRICT": 5,
+    "REJECT": 15
+  }
+}

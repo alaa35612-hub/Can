@@ -1,0 +1,5358 @@
+[
+  {
+    "timeframe": "15m",
+    "timestamp": 1784031300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784032200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784033100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784034000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784034900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784035800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784036700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784037600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784038500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784039400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784040300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784041200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784042100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784043000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784043900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784044800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784045700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784046600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784047500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784048400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784049300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784050200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784051100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784052000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784052900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784053800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784054700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784055600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784056500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784057400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784058300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784059200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784060100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784061000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784061900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784062800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784063700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784064600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784065500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784066400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784067300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784068200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784069100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784070000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784070900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784071800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784072700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784073600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784074500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784075400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784076300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784077200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784078100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784079000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784079900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784080800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784081700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784082600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784083500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784084400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784085300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784086200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784087100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784088000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784088900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784089800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784090700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784091600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784092500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784093400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784094300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784095200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784096100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784097000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784097900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784098800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784099700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784100600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784101500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784102400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784103300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784104200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784105100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784106000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784106900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784107800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784108700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784109600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784110500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784111400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784112300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784113200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784114100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784115000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784115900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784116800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784117700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784118600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784119500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784120400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784121300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784122200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784123100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784124000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784124900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784125800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784126700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784127600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784128500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784129400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784130300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784131200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784132100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784133000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784133900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784134800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784135700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784136600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784137500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784138400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784139300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784140200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784141100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784142000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784142900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784143800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784144700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784145600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784146500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784147400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784148300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784149200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784150100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784151000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784151900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784152800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784153700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784154600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784155500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784156400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784157300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784158200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784159100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784160000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784160900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784161800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784162700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784163600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784164500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784165400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784166300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784167200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784168100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784169000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784169900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784170800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784171700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784172600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784173500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784174400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784175300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784176200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784177100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784178000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784178900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784179800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784180700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784181600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784182500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784183400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784184300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784185200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784186100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784187000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784187900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784188800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784189700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784190600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784191500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784192400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784193300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784194200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784195100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784196000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784196900000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784197800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784198700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784199600000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784200500000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784201400000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784202300000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784203200000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784204100000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784205000000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784206800000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "15m",
+    "timestamp": 1784207700000,
+    "chosen": "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782684000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782687600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782691200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782694800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782698400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782702000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782705600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782709200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782712800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782716400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782720000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782723600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782727200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782730800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782734400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782738000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782741600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782745200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782748800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782752400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782756000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782759600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782763200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782766800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782770400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782774000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782777600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782781200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782784800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782788400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782792000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782795600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782799200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782802800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782806400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782810000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782813600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782817200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782820800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782824400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782828000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782831600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782835200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782838800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782842400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782846000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782849600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782853200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782856800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782860400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782864000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782867600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782871200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782874800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782878400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782882000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782885600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782889200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782892800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782896400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782900000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782903600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782907200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782910800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782914400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782918000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782921600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782925200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782928800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782932400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782936000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782939600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782943200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782946800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782950400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782954000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782957600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782961200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782964800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782968400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782972000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782975600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782979200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782982800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782986400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782990000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782993600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1782997200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783000800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783004400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783008000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783011600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783015200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783018800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783022400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783026000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783029600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783033200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783036800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783040400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783044000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783047600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783051200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783054800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783058400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783062000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783065600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783069200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783072800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783076400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783080000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783083600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783087200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783090800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783094400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783098000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783101600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783105200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783108800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783112400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783116000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783119600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783123200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783126800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783130400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783134000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783137600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783141200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783144800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783148400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783152000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783155600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783159200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783162800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783166400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783170000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783173600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783177200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783180800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783184400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783188000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783191600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783195200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783198800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783202400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783206000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783209600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783213200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783216800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783220400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783224000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783227600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783231200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783234800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783238400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783242000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783245600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783249200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783252800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783256400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783260000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783263600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783267200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783270800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783274400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783278000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783281600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783285200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783288800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783292400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783296000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783299600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783303200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783306800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783310400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783314000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783317600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783321200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783324800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783328400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783332000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783335600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783339200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783342800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783346400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783350000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783353600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783357200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783360800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783364400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783368000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783371600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783375200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783378800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783382400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783386000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783389600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783393200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783396800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783400400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783404000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783407600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783411200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783414800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783418400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783422000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783425600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783429200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783432800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783436400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783440000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783443600000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783447200000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783450800000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783454400000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  },
+  {
+    "timeframe": "1h",
+    "timestamp": 1783458000000,
+    "chosen": "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "conflicts": [
+      {
+        "source": "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+        "fields": [
+          "rsi"
+        ]
+      }
+    ]
+  }
+]
