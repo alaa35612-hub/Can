@@ -87,6 +87,32 @@ class NegativeControlTests(unittest.TestCase):
         self.assertEqual(anchors[1]["negative_control_type"], "REJECTED_DESCENDANT")
 
 
+class DiscriminationTests(unittest.TestCase):
+    def test_single_pair_is_not_promoted_to_discrimination(self):
+        negative = [
+            {
+                "horizon_minutes": 720,
+                "proposed_state": "ACCEPTED_IGNITION",
+                "coverage_complete": True,
+                "terminal_return_pct": 1.0,
+                "path_class": "MATCHED_CONTROL_LIKE",
+            }
+        ]
+        valid = [
+            {
+                "horizon_minutes": "720",
+                "stage": "ACCEPTED_IGNITION",
+                "stage_review_status": "PASS",
+                "coverage_complete": "True",
+                "terminal_return_pct": "10.0",
+                "path_class": "POSITIVE_PATH_OUTLIER",
+            }
+        ]
+        result = VALIDATE.discrimination_table(negative, valid, 720)
+        self.assertEqual(result[0]["directional_result"], "VALID_DIRECTIONALLY_HIGHER")
+        self.assertEqual(result[0]["discrimination_status"], "INSUFFICIENT_PAIRED_SAMPLE")
+
+
 class MechanismMetricTests(unittest.TestCase):
     def test_leading_mechanism_preserves_simultaneous_evidence(self):
         transitions = [
