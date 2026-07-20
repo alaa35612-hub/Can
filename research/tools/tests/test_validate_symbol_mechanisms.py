@@ -120,11 +120,11 @@ class MechanismMetricTests(unittest.TestCase):
         self.assertEqual(result["reset_depth_status"], "UNOBSERVED_GAP")
         self.assertIsNone(result["price_reset_depth_pct"])
 
-    def test_reset_depth_uses_observed_prior_peak(self):
+    def test_reset_depth_uses_observed_prior_peak_with_string_oi(self):
         rows = [
-            {"timestamp": 0, "close": 100.0, "oi": 1000.0},
-            {"timestamp": 900_000, "close": 120.0, "oi": 1500.0},
-            {"timestamp": 1_800_000, "close": 108.0, "oi": 1200.0},
+            {"timestamp": 0, "close": 100.0, "oi": "1000.0"},
+            {"timestamp": 900_000, "close": 120.0, "oi": "1500.0"},
+            {"timestamp": 1_800_000, "close": 108.0, "oi": "1200.0"},
         ]
         previous = {
             "start": VALIDATE.ms_to_iso(0),
