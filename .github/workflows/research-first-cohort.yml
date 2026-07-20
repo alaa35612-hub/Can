@@ -52,6 +52,7 @@ jobs:
               if not summary_path.exists():
                   continue
               item=json.loads(summary_path.read_text())
+              item.setdefault('symbol', symbol)
               if 'review' not in item:
                   review_path=base/f'{prefix}_REVIEW_SUMMARY.json'
                   item['review']=json.loads(review_path.read_text()) if review_path.exists() else {'PASS':0,'RESTRICT':0,'REJECT':0}
