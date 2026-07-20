@@ -22,6 +22,6 @@ Future outcomes are attached after the original frozen cutoff. They do not rewri
 
 - Original state decisions remain frozen.
 - Close-path MFE/MAE are not intrabar MFE/MAE.
-- Controls are same-symbol, context-matched, and outside campaign neighborhoods.
+- Controls are same-symbol, context-matched, and from non-active causal states.
 - Path classes describe relative outcomes; they are not entries, exits, or universal rules.
 - Incomplete forward coverage is retained rather than extrapolated.

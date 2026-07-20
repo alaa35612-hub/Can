@@ -87,8 +87,9 @@
   "method_constraints": [
     "Original state decisions remain frozen; future paths are attached only after reconstruction.",
     "Metrics use 15m close paths because reconstructed timelines do not retain intrabar highs and lows.",
-    "Controls are matched within the same symbol and exclude campaign neighborhoods.",
+    "Controls are matched within the same symbol from causal LATENT/FAILURE/RESET/COOLING cutoffs.",
     "Path classes are descriptive relative to matched controls, not trade labels.",
     "Incomplete forward coverage remains explicit."
-  ]
+  ],
+  "control_definition": "Same-symbol context matches selected only from causal LATENT/FAILURE/RESET/COOLING cutoffs using information available at each control cutoff."
 }
