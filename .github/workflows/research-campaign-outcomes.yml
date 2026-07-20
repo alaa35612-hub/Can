@@ -6,6 +6,7 @@ on:
     paths:
       - 'research/tools/audit_campaign_outcomes.py'
       - 'research/tools/run_campaign_outcome_audit.py'
+      - 'research/tools/build_symbol_profiles.py'
       - 'research/tools/tests/test_audit_campaign_outcomes.py'
       - 'research/tools/tests/test_run_campaign_outcome_audit.py'
       - '.github/workflows/research-campaign-outcomes.yml'
