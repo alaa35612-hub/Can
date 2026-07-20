@@ -1,0 +1,70 @@
+name: Research First Cohort
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'research/tools/build_symbol_campaign.py'
+      - 'research/tools/tests/test_build_symbol_campaign.py'
+      - '.github/workflows/research-first-cohort.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run tests
+        run: python -m unittest research/tools/tests/test_build_symbol_campaign.py -v
+
+      - name: Build BANK ESPORTS LYN campaign outputs
+        run: >-
+          python research/tools/build_symbol_campaign.py
+          --root .
+          --output-root research/case_studies
+          --symbols BANKUSDT ESPORTSUSDT LYNUSDT
+
+      - name: Build cohort comparison
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          symbols = ['AKEUSDT','BANKUSDT','ESPORTSUSDT','LYNUSDT']
+          rows=[]
+          for symbol in symbols:
+              prefix=symbol.replace('USDT','')
+              path=Path('research/case_studies')/symbol/'generated'/f'{prefix}_RUN_SUMMARY.json'
+              if path.exists():
+                  rows.append(json.loads(path.read_text()))
+          out=Path('research/cross_coin/FIRST_COHORT_COMPARISON.md')
+          out.parent.mkdir(parents=True,exist_ok=True)
+          table='\n'.join(f"| {x['symbol']} | {x['sources']} | {x['causal_rows']} | {x['segments']} | {x['transitions']} | {x['review']['PASS']} | {x['review']['RESTRICT']} | {x['review']['REJECT']} | {x['source_conflicts']} |" for x in rows)
+          out.write_text('# First Cohort Causal Comparison\n\nThis matrix compares reviewed causal reconstructions. Counts do not rank coins and do not establish durable rules.\n\n| Symbol | Sources | Causal rows | Segments | Transitions | PASS | RESTRICT | REJECT | Source conflicts |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|\n'+table+'\n\n## Interpretation constraints\n\n- More transitions do not imply a better campaign.\n- Source conflicts cap confidence until provenance is resolved.\n- Only adversarially reviewed transitions are valid research inputs.\n- Cross-coin rules remain hypotheses until controls and blind replay distinguish success from failure.\n',encoding='utf-8')
+          PY
+
+      - name: Commit generated outputs
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- research/case_studies/BANKUSDT research/case_studies/ESPORTSUSDT research/case_studies/LYNUSDT research/cross_coin/FIRST_COHORT_COMPARISON.md)" ]; then
+            echo 'Outputs unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/case_studies/BANKUSDT research/case_studies/ESPORTSUSDT research/case_studies/LYNUSDT research/cross_coin/FIRST_COHORT_COMPARISON.md
+          git commit -m 'research: generate first cohort causal studies [skip ci]'
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
