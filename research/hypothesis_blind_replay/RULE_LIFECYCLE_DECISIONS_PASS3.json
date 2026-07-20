@@ -1,0 +1,34 @@
+[
+  {
+    "blind_replay_result": "INSUFFICIENT_OUTCOME_SAMPLE",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "evidence_basis": "The sole assessable accepted campaign may satisfy the full context, but the replay lacks the minimum paired success/failure sample required for promotion.",
+    "rule_id": "BANK_LONG_REBUILD_DEEP_RESET_CONTEXT",
+    "symbol": "BANKUSDT",
+    "unresolved_limitations": [
+      "Each assessment uses only campaigns completed before the active cutoff.",
+      "Outcome is attached only after the context assessment is frozen.",
+      "The baseline is symbol-local and expanding; no universal numerical threshold is used.",
+      "Observation-gap or missing-reset cases abstain rather than infer continuity.",
+      "Rejected controls remain historically rejected even when their later path is positive.",
+      "No result qualifies as a durable rule in this pass."
+    ]
+  },
+  {
+    "blind_replay_result": "INCONCLUSIVE_DIRECTIONAL_EVIDENCE",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "evidence_basis": "Expanding-window replay does not establish reliable discrimination from failures and rejected controls.",
+    "rule_id": "ESPORTS_DEEP_RESET_CYCLE_CONTEXT",
+    "symbol": "ESPORTSUSDT",
+    "unresolved_limitations": [
+      "Each assessment uses only campaigns completed before the active cutoff.",
+      "Outcome is attached only after the context assessment is frozen.",
+      "The baseline is symbol-local and expanding; no universal numerical threshold is used.",
+      "Observation-gap or missing-reset cases abstain rather than infer continuity.",
+      "Rejected controls remain historically rejected even when their later path is positive.",
+      "No result qualifies as a durable rule in this pass."
+    ]
+  }
+]
