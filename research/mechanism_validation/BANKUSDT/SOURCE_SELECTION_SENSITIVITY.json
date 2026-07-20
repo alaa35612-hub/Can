@@ -1,0 +1,80 @@
+{
+  "symbol": "BANKUSDT",
+  "sources": [
+    "BANKUSDT_15m_limit500_20260718_174346_enriched_candles.csv",
+    "BANKUSDT_15m_limit500_20260719_170943_enriched_candles.csv",
+    "BANKUSDT_1d_limit500_20260718_174500_enriched_candles.csv",
+    "BANKUSDT_1d_limit500_20260719_170839_enriched_candles.csv",
+    "BANKUSDT_1h_limit500_20260718_174357_enriched_candles.csv",
+    "BANKUSDT_1h_limit500_20260719_170932_enriched_candles.csv",
+    "BANKUSDT_4h_limit500_20260719_170921_enriched_candles.csv",
+    "BANKUSDT_5m_limit500_20260719_170954_enriched_candles.csv"
+  ],
+  "policies": [
+    {
+      "policy": "MOST_COMPLETE_LATEST",
+      "valid_signature_same_as_default": true,
+      "valid_transition_symmetric_difference": 0,
+      "segments": 1,
+      "proposed_transitions": 22,
+      "review_counts": {
+        "PASS": 15,
+        "RESTRICT": 3,
+        "REJECT": 4
+      }
+    },
+    {
+      "policy": "EARLIEST_CAPTURE",
+      "valid_signature_same_as_default": true,
+      "valid_transition_symmetric_difference": 0,
+      "segments": 1,
+      "proposed_transitions": 22,
+      "review_counts": {
+        "PASS": 15,
+        "RESTRICT": 3,
+        "REJECT": 4
+      }
+    },
+    {
+      "policy": "LATEST_CAPTURE",
+      "valid_signature_same_as_default": true,
+      "valid_transition_symmetric_difference": 0,
+      "segments": 1,
+      "proposed_transitions": 22,
+      "review_counts": {
+        "PASS": 15,
+        "RESTRICT": 3,
+        "REJECT": 4
+      }
+    },
+    {
+      "policy": "MIN_DISAGREEMENT",
+      "valid_signature_same_as_default": true,
+      "valid_transition_symmetric_difference": 0,
+      "segments": 1,
+      "proposed_transitions": 22,
+      "review_counts": {
+        "PASS": 15,
+        "RESTRICT": 3,
+        "REJECT": 4
+      }
+    }
+  ],
+  "conflicts": {
+    "overlap_groups": 908,
+    "material_conflict_groups": 412,
+    "decision_relevant_conflict_groups": 0,
+    "field_counts": {
+      "rsi": 412
+    },
+    "decision_relevant_fields": [
+      "close",
+      "number_of_trades",
+      "oi",
+      "quote_volume",
+      "taker_quote_imbalance_pct"
+    ]
+  },
+  "sensitivity_status": "STABLE_VALID_PATH",
+  "interpretation": "All tested source-selection policies preserve the valid reviewed transition path."
+}

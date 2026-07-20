@@ -1,0 +1,37 @@
+{
+  "symbol": "AKEUSDT",
+  "campaigns": 4,
+  "outcome_groups": {
+    "accepted_expansion": {
+      "campaigns": 2,
+      "median_birth_to_ignition_minutes": 247.5,
+      "median_campaign_age_at_acceptance_minutes": 262.5,
+      "median_price_reset_depth_pct": -56.40165713158414,
+      "median_oi_reset_depth_pct": -6.594679964540551,
+      "leading_mechanism_counts": {
+        "OI_LEADS": 1,
+        "EXECUTION_AND_OI_SIMULTANEOUS": 1
+      }
+    },
+    "accepted_without_expansion": {
+      "campaigns": 1,
+      "median_birth_to_ignition_minutes": 2115,
+      "median_campaign_age_at_acceptance_minutes": 2130,
+      "median_price_reset_depth_pct": null,
+      "median_oi_reset_depth_pct": null,
+      "leading_mechanism_counts": {
+        "OI_LEADS": 1
+      }
+    },
+    "failed_ignition": {
+      "campaigns": 1,
+      "median_birth_to_ignition_minutes": 165,
+      "median_campaign_age_at_acceptance_minutes": null,
+      "median_price_reset_depth_pct": null,
+      "median_oi_reset_depth_pct": null,
+      "leading_mechanism_counts": {
+        "OI_LEADS": 1
+      }
+    }
+  }
+}

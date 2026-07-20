@@ -1,0 +1,36 @@
+{
+  "symbol": "BANKUSDT",
+  "campaigns": 5,
+  "outcome_groups": {
+    "accepted_expansion": {
+      "campaigns": 1,
+      "median_birth_to_ignition_minutes": 1590,
+      "median_campaign_age_at_acceptance_minutes": 1605,
+      "median_price_reset_depth_pct": -14.448713470718355,
+      "median_oi_reset_depth_pct": -10.748591595275547,
+      "leading_mechanism_counts": {
+        "EXECUTION_AND_PRICE_SIMULTANEOUS": 1
+      }
+    },
+    "failed_ignition": {
+      "campaigns": 3,
+      "median_birth_to_ignition_minutes": 135,
+      "median_campaign_age_at_acceptance_minutes": null,
+      "median_price_reset_depth_pct": -0.9212287825370036,
+      "median_oi_reset_depth_pct": -0.6504022463016457,
+      "leading_mechanism_counts": {
+        "EXECUTION_AND_PRICE_SIMULTANEOUS": 3
+      }
+    },
+    "unresolved": {
+      "campaigns": 1,
+      "median_birth_to_ignition_minutes": null,
+      "median_campaign_age_at_acceptance_minutes": null,
+      "median_price_reset_depth_pct": -20.76196963799144,
+      "median_oi_reset_depth_pct": -13.549369953317536,
+      "leading_mechanism_counts": {
+        "EXECUTION_AND_PRICE_SIMULTANEOUS": 1
+      }
+    }
+  }
+}

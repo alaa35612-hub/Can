@@ -1,0 +1,134 @@
+{
+  "comparison_horizon_minutes": 720,
+  "stage_summaries": {
+    "ACCEPTED_IGNITION": {
+      "observations": 2,
+      "complete_observations": 2,
+      "median_terminal_return_pct": 0.9745803185519542,
+      "path_class_counts": {
+        "POSITIVE_PATH_OUTLIER": 1,
+        "MATCHED_CONTROL_LIKE": 1
+      },
+      "rejection_type_counts": {
+        "DIRECT_REJECTED_TRANSITION": 2
+      }
+    },
+    "CONTINUATION_RELOAD": {
+      "observations": 2,
+      "complete_observations": 2,
+      "median_terminal_return_pct": 10.142497904442571,
+      "path_class_counts": {
+        "MATCHED_CONTROL_LIKE": 1,
+        "POSITIVE_PATH_OUTLIER": 1
+      },
+      "rejection_type_counts": {
+        "REJECTED_DESCENDANT": 2
+      }
+    },
+    "EXPANSION": {
+      "observations": 2,
+      "complete_observations": 2,
+      "median_terminal_return_pct": 4.336510474202626,
+      "path_class_counts": {
+        "MATCHED_CONTROL_LIKE": 1,
+        "POSITIVE_PATH_OUTLIER": 1
+      },
+      "rejection_type_counts": {
+        "REJECTED_DESCENDANT": 2
+      }
+    },
+    "FAILURE": {
+      "observations": 1,
+      "complete_observations": 1,
+      "median_terminal_return_pct": 1.1210762331838486,
+      "path_class_counts": {
+        "MATCHED_CONTROL_LIKE": 1
+      },
+      "rejection_type_counts": {
+        "REJECTED_DESCENDANT": 1
+      }
+    }
+  },
+  "symbol": "LYNUSDT",
+  "negative_anchor_count": 7,
+  "outcome_rows": 42,
+  "discrimination": [
+    {
+      "stage": "ACCEPTED_IGNITION",
+      "valid_complete_observations": 2,
+      "rejected_complete_observations": 2,
+      "valid_median_terminal_return_pct": 1.0098891047813197,
+      "rejected_median_terminal_return_pct": 0.9745803185519542,
+      "valid_positive_outlier_rate": 0.5,
+      "rejected_positive_outlier_rate": 0.5,
+      "directional_result": "VALID_DIRECTIONALLY_HIGHER",
+      "discrimination_status": "NO_CLEAR_DISCRIMINATION"
+    },
+    {
+      "stage": "CONFIRMED_BUILD",
+      "valid_complete_observations": 5,
+      "rejected_complete_observations": 0,
+      "valid_median_terminal_return_pct": 1.7329545454545459,
+      "rejected_median_terminal_return_pct": null,
+      "valid_positive_outlier_rate": 0.6,
+      "rejected_positive_outlier_rate": null,
+      "directional_result": "UNRESOLVED",
+      "discrimination_status": "NO_PAIRED_SAMPLE"
+    },
+    {
+      "stage": "CONTINUATION_RELOAD",
+      "valid_complete_observations": 0,
+      "rejected_complete_observations": 2,
+      "valid_median_terminal_return_pct": null,
+      "rejected_median_terminal_return_pct": 10.142497904442571,
+      "valid_positive_outlier_rate": null,
+      "rejected_positive_outlier_rate": 0.5,
+      "directional_result": "UNRESOLVED",
+      "discrimination_status": "NO_PAIRED_SAMPLE"
+    },
+    {
+      "stage": "EARLY_BUILD",
+      "valid_complete_observations": 5,
+      "rejected_complete_observations": 0,
+      "valid_median_terminal_return_pct": 1.2895991028875953,
+      "rejected_median_terminal_return_pct": null,
+      "valid_positive_outlier_rate": 0.4,
+      "rejected_positive_outlier_rate": null,
+      "directional_result": "UNRESOLVED",
+      "discrimination_status": "NO_PAIRED_SAMPLE"
+    },
+    {
+      "stage": "EXPANSION",
+      "valid_complete_observations": 2,
+      "rejected_complete_observations": 2,
+      "valid_median_terminal_return_pct": 0.7238149304570007,
+      "rejected_median_terminal_return_pct": 4.336510474202626,
+      "valid_positive_outlier_rate": 0.0,
+      "rejected_positive_outlier_rate": 0.5,
+      "directional_result": "REJECTED_DIRECTIONALLY_HIGHER",
+      "discrimination_status": "NO_CLEAR_DISCRIMINATION"
+    },
+    {
+      "stage": "FAILURE",
+      "valid_complete_observations": 0,
+      "rejected_complete_observations": 1,
+      "valid_median_terminal_return_pct": null,
+      "rejected_median_terminal_return_pct": 1.1210762331838486,
+      "valid_positive_outlier_rate": null,
+      "rejected_positive_outlier_rate": 0.0,
+      "directional_result": "UNRESOLVED",
+      "discrimination_status": "NO_PAIRED_SAMPLE"
+    },
+    {
+      "stage": "IGNITION_CANDIDATE",
+      "valid_complete_observations": 5,
+      "rejected_complete_observations": 0,
+      "valid_median_terminal_return_pct": 0.13743815283120409,
+      "rejected_median_terminal_return_pct": null,
+      "valid_positive_outlier_rate": 0.2,
+      "rejected_positive_outlier_rate": null,
+      "directional_result": "UNRESOLVED",
+      "discrimination_status": "NO_PAIRED_SAMPLE"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "rule_id": "UNIVERSAL_IGNITION_SUFFICIENCY",
+    "current_status": "REJECTED_RULE",
+    "decision": "REJECT",
+    "basis": "Valid ignition candidates remain mixed within symbols and rejected proposals can also have positive future paths.",
+    "limitations": "No universal stage meaning is permitted."
+  },
+  {
+    "rule_id": "UNIVERSAL_ACCEPTANCE_SUFFICIENCY",
+    "current_status": "REJECTED_RULE",
+    "decision": "REJECT",
+    "basis": "Accepted-stage outcomes differ materially by symbol and campaign.",
+    "limitations": "Acceptance must be interpreted through symbol-specific structure."
+  },
+  {
+    "rule_id": "BANK_STRICT_ACCEPTANCE_MECHANISM",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "Source sensitivity status: STABLE_VALID_PATH; the reviewed path is stable across tested policies, but accepted sample remains one.",
+    "limitations": "Requires more accepted and rejected BANK campaigns. RSI provenance matters only for future RSI-dependent claims, not the current ledger path."
+  },
+  {
+    "rule_id": "LYN_BUILD_PERSISTENCE_MECHANISM",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "Source sensitivity status: STABLE_VALID_PATH; the reviewed path is stable, while valid and rejected acceptance/expansion remain poorly separated.",
+    "limitations": "Requires additional campaigns and features beyond campaign age or reset depth. RSI conflicts do not alter the current ledger path."
+  },
+  {
+    "rule_id": "BANK_LONG_REBUILD_DEEP_RESET_CONTEXT",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "The single accepted BANK campaign followed a much longer build and deeper observed price/OI reset than the failed campaigns.",
+    "limitations": "Accepted sample size is one; this is directional evidence only."
+  },
+  {
+    "rule_id": "LYN_AGE_RESET_AS_DISCRIMINATOR",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "REJECT",
+    "basis": "Accepted and failed LYN campaigns show overlapping build ages and reset depths, while rejected transitions can outperform valid counterparts.",
+    "limitations": "This rejects age/reset depth as a standalone discriminator, not the broader build-persistence hypothesis."
+  },
+  {
+    "rule_id": "ESPORTS_DEEP_RESET_CYCLE_CONTEXT",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "Accepted ESPORTS campaigns show longer median build-to-ignition and materially deeper observed resets than failed campaigns.",
+    "limitations": "State labels themselves do not yet discriminate against rejected controls; the context mechanism needs direct replay tests."
+  },
+  {
+    "rule_id": "ESPORTS_RECURRENT_CYCLE_MECHANISM",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "Repeated build, rejection and rebuild episodes remain distinct in the reviewed ledger.",
+    "limitations": "Cycle-frequency discriminators are not yet validated outside ESPORTS."
+  },
+  {
+    "rule_id": "AKE_GAP_AWARE_CAMPAIGN_AGE",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "AKE contains explicit observation gaps and multiple independent campaigns.",
+    "limitations": "Gap boundaries reduce sample size and prevent continuity claims."
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "symbol": "LYNUSDT",
+  "sources": [
+    "LYNUSDT_15m_limit500_20260718_185949_enriched_candles.csv",
+    "LYNUSDT_15m_limit500_20260718_190753_enriched_candles.csv",
+    "LYNUSDT_1h_limit500_20260718_190125_enriched_candles.csv",
+    "LYNUSDT_4h_limit500_20260718_190717_enriched_candles.csv",
+    "LYNUSDT_5m_limit500_20260718_185241_enriched_candles.csv"
+  ],
+  "policies": [
+    {
+      "policy": "MOST_COMPLETE_LATEST",
+      "valid_signature_same_as_default": true,
+      "valid_transition_symmetric_difference": 0,
+      "segments": 1,
+      "proposed_transitions": 31,
+      "review_counts": {
+        "PASS": 22,
+        "RESTRICT": 2,
+        "REJECT": 7
+      }
+    },
+    {
+      "policy": "EARLIEST_CAPTURE",
+      "valid_signature_same_as_default": true,
+      "valid_transition_symmetric_difference": 0,
+      "segments": 1,
+      "proposed_transitions": 31,
+      "review_counts": {
+        "PASS": 22,
+        "RESTRICT": 2,
+        "REJECT": 7
+      }
+    },
+    {
+      "policy": "LATEST_CAPTURE",
+      "valid_signature_same_as_default": true,
+      "valid_transition_symmetric_difference": 0,
+      "segments": 1,
+      "proposed_transitions": 31,
+      "review_counts": {
+        "PASS": 22,
+        "RESTRICT": 2,
+        "REJECT": 7
+      }
+    },
+    {
+      "policy": "MIN_DISAGREEMENT",
+      "valid_signature_same_as_default": true,
+      "valid_transition_symmetric_difference": 0,
+      "segments": 1,
+      "proposed_transitions": 31,
+      "review_counts": {
+        "PASS": 22,
+        "RESTRICT": 2,
+        "REJECT": 7
+      }
+    }
+  ],
+  "conflicts": {
+    "overlap_groups": 498,
+    "material_conflict_groups": 214,
+    "decision_relevant_conflict_groups": 0,
+    "field_counts": {
+      "rsi": 214
+    },
+    "decision_relevant_fields": [
+      "close",
+      "number_of_trades",
+      "oi",
+      "quote_volume",
+      "taker_quote_imbalance_pct"
+    ]
+  },
+  "sensitivity_status": "STABLE_VALID_PATH",
+  "interpretation": "All tested source-selection policies preserve the valid reviewed transition path."
+}
