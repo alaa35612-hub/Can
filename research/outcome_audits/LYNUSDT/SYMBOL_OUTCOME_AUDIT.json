@@ -1,0 +1,94 @@
+{
+  "symbol": "LYNUSDT",
+  "campaign_count": 5,
+  "profile_campaign_outcomes": {
+    "accepted_expansion": 2,
+    "failed_ignition": 3
+  },
+  "adaptive_horizons_minutes": [
+    60,
+    90,
+    240,
+    360,
+    720,
+    1440
+  ],
+  "longest_horizon_minutes": 1440,
+  "comparison_horizon_minutes": 720,
+  "outcome_rows": 114,
+  "stage_observation_counts_all_horizons": {
+    "EARLY_BUILD": 30,
+    "CONFIRMED_BUILD": 30,
+    "IGNITION_CANDIDATE": 30,
+    "ACCEPTED_IGNITION": 12,
+    "EXPANSION": 12
+  },
+  "path_class_counts_all_horizons": {
+    "INSUFFICIENT_MATCHED_CONTROLS": 111,
+    "INCOMPLETE_FORWARD_COVERAGE": 3
+  },
+  "stage_summaries_at_longest_horizon": {
+    "EARLY_BUILD": {
+      "campaign_observations": 5,
+      "complete_observations": 5,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 1.2895991028875953,
+      "median_mfe_close_pct": 1.8783291281188497,
+      "median_mae_close_pct": -0.05606952621249883,
+      "path_class_counts": {
+        "INSUFFICIENT_MATCHED_CONTROLS": 5
+      }
+    },
+    "CONFIRMED_BUILD": {
+      "campaign_observations": 5,
+      "complete_observations": 5,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 1.7329545454545459,
+      "median_mfe_close_pct": 2.187500000000009,
+      "median_mae_close_pct": 0.029351335485761076,
+      "path_class_counts": {
+        "INSUFFICIENT_MATCHED_CONTROLS": 5
+      }
+    },
+    "IGNITION_CANDIDATE": {
+      "campaign_observations": 5,
+      "complete_observations": 5,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 0.13743815283120409,
+      "median_mfe_close_pct": 1.3437849944009095,
+      "median_mae_close_pct": -1.7077267637177984,
+      "path_class_counts": {
+        "INSUFFICIENT_MATCHED_CONTROLS": 5
+      }
+    },
+    "ACCEPTED_IGNITION": {
+      "campaign_observations": 2,
+      "complete_observations": 2,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 1.0098891047813197,
+      "median_mfe_close_pct": 1.7668559362504666,
+      "median_mae_close_pct": -1.238280561813021,
+      "path_class_counts": {
+        "INSUFFICIENT_MATCHED_CONTROLS": 2
+      }
+    },
+    "EXPANSION": {
+      "campaign_observations": 2,
+      "complete_observations": 2,
+      "incomplete_observations": 0,
+      "median_terminal_return_pct": 0.7238149304570007,
+      "median_mfe_close_pct": 1.8076980069910986,
+      "median_mae_close_pct": -0.805637730410097,
+      "path_class_counts": {
+        "INSUFFICIENT_MATCHED_CONTROLS": 2
+      }
+    }
+  },
+  "method_constraints": [
+    "Original state decisions remain frozen; future paths are attached only after reconstruction.",
+    "Metrics use 15m close paths because reconstructed timelines do not retain intrabar highs and lows.",
+    "Controls are matched within the same symbol and exclude campaign neighborhoods.",
+    "Path classes are descriptive relative to matched controls, not trade labels.",
+    "Incomplete forward coverage remains explicit."
+  ]
+}
