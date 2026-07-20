@@ -1,0 +1,29 @@
+{
+  "symbol": "ESPORTSUSDT",
+  "campaigns": 8,
+  "outcome_groups": {
+    "accepted_expansion": {
+      "campaigns": 4,
+      "median_birth_to_ignition_minutes": 300.0,
+      "median_campaign_age_at_acceptance_minutes": 315.0,
+      "median_price_reset_depth_pct": -15.741762111546524,
+      "median_oi_reset_depth_pct": -5.675470690747931,
+      "leading_mechanism_counts": {
+        "OI_LEADS": 1,
+        "EXECUTION_AND_PRICE_SIMULTANEOUS": 3
+      }
+    },
+    "failed_ignition": {
+      "campaigns": 4,
+      "median_birth_to_ignition_minutes": 202.5,
+      "median_campaign_age_at_acceptance_minutes": null,
+      "median_price_reset_depth_pct": -0.7357859531772482,
+      "median_oi_reset_depth_pct": -0.19770059161228204,
+      "leading_mechanism_counts": {
+        "EXECUTION_AND_OI_SIMULTANEOUS": 1,
+        "OI_LEADS": 2,
+        "EXECUTION_AND_PRICE_SIMULTANEOUS": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+# Symbol-Specific Mechanism Validation — Pass 2
+
+## Campaign mechanisms
+
+| Symbol | Campaigns | Leading mechanisms by outcome |
+|---|---:|---|
+| AKEUSDT | 4 | {"accepted_expansion": {"EXECUTION_AND_OI_SIMULTANEOUS": 1, "OI_LEADS": 1}, "accepted_without_expansion": {"OI_LEADS": 1}, "failed_ignition": {"OI_LEADS": 1}} |
+| BANKUSDT | 5 | {"accepted_expansion": {"EXECUTION_AND_PRICE_SIMULTANEOUS": 1}, "failed_ignition": {"EXECUTION_AND_PRICE_SIMULTANEOUS": 3}, "unresolved": {"EXECUTION_AND_PRICE_SIMULTANEOUS": 1}} |
+| ESPORTSUSDT | 8 | {"accepted_expansion": {"EXECUTION_AND_PRICE_SIMULTANEOUS": 3, "OI_LEADS": 1}, "failed_ignition": {"EXECUTION_AND_OI_SIMULTANEOUS": 1, "EXECUTION_AND_PRICE_SIMULTANEOUS": 1, "OI_LEADS": 2}} |
+| LYNUSDT | 5 | {"accepted_expansion": {"EXECUTION_AND_OI_SIMULTANEOUS": 1, "EXECUTION_AND_PRICE_SIMULTANEOUS": 1}, "failed_ignition": {"EXECUTION_AND_OI_SIMULTANEOUS": 3}} |
+
+## Rejected transitions as negative controls
+
+| Symbol | Rejected anchors | Stages with discrimination | Stages without clear discrimination |
+|---|---:|---:|---:|
+| AKEUSDT | 5 | 1 | 1 |
+| BANKUSDT | 4 | 2 | 0 |
+| ESPORTSUSDT | 15 | 0 | 2 |
+| LYNUSDT | 7 | 0 | 2 |
+
+A rejected cutoff is never converted into a valid historical signal because its future path was positive. The audit tests the review gate; it does not rewrite the frozen decision.
+
+## Source-selection sensitivity
+
+| Symbol | Status | Material conflict groups | Decision-relevant conflict groups |
+|---|---|---:|---:|
+| BANKUSDT | STABLE_VALID_PATH | 412 | 0 |
+| LYNUSDT | STABLE_VALID_PATH | 214 | 0 |
+
+## Research status
+
+- Shared states remain indexing vocabulary.
+- Mechanism timing, reset depth and negative-control discrimination are interpreted within each symbol first.
+- Cross-symbol transfer is not claimed.
+- No durable rule is created.

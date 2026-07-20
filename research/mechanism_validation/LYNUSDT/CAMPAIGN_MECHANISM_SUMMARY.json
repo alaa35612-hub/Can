@@ -1,0 +1,27 @@
+{
+  "symbol": "LYNUSDT",
+  "campaigns": 5,
+  "outcome_groups": {
+    "accepted_expansion": {
+      "campaigns": 2,
+      "median_birth_to_ignition_minutes": 1012.5,
+      "median_campaign_age_at_acceptance_minutes": 1027.5,
+      "median_price_reset_depth_pct": -1.7336268574573488,
+      "median_oi_reset_depth_pct": -0.9179488947207437,
+      "leading_mechanism_counts": {
+        "EXECUTION_AND_OI_SIMULTANEOUS": 1,
+        "EXECUTION_AND_PRICE_SIMULTANEOUS": 1
+      }
+    },
+    "failed_ignition": {
+      "campaigns": 3,
+      "median_birth_to_ignition_minutes": 1050,
+      "median_campaign_age_at_acceptance_minutes": null,
+      "median_price_reset_depth_pct": -2.3948760790866053,
+      "median_oi_reset_depth_pct": -1.6259880079444011,
+      "leading_mechanism_counts": {
+        "EXECUTION_AND_OI_SIMULTANEOUS": 3
+      }
+    }
+  }
+}

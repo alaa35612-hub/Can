@@ -1,0 +1,44 @@
+[
+  {
+    "rule_id": "UNIVERSAL_IGNITION_SUFFICIENCY",
+    "current_status": "REJECTED_RULE",
+    "decision": "REJECT",
+    "basis": "Valid ignition candidates remain mixed within symbols and rejected proposals can also have positive future paths.",
+    "limitations": "No universal stage meaning is permitted."
+  },
+  {
+    "rule_id": "UNIVERSAL_ACCEPTANCE_SUFFICIENCY",
+    "current_status": "REJECTED_RULE",
+    "decision": "REJECT",
+    "basis": "Accepted-stage outcomes differ materially by symbol and campaign.",
+    "limitations": "Acceptance must be interpreted through symbol-specific structure."
+  },
+  {
+    "rule_id": "BANK_STRICT_ACCEPTANCE_MECHANISM",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "Source sensitivity status: STABLE_VALID_PATH; accepted sample remains small.",
+    "limitations": "Requires more accepted and rejected BANK campaigns plus source provenance resolution."
+  },
+  {
+    "rule_id": "LYN_BUILD_PERSISTENCE_MECHANISM",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "Source sensitivity status: STABLE_VALID_PATH; build persistence remains symbol-specific.",
+    "limitations": "Requires additional campaigns and explicit negative controls."
+  },
+  {
+    "rule_id": "ESPORTS_RECURRENT_CYCLE_MECHANISM",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "Repeated build, rejection and rebuild episodes remain distinct in the reviewed ledger.",
+    "limitations": "Cycle-frequency discriminators are not yet validated outside ESPORTS."
+  },
+  {
+    "rule_id": "AKE_GAP_AWARE_CAMPAIGN_AGE",
+    "current_status": "RESEARCH_HYPOTHESIS",
+    "decision": "KEEP_AS_HYPOTHESIS",
+    "basis": "AKE contains explicit observation gaps and multiple independent campaigns.",
+    "limitations": "Gap boundaries reduce sample size and prevent continuity claims."
+  }
+]
