@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-20T18:18:24.670597+00:00",
+  "repository_files_audited": 587,
+  "source_class_counts": {
+    "BINARY_LEGACY_DOCUMENT": 209,
+    "CONFIG_OR_STRUCTURED_DOCUMENT": 7,
+    "DOCUMENTATION": 44,
+    "GENERATED_OR_UNRECOGNIZED_TABULAR_DATA": 35,
+    "IMPLEMENTATION": 5,
+    "MIXED_SOURCE": 9,
+    "OBSERVED_MARKET_DATA": 214,
+    "PRIOR_ANALYSIS": 58,
+    "RAW_MONITOR_EXPORT": 1,
+    "RULE_OR_HYPOTHESIS_NOTE": 5
+  },
+  "market_file_count": 214,
+  "unique_market_symbols": 75,
+  "timeframe_counts": {
+    "15m": 116,
+    "1d": 15,
+    "1h": 18,
+    "4h": 17,
+    "5m": 48
+  },
+  "market_quality_counts": {
+    "HIGH": 207,
+    "MEDIUM": 7
+  },
+  "csv_jsonl_twin_counts": {
+    "SEMANTICALLY_EQUIVALENT": 48
+  },
+  "exact_raw_duplicate_groups": 71,
+  "coverage_relationship_counts": {
+    "A_CONTAINS_B": 2,
+    "B_CONTAINS_A": 13,
+    "EXACT_COVERAGE": 53,
+    "GAP": 46,
+    "PARTIAL_OVERLAP": 34
+  }
+}
