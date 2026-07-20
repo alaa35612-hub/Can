@@ -1,0 +1,14 @@
+{
+  "symbol": "BANKUSDT",
+  "sources": 8,
+  "causal_rows": 1824,
+  "segments": 1,
+  "transitions": 21,
+  "controls": 5,
+  "source_conflicts": 412,
+  "review": {
+    "PASS": 19,
+    "RESTRICT": 1,
+    "REJECT": 1
+  }
+}

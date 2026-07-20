@@ -1,0 +1,14 @@
+{
+  "symbol": "LYNUSDT",
+  "sources": 5,
+  "causal_rows": 1677,
+  "segments": 1,
+  "transitions": 31,
+  "controls": 5,
+  "source_conflicts": 214,
+  "review": {
+    "PASS": 28,
+    "RESTRICT": 1,
+    "REJECT": 2
+  }
+}
