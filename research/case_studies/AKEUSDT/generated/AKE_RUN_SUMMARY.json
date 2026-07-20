@@ -1,0 +1,8 @@
+{
+  "sources": 8,
+  "causal_rows": 2303,
+  "segments": 3,
+  "transitions": 25,
+  "controls": 5,
+  "source_conflicts": 99
+}
