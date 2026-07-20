@@ -39,7 +39,7 @@ jobs:
       - name: Commit generated inventory reports
         shell: bash
         run: |
-          if git diff --quiet -- research/inventory/generated; then
+          if [ -z "$(git status --porcelain -- research/inventory/generated)" ]; then
             echo 'Inventory outputs are unchanged.'
             exit 0
           fi
