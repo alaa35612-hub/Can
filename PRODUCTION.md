@@ -2,7 +2,7 @@
 
 ## Authoritative production path
 
-`causal_upside_scanner.py` and the `causal_upside/` package are the sole production decision path for current scanning and historical blind replay.
+`causal_upside_scanner.py`, `run_causal_upside_scanner.py`, and the `causal_upside/` package are the sole production decision path for current scanning and historical blind replay.
 
 The following root scanners are retained only as historical research artifacts and must not be imported or deployed as decision engines:
 
@@ -25,7 +25,7 @@ Binance public endpoints or enriched CSV
 → conflict resolution
 → separate bias / importance / readiness / entry safety / confidence / reliability
 → atomic persistent campaign ledger
-→ deterministic JSON/CSV output
+→ deterministic JSON/CSV and explainable console output
 ```
 
 ## Guarantees
@@ -39,9 +39,27 @@ Binance public endpoints or enriched CSV
 - State transitions are serialized atomically and use failure hysteresis.
 - Results are research assessments, not guaranteed returns or automatic trade instructions.
 
-## Commands
+## Run directly from an editor
+
+Open `run_causal_upside_scanner.py`, edit the `SETTINGS` dictionary at the top, and press **Run**.
+
+Important settings:
+
+- `TIMEFRAME`: Binance interval such as `5m`, `15m`, `1h`, or `4h`.
+- `CANDLES`: closed historical bars, from 20 through 500.
+- `MIN_HISTORY`: minimum usable bars before an assessment is allowed.
+- `SCAN_ALL_USDT_PERPETUALS`: scan the full Binance USD-M perpetual universe.
+- `SYMBOL_WHITELIST`: explicit symbols when full-universe scanning is disabled.
+- `RUN_CONTINUOUSLY`: repeat scans in the same process so the campaign ledger remains loaded.
+- `SCAN_INTERVAL_SECONDS`: time between cycle starts.
+- `TOP_N`: maximum assessments printed and saved.
+
+The editor runner prints readiness, dominant and alternative hypotheses, failure context, structural bias, signal importance, entry safety, confidence, reliability, campaign age, distance from the footprint, supporting/opposing/missing evidence, next discriminator, invalidation, research status, and quality flags. It saves the same assessments to `causal_upside_output/latest_assessments.json` and `.csv`.
+
+## Command line
 
 ```bash
+python run_causal_upside_scanner.py
 python causal_upside_scanner.py scan --symbol AKEUSDT --symbol TLMUSDT
 python causal_upside_scanner.py replay AKEUSDT_15m_limit100_20260715_085112_enriched_candles.csv
 python -m unittest discover -s tests -v
