@@ -2,7 +2,13 @@
 
 ## Authoritative production path
 
-`causal_upside_scanner.py`, `run_causal_upside_scanner.py`, and the `causal_upside/` package are the sole production decision path for current scanning and historical blind replay.
+The reviewable source of truth is the `causal_upside/` package. The following entrypoints use that same decision path:
+
+- `causal_upside_scanner.py` — package command-line interface.
+- `run_causal_upside_scanner.py` — editor-first runner.
+- `causal_upside_single_file.py` — fully self-contained deployment file generated deterministically by `tools/build_single_file_scanner.py`.
+
+The standalone file does not contain a second classifier. CI rebuilds it from the authoritative package and tests the generated file directly, preventing analytical drift.
 
 The following root scanners are retained only as historical research artifacts and must not be imported or deployed as decision engines:
 
@@ -34,14 +40,14 @@ Binance public endpoints or enriched CSV
 - Feature baselines contain only observations strictly before the active cutoff.
 - OI and L/S series use bounded backward alignment; stale values remain missing.
 - Missing evidence is explicit and lowers reliability.
-- A failed TLM short-covering discriminator is never promoted as a bullish rule.
-- The same detector is used for live scan and blind replay.
+- Short covering alone is never promoted as a bullish outcome discriminator.
+- Live scanning and historical replay use the same detector.
 - State transitions are serialized atomically and use failure hysteresis.
 - Results are research assessments, not guaranteed returns or automatic trade instructions.
 
-## Run directly from an editor
+## Run the complete single file from an editor
 
-Open `run_causal_upside_scanner.py`, edit the `SETTINGS` dictionary at the top, and press **Run**.
+Open `causal_upside_single_file.py`, edit the `SETTINGS` dictionary near the end of the file, and press **Run** in VS Code, PyCharm, IDLE, or another Python editor.
 
 Important settings:
 
@@ -50,19 +56,36 @@ Important settings:
 - `MIN_HISTORY`: minimum usable bars before an assessment is allowed.
 - `SCAN_ALL_USDT_PERPETUALS`: scan the full Binance USD-M perpetual universe.
 - `SYMBOL_WHITELIST`: explicit symbols when full-universe scanning is disabled.
+- `SYMBOL_BLACKLIST`: symbols to omit.
 - `RUN_CONTINUOUSLY`: repeat scans in the same process so the campaign ledger remains loaded.
 - `SCAN_INTERVAL_SECONDS`: time between cycle starts.
 - `TOP_N`: maximum assessments printed and saved.
 
-The editor runner prints readiness, dominant and alternative hypotheses, failure context, structural bias, signal importance, entry safety, confidence, reliability, campaign age, distance from the footprint, supporting/opposing/missing evidence, next discriminator, invalidation, research status, and quality flags. It saves the same assessments to `causal_upside_output/latest_assessments.json` and `.csv`.
+The console report prints readiness, dominant and alternative hypotheses, failure context, structural bias, signal importance, entry safety, confidence, reliability, campaign age, distance from the footprint, supporting/opposing/missing evidence, next discriminator, invalidation, research status, and quality flags. JSON and CSV are written under `causal_upside_output/`.
 
-## Command line
+## Commands
 
 ```bash
-python run_causal_upside_scanner.py
-python causal_upside_scanner.py scan --symbol AKEUSDT --symbol TLMUSDT
-python causal_upside_scanner.py replay AKEUSDT_15m_limit100_20260715_085112_enriched_candles.csv
+# Editor/default settings
+python causal_upside_single_file.py
+
+# One cycle with overrides
+python causal_upside_single_file.py --once --timeframe 15m --candles 200 --symbol AKEUSDT --symbol TLMUSDT
+
+# Continuous mode
+python causal_upside_single_file.py --continuous --interval 180
+
+# Causal blind replay of a repository CSV
+python causal_upside_single_file.py --replay AKEUSDT_15m_limit100_20260715_085112_enriched_candles.csv
+
+# Offline safety checks
+python causal_upside_single_file.py --self-test
 python -m unittest discover -s tests -v
 ```
 
-The scanner output exposes the dominant hypothesis, alternatives, a failure hypothesis, supporting/opposing/missing evidence, research status, next discriminator, invalidation, freshness, and quality flags.
+To regenerate the standalone deployment artifact after an analytical source change:
+
+```bash
+python tools/build_single_file_scanner.py
+python tools/build_single_file_scanner.py --check
+```
