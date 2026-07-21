@@ -1,0 +1,142 @@
+[
+  {
+    "symbol": "BSBUSDT",
+    "file": "BSBUSDT.txt",
+    "time": "2026-05-22 11:15:00 UTC",
+    "pattern": "Short Squeeze / Live Ignition",
+    "future_max_return": 0.07329218982762287
+  },
+  {
+    "symbol": "CLOUSDT",
+    "file": "FETCHING BINANC-WPS Office (١).txt",
+    "time": "2026-05-07 14:50:00 UTC",
+    "pattern": "Price-led Base Ignition without Reset",
+    "future_max_return": 0.056907315511445455
+  },
+  {
+    "symbol": "CLOUSDT",
+    "file": "FETCHING BINANC-WPS Office (١).txt",
+    "time": "2026-05-07 14:55:00 UTC",
+    "pattern": "Price-led Base Ignition without Reset",
+    "future_max_return": 0.05188118811881193
+  },
+  {
+    "symbol": "CLOUSDT",
+    "file": "FETCHING BINANC-WPS Office (١).txt",
+    "time": "2026-05-07 15:40:00 UTC",
+    "pattern": "Price-led Base Ignition without Reset",
+    "future_max_return": 0.06666144446185185
+  },
+  {
+    "symbol": "CLOUSDT",
+    "file": "FETCHING BINANC-WPS Office (١).txt",
+    "time": "2026-05-07 16:25:00 UTC",
+    "pattern": "Short Squeeze / Live Ignition",
+    "future_max_return": 0.09830013075917243
+  },
+  {
+    "symbol": "CLOUSDT",
+    "file": "FETCHING BINANC-WPS Office (١).txt",
+    "time": "2026-05-07 17:00:00 UTC",
+    "pattern": "Short Squeeze / Live Ignition",
+    "future_max_return": 0.07256065499887332
+  },
+  {
+    "symbol": "CLOUSDT",
+    "file": "FETCHING BINANC-WPS Office (١).txt",
+    "time": "2026-05-07 17:30:00 UTC",
+    "pattern": "Price-led Base Ignition without Reset",
+    "future_max_return": 0.04892382281642549
+  },
+  {
+    "symbol": "CLOUSDT",
+    "file": "FETCHING BINANC-WPS Office (١).txt",
+    "time": "2026-05-07 17:40:00 UTC",
+    "pattern": "Short Squeeze / Live Ignition",
+    "future_max_return": 0.048615700962032715
+  },
+  {
+    "symbol": "CLOUSDT",
+    "file": "FETCHING BINANC-WPS Office (١).txt",
+    "time": "2026-05-07 18:25:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": 0.0
+  },
+  {
+    "symbol": "NOTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٤).txt",
+    "time": "2026-05-07 10:10:00 UTC",
+    "pattern": "Fresh Long Build-up",
+    "future_max_return": -0.008849557522123908
+  },
+  {
+    "symbol": "NOTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٤).txt",
+    "time": "2026-05-07 10:25:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": -0.0030120481927710108
+  },
+  {
+    "symbol": "NOTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٤).txt",
+    "time": "2026-05-07 10:35:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": 0.004552352048558639
+  },
+  {
+    "symbol": "NOTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٤).txt",
+    "time": "2026-05-07 17:55:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": 0.07963246554364467
+  },
+  {
+    "symbol": "NOTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٤).txt",
+    "time": "2026-05-07 18:00:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": 0.07798165137614688
+  },
+  {
+    "symbol": "NOTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٤).txt",
+    "time": "2026-05-07 18:15:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": 0.03372434017595305
+  },
+  {
+    "symbol": "NOTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٤).txt",
+    "time": "2026-05-07 18:25:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": 0.0
+  },
+  {
+    "symbol": "TSTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٥).txt",
+    "time": "2026-05-03 17:30:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": -0.00824808184143222
+  },
+  {
+    "symbol": "TSTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٥).txt",
+    "time": "2026-05-03 20:15:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": 0.07661814400831801
+  },
+  {
+    "symbol": "TSTUSDT",
+    "file": "FETCHING BINANC-WPS Office (٥).txt",
+    "time": "2026-05-03 20:30:00 UTC",
+    "pattern": "Absorption After Flush",
+    "future_max_return": 0.07375721044785788
+  },
+  {
+    "symbol": "DOGSUSDT",
+    "file": "FETCING BINANC-WPS Office.txt",
+    "time": "2026-05-07 16:00:00 UTC",
+    "pattern": "Price-led Base Ignition without Reset",
+    "future_max_return": 0.08536585365853644
+  }
+]

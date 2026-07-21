@@ -1,0 +1,24 @@
+{
+  "mode": "strict_live",
+  "total_symbols": 16,
+  "total_events": 16,
+  "detected_events": 3,
+  "early_success_count": 3,
+  "live_success_count": 0,
+  "late_detection_count": 5,
+  "missed_events": 0,
+  "too_early_exhausted_count": 8,
+  "false_positives": 0,
+  "recall": 0.1875,
+  "detection_rate_on_rising_cases": 0.1875,
+  "precision": null,
+  "precision_warning": "Precision is not reliable without non-rising control symbols.",
+  "average_lead_bars": 35.333333333333336,
+  "median_lead_bars": 29,
+  "failure_reason_counts": {
+    "NO_DECISION_MIN_WINDOW_OR_PARSE": 1,
+    "QUOTE_VOLUME_MISSING_CONFIDENCE_CAP": 1,
+    "SIGNAL_TOO_EARLY_NO_VALID_FUTURE_RETURN": 8,
+    "TRIGGER_DETECTED_TOO_LATE": 3
+  }
+}
