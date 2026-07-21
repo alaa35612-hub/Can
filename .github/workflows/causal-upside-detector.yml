@@ -8,6 +8,9 @@ on:
     paths:
       - "causal_upside/**"
       - "causal_upside_scanner.py"
+      - "run_causal_upside_scanner.py"
+      - "causal_upside_single_file.py"
+      - "tools/build_single_file_scanner.py"
       - "tests/**"
       - "PRODUCTION.md"
       - ".github/workflows/causal-upside-detector.yml"
@@ -16,6 +19,32 @@ permissions:
   contents: read
 
 jobs:
+  generate-standalone:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Build deterministic standalone file
+        run: python tools/build_single_file_scanner.py
+      - name: Commit generated file when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add causal_upside_single_file.py
+          if git diff --cached --quiet; then
+            echo "Standalone file is already current"
+          else
+            git commit -m "build: refresh standalone causal scanner"
+            git push
+          fi
+
   test:
     runs-on: ubuntu-latest
     strategy:
@@ -26,9 +55,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Generate standalone scanner
+        run: python tools/build_single_file_scanner.py
       - name: Compile
-        run: python -m compileall -q causal_upside causal_upside_scanner.py tests
+        run: python -m compileall -q causal_upside causal_upside_scanner.py run_causal_upside_scanner.py causal_upside_single_file.py tools tests
       - name: Unit and integration tests
         run: python -m unittest discover -s tests -v
-      - name: CLI smoke test
+      - name: Package CLI smoke test
         run: python causal_upside_scanner.py --help
+      - name: Standalone CLI smoke test
+        run: python causal_upside_single_file.py --help
+      - name: Standalone causal self-test
+        run: python causal_upside_single_file.py --self-test
