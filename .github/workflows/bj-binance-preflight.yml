@@ -1,0 +1,22 @@
+name: Black John Binance Preflight
+on:
+  push:
+    branches:
+      - bj-data-update-20260825-cutoff2015
+    paths:
+      - .github/workflows/bj-binance-preflight.yml
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Binance Kline and OI preflight
+        shell: bash
+        run: |
+          set -x
+          curl -sS --max-time 10 -o /tmp/k -w 'KLINE_HTTP=%{http_code}\n' 'https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=15m&startTime=1787688900000&endTime=1787689799999&limit=1'
+          cat /tmp/k
+          echo
+          curl -sS --max-time 10 -o /tmp/o -w 'OI_HTTP=%{http_code}\n' 'https://fapi.binance.com/futures/data/openInterestHist?symbol=BTCUSDT&period=15m&startTime=1787688900000&endTime=1787688900000&limit=1'
+          cat /tmp/o
+          echo
