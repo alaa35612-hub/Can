@@ -1,0 +1,29 @@
+name: Black John Data Update Fetch
+on:
+  push:
+    branches:
+      - bj-data-update-20260825-cutoff2015
+    paths:
+      - .github/workflows/bj-data-update-fetch.yml
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch Binance delta only
+        run: python .github/scripts/bj_delta_fetch.py
+      - name: Upload raw delta
+        uses: actions/upload-artifact@v4
+        with:
+          name: bj-data-update-delta-20260825-2015
+          path: |
+            delta_raw.json
+            data_update_fetch_report.json
+          if-no-files-found: error
+          retention-days: 1
